@@ -1,56 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Beyond the Board: the corpus check</title>
-<meta name="description" content="Whether the stored copy of the Lichess archives still matches what Lichess published, checked month by month.">
-<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
-<style>
-{{CSS}}
-
-/* Wide content scrolls inside its own box so the page never does. */
-.rd-scroll { overflow-x: auto; }
-.rd-scroll .rd-table { min-width: 640px; }
-.rd-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 1.1em; }
-.rd-figures { list-style: none; margin: 0 0 1.1em; padding: 0; }
-.rd-figures li {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px;
-  padding: 10px 0; border-bottom: 1px solid var(--rd-line-soft);
-}
-.rd-figures li:last-child { border-bottom: 0; }
-.rd-figures b { font-weight: 600; font-variant-numeric: tabular-nums; }
-.rd-note { margin-top: 16px; }
-</style>
-</head>
-<body>
-
-<header class="rd-header">
-  <a class="rd-brand" href="/">
-    <img src="{{AVATAR}}" alt="Beyond the Board" width="38" height="38">
-    <span class="rd-brand-text">
-      <span class="rd-brand-name">BEYOND THE BOARD</span>
-      <span class="rd-brand-sub">The corpus</span>
-    </span>
-  </a>
-  <nav class="rd-nav">
-    <a href="/">Findings</a>
-    <a href="/corpus/" aria-current="page">The corpus</a>
-  </nav>
-</header>
-<div class="rd-header-rule"></div>
-
-<div class="rd-wrap">
-
   <section class="rd-section">
     <p class="rd-eyebrow">The corpus</p>
-    <h1 class="rd-title">Every month checked came back <em>identical to what Lichess published</em></h1>
+    <h1 class="rd-title">Every game checked came back <em>identical to what Lichess published</em></h1>
     <p class="rd-lede">The games behind these videos are a stored copy of the monthly archives
       Lichess publishes. A check runs over that copy and asks whether it still matches the archive
-      it was built from. On the months named below, it did.</p>
+      it was built from. On the months named below the game counts agreed in full, and every game
+      the check compared came back character for character the same.</p>
     <p class="rd-pills">
       <span class="rd-pill rd-pill-magenta">Verdict: PASS</span>
       <span class="rd-pill rd-pill-cyan">Compared byte for byte</span>
@@ -156,13 +110,14 @@
       <div class="rd-point rd-ico-check">
         <p class="rd-point-label">What the check asks</p>
         <p>Whether that copy is undamaged. Take a game out of storage, rebuild it, and you should
-          get back the exact characters Lichess published. On the months above, you do.</p>
+          get back the exact characters Lichess published. Every game the check compared did.</p>
       </div>
       <div class="rd-point rd-ico-target">
         <p class="rd-point-label">Where the verdict stops</p>
         <p>It says nothing about whether a figure in a video is true. That is a separate check, run
           per video against the games it actually used. It also says nothing about a month that is
-          not named above.</p>
+          not named above, and where it compared a sample it speaks for the games it drew, not for
+          the ones it did not.</p>
       </div>
       <div class="rd-point rd-ico-output">
         <p class="rd-point-label">What the corpus is not</p>
@@ -189,13 +144,3 @@
         Every figure on this page appears in that report word for word.</p>
     </div>
   </section>
-
-  <hr class="rd-rule">
-  <footer class="rd-footer">
-    <span>Beyond the Board</span>
-    <span class="rd-meta">Chess gameplay and chess data analytics on YouTube, at @BeyondtheBoardChess</span>
-  </footer>
-
-</div>
-</body>
-</html>

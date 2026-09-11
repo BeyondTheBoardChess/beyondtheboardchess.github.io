@@ -486,7 +486,6 @@ code {
 @media (max-width: 620px) { .rd-summary .rd-stat { flex-basis: 50%; } }
 
 
-
 /* Wide content scrolls inside its own box so the page never does. */
 .rd-scroll { overflow-x: auto; }
 .rd-scroll .rd-table { min-width: 640px; }
@@ -499,6 +498,7 @@ code {
 .rd-figures li:last-child { border-bottom: 0; }
 .rd-figures b { font-weight: 600; font-variant-numeric: tabular-nums; }
 .rd-note { margin-top: 16px; }
+
 </style>
 </head>
 <body>
@@ -522,10 +522,11 @@ code {
 
   <section class="rd-section">
     <p class="rd-eyebrow">The corpus</p>
-    <h1 class="rd-title">Every month checked came back <em>identical to what Lichess published</em></h1>
+    <h1 class="rd-title">Every game checked came back <em>identical to what Lichess published</em></h1>
     <p class="rd-lede">The games behind these videos are a stored copy of the monthly archives
       Lichess publishes. A check runs over that copy and asks whether it still matches the archive
-      it was built from. On the months named below, it did.</p>
+      it was built from. On the months named below the game counts agreed in full, and every game
+      the check compared came back character for character the same.</p>
     <p class="rd-pills">
       <span class="rd-pill rd-pill-magenta">Verdict: PASS</span>
       <span class="rd-pill rd-pill-cyan">Compared byte for byte</span>
@@ -631,13 +632,14 @@ code {
       <div class="rd-point rd-ico-check">
         <p class="rd-point-label">What the check asks</p>
         <p>Whether that copy is undamaged. Take a game out of storage, rebuild it, and you should
-          get back the exact characters Lichess published. On the months above, you do.</p>
+          get back the exact characters Lichess published. Every game the check compared did.</p>
       </div>
       <div class="rd-point rd-ico-target">
         <p class="rd-point-label">Where the verdict stops</p>
         <p>It says nothing about whether a figure in a video is true. That is a separate check, run
           per video against the games it actually used. It also says nothing about a month that is
-          not named above.</p>
+          not named above, and where it compared a sample it speaks for the games it drew, not for
+          the ones it did not.</p>
       </div>
       <div class="rd-point rd-ico-output">
         <p class="rd-point-label">What the corpus is not</p>
@@ -664,6 +666,7 @@ code {
         Every figure on this page appears in that report word for word.</p>
     </div>
   </section>
+
 
   <hr class="rd-rule">
   <footer class="rd-footer">

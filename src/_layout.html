@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+{{CSS}}
+{{PAGE_CSS}}
+</style>
+</head>
+<body>
+
+<header class="rd-header">
+  <a class="rd-brand" href="/">
+    <img src="{{AVATAR}}" alt="Beyond the Board" width="38" height="38">
+    <span class="rd-brand-text">
+      <span class="rd-brand-name">BEYOND THE BOARD</span>
+      <span class="rd-brand-sub">{{SUB}}</span>
+    </span>
+  </a>
+  <nav class="rd-nav">
+{{NAV}}
+  </nav>
+</header>
+<div class="rd-header-rule"></div>
+
+<div class="rd-wrap">
+
+{{MAIN}}
+
+  <hr class="rd-rule">
+  <footer class="rd-footer">
+    <span>Beyond the Board</span>
+    <span class="rd-meta">Chess gameplay and chess data analytics on YouTube, at @BeyondtheBoardChess</span>
+  </footer>
+
+</div>
+</body>
+</html>

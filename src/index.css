@@ -1,0 +1,7 @@
+/* A card that is a link. No new sizes and no new colours; the card tokens and
+   the accent border carry the hover state on their own. */
+.rd-entry { display: block; text-decoration: none; color: inherit; }
+.rd-entry:hover { border-color: var(--rd-violet); }
+.rd-entry .rd-card-title { color: var(--rd-cyan); }
+.rd-entry p:last-child { margin-bottom: 0; }
+.rd-stack { display: flex; flex-direction: column; gap: var(--rd-gap); }
