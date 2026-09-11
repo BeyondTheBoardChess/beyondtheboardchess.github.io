@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the Board: findings</title>
+<meta name="description" content="The data behind the Beyond the Board videos, and the checks that back it.">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+{{CSS}}
+
+/* A card that is a link. No new sizes; the card tokens do the work. */
+.rd-entry { display: block; text-decoration: none; color: inherit; }
+.rd-entry:hover { border-color: var(--rd-violet); }
+.rd-entry .rd-card-title { color: var(--rd-cyan); }
+.rd-entry:hover .rd-card-title { color: #7FE4F5; }
+.rd-entry p:last-child { margin-bottom: 0; }
+.rd-stack { display: flex; flex-direction: column; gap: var(--rd-gap); }
+</style>
+</head>
+<body>
+
+<header class="rd-header">
+  <a class="rd-brand" href="/">
+    <img src="{{AVATAR}}" alt="Beyond the Board" width="38" height="38">
+    <span class="rd-brand-text">
+      <span class="rd-brand-name">BEYOND THE BOARD</span>
+      <span class="rd-brand-sub">Findings</span>
+    </span>
+  </a>
+  <nav class="rd-nav">
+    <a href="/" aria-current="page">Findings</a>
+    <a href="/corpus/">The corpus</a>
+  </nav>
+</header>
+<div class="rd-header-rule"></div>
+
+<div class="rd-wrap">
+
+  <section class="rd-section">
+    <p class="rd-eyebrow">Findings</p>
+    <h1 class="rd-title">The data behind <em>the videos</em></h1>
+    <p class="rd-lede">Every number in a Beyond the Board video came from somewhere, and this is
+      where you can go and check it.</p>
+  </section>
+
+  <section class="rd-section">
+    <h2>Videos</h2>
+    <div class="rd-stack">
+      <div class="rd-card">
+        <p class="rd-card-title">Nothing published yet</p>
+        <p class="rd-card-sub">This list fills in as videos go up</p>
+        <p>Each video gets a page here: the question it asked, the games it drew on, and the
+          working behind every figure that appeared on screen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rd-section">
+    <h2>Standing pages</h2>
+    <div class="rd-stack">
+      <a class="rd-card rd-card-accent rd-entry" href="/corpus/">
+        <p class="rd-card-title">The corpus, and whether it is a faithful copy</p>
+        <p class="rd-card-sub">Checked month by month, against the archives Lichess publishes</p>
+        <p>The games behind the videos are a stored copy of Lichess's own archives. This page is
+          the check that asks whether the stored copy still matches what Lichess put out, and what
+          that check does and does not cover.</p>
+      </a>
+    </div>
+  </section>
+
+  <hr class="rd-rule">
+  <footer class="rd-footer">
+    <span>Beyond the Board</span>
+    <span class="rd-meta">Chess gameplay and chess data analytics on YouTube, at @BeyondtheBoardChess</span>
+  </footer>
+
+</div>
+</body>
+</html>

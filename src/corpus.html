@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the Board: the corpus check</title>
+<meta name="description" content="Whether the stored copy of the Lichess archives still matches what Lichess published, checked month by month.">
+<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+{{CSS}}
+
+/* Wide content scrolls inside its own box so the page never does. */
+.rd-scroll { overflow-x: auto; }
+.rd-scroll .rd-table { min-width: 640px; }
+.rd-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 1.1em; }
+.rd-figures { list-style: none; margin: 0 0 1.1em; padding: 0; }
+.rd-figures li {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px;
+  padding: 10px 0; border-bottom: 1px solid var(--rd-line-soft);
+}
+.rd-figures li:last-child { border-bottom: 0; }
+.rd-figures b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.rd-note { margin-top: 16px; }
+</style>
+</head>
+<body>
+
+<header class="rd-header">
+  <a class="rd-brand" href="/">
+    <img src="{{AVATAR}}" alt="Beyond the Board" width="38" height="38">
+    <span class="rd-brand-text">
+      <span class="rd-brand-name">BEYOND THE BOARD</span>
+      <span class="rd-brand-sub">The corpus</span>
+    </span>
+  </a>
+  <nav class="rd-nav">
+    <a href="/">Findings</a>
+    <a href="/corpus/" aria-current="page">The corpus</a>
+  </nav>
+</header>
+<div class="rd-header-rule"></div>
+
+<div class="rd-wrap">
+
+  <section class="rd-section">
+    <p class="rd-eyebrow">The corpus</p>
+    <h1 class="rd-title">Every month checked came back <em>identical to what Lichess published</em></h1>
+    <p class="rd-lede">The games behind these videos are a stored copy of the monthly archives
+      Lichess publishes. A check runs over that copy and asks whether it still matches the archive
+      it was built from. On the months named below, it did.</p>
+    <p class="rd-pills">
+      <span class="rd-pill rd-pill-magenta">Verdict: PASS</span>
+      <span class="rd-pill rd-pill-cyan">Compared byte for byte</span>
+    </p>
+  </section>
+
+  <section class="rd-section">
+    <h2>The months this covers</h2>
+    <p>The check runs a month at a time, and its verdict reaches exactly as far as the months it
+      ran on. Those are:</p>
+    <p class="rd-pills">
+      <span class="rd-pill">2013-01</span>
+      <span class="rd-pill">2019-06</span>
+      <span class="rd-pill">2026-05</span>
+      <span class="rd-pill">2026-06</span>
+      <span class="rd-pill">2026-07</span>
+    </p>
+    <p>Lichess publishes months beyond these, and more of them are still being stored. Nothing on
+      this page says anything about a month that is not named here.</p>
+  </section>
+
+  <section class="rd-section">
+    <h2>2013-01, checked in full</h2>
+    <div class="rd-grid">
+      <div class="rd-card rd-col-6">
+        <p class="rd-card-title">The count agrees three ways</p>
+        <p class="rd-card-sub">2013-01, the oldest month Lichess publishes</p>
+        <ul class="rd-figures">
+          <li><span>Published by Lichess</span> <b>121,332</b></li>
+          <li><span>Records in the archive</span> <b>121,332</b></li>
+          <li><span>Rows in the stored copy</span> <b>121,332</b></li>
+          <li><span>Difference against published</span> <b>+0</b></li>
+        </ul>
+        <p class="rd-meta">The archive was split into records independently of the parser, so the
+          middle figure is not the parser marking its own homework.</p>
+      </div>
+      <div class="rd-card rd-card-accent rd-col-6">
+        <p class="rd-card-title">Every game rebuilt, and none of them wrong</p>
+        <p class="rd-card-sub">The strongest line in the report</p>
+        <p>Every one of the 121,332 games was rebuilt out of the stored copy and compared to the
+          archive byte for byte, in archive order. Not a sample. Mismatches: <b>0</b>.</p>
+        <p>The four columns the storage step works out rather than copies were recomputed from the
+          stored moves on all 121,332 games. Disagreements: <b>0</b>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rd-section">
+    <h2>The other months, and how much of each was compared</h2>
+    <p>These months are far too large to rebuild in full, so the byte-for-byte comparison runs on a
+      sample of each. The counts still agree in full.</p>
+    <div class="rd-card">
+      <div class="rd-scroll">
+        <table class="rd-table">
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th class="rd-num">Published by Lichess</th>
+              <th class="rd-num">Difference against published</th>
+              <th>Games compared byte for byte</th>
+              <th class="rd-num">Mismatches</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2013-01</td><td class="rd-num">121,332</td><td class="rd-num">+0</td>
+              <td>every one of the 121,332, in archive order</td><td class="rd-num">0</td>
+            </tr>
+            <tr>
+              <td>2019-06</td><td class="rd-num">33,935,786</td><td class="rd-num">+0</td>
+              <td>10,000 of 33,935,786 (0.029%)</td><td class="rd-num">0</td>
+            </tr>
+            <tr>
+              <td>2026-05</td><td class="rd-num">90,887,615</td><td class="rd-num">+0</td>
+              <td>10,000 of 90,887,615 (0.011%)</td><td class="rd-num">0</td>
+            </tr>
+            <tr>
+              <td>2026-06</td><td class="rd-num">86,483,328</td><td class="rd-num">+0</td>
+              <td>10,000 of 86,483,328 (0.012%)</td><td class="rd-num">0</td>
+            </tr>
+            <tr>
+              <td>2026-07</td><td class="rd-num">89,288,421</td><td class="rd-num">+0</td>
+              <td>10,000 of 89,288,421 (0.011%)</td><td class="rd-num">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="rd-meta rd-note">Samples were drawn uniformly without replacement by
+        <code>random.Random(0).sample</code>. On each of the sampled months the four computed
+        columns were recomputed from the stored moves on those same 10,000 games, and the
+        disagreements came back at 0.</p>
+    </div>
+  </section>
+
+  <section class="rd-section">
+    <h2>What this says, and where it stops</h2>
+    <div class="rd-points">
+      <div class="rd-point rd-ico-data">
+        <p class="rd-point-label">What the corpus is</p>
+        <p>A stored copy of the rated standard game archives Lichess publishes, one file per month,
+          kept in a form that can be queried quickly.</p>
+      </div>
+      <div class="rd-point rd-ico-check">
+        <p class="rd-point-label">What the check asks</p>
+        <p>Whether that copy is undamaged. Take a game out of storage, rebuild it, and you should
+          get back the exact characters Lichess published. On the months above, you do.</p>
+      </div>
+      <div class="rd-point rd-ico-target">
+        <p class="rd-point-label">Where the verdict stops</p>
+        <p>It says nothing about whether a figure in a video is true. That is a separate check, run
+          per video against the games it actually used. It also says nothing about a month that is
+          not named above.</p>
+      </div>
+      <div class="rd-point rd-ico-output">
+        <p class="rd-point-label">What the corpus is not</p>
+        <p>Not every game ever played on Lichess, and not a live feed. It is the published monthly
+          archives, as published, as they stood when they were fetched.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rd-section">
+    <div class="rd-card">
+      <p class="rd-card-title">Where these numbers come from</p>
+      <p class="rd-card-sub">Copied from the report, not recalculated for this page</p>
+      <ul class="rd-figures">
+        <li><span>Report</span> <b><code>docs/CORPUS-FIDELITY.md</code></b></li>
+        <li><span>Repository</span> <b><code>lichess-corpus</code></b></li>
+        <li><span>Tag</span> <b><code>0.1.0</code></b></li>
+        <li><span>Verdict</span> <b>PASS</b></li>
+      </ul>
+      <p class="rd-meta">The published counts are Lichess's own, from <code>counts.txt</code>,
+        fetched 2026-09-03T06:54:17Z from
+        <a href="https://database.lichess.org/standard/counts.txt">database.lichess.org</a>. The
+        archives themselves are the <code>lichess_db_standard_rated</code> files on the same site.
+        Every figure on this page appears in that report word for word.</p>
+    </div>
+  </section>
+
+  <hr class="rd-rule">
+  <footer class="rd-footer">
+    <span>Beyond the Board</span>
+    <span class="rd-meta">Chess gameplay and chess data analytics on YouTube, at @BeyondtheBoardChess</span>
+  </footer>
+
+</div>
+</body>
+</html>
