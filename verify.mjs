@@ -1,23 +1,29 @@
 #!/usr/bin/env node
 /**
- * Prove three things about the built pages, so none has to be taken on trust.
+ * Prove four things about the built pages, so none has to be taken on trust.
  *
  *   node verify.mjs <path to the lichess-corpus repo>
  *
  * 1. Every figure printed on the corpus page appears verbatim in the fidelity
  *    report, read out of the corpus repo at the tag the page itself cites.
- * 2. Neither page carries a corpus-wide total or a month count, because the
+ * 2. No built page carries a corpus-wide total or a month count, because the
  *    backfill is still running and any figure of that shape goes stale.
- * 3. The front page is an index, so it carries no digit at all.
+ * 3. The front page's own prose carries no digit at all. The text of a link
+ *    into a findings page is exempt: the front page is an index of published
+ *    videos, and a video's title is allowed to have a number in it. Check 2
+ *    still reads that link text, so the rule this site exists for is not what
+ *    the exemption lets through.
+ * 4. Both matchers those checks rest on are proved against a fixture before
+ *    anything is trusted to them.
  *
  * It reads the visible text of the built pages, not the source, so the inlined
- * stylesheet and the base64 avatar cannot pollute any of the three.
+ * stylesheet and the base64 avatar cannot pollute any of the checks.
  *
  * The report is extracted here rather than passed in, so "read at the cited
  * tag" is enforced instead of assumed: the tag comes off the page, the git
  * command reads that tag, and a page citing a tag that does not exist fails.
  */
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -29,9 +35,9 @@ if (!corpusRepo) {
   process.exit(2);
 }
 
-/** The rendered text of a built page: no markup, no stylesheet, no data URI. */
-function visibleText(file) {
-  return readFileSync(join(root, file), 'utf8')
+/** The rendered text of a page: no markup, no stylesheet, no data URI. */
+function renderedText(html) {
+  return html
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
@@ -40,10 +46,32 @@ function visibleText(file) {
     .trim();
 }
 
-const pages = {
-  'index.html': visibleText('index.html'),
-  'corpus/index.html': visibleText('corpus/index.html'),
-};
+const pageHtml = (file) => readFileSync(join(root, file), 'utf8');
+const visibleText = (file) => renderedText(pageHtml(file));
+
+/**
+ * Every built page: an index.html anywhere in the repo, source and assets
+ * aside. Found rather than listed, so a findings page added tomorrow is read
+ * by check 2 without anyone having remembered to name it here.
+ */
+function builtPages(dir = '', found = []) {
+  const skip = new Set(['src', 'assets', 'node_modules']);
+  for (const entry of readdirSync(join(root, dir), { withFileTypes: true })) {
+    if (entry.name.startsWith('.') || skip.has(entry.name)) continue;
+    const rel = dir ? `${dir}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) builtPages(rel, found);
+    else if (entry.name === 'index.html') found.push(rel);
+  }
+  return found;
+}
+
+const pages = Object.fromEntries(builtPages().map((f) => [f, visibleText(f)]));
+for (const required of ['index.html', 'corpus/index.html']) {
+  if (!pages[required]) {
+    console.error(`${required} is missing: run node build.mjs first`);
+    process.exit(2);
+  }
+}
 
 let failed = 0;
 const fail = (msg) => { console.log(`  FAIL  ${msg}`); failed++; };
@@ -121,7 +149,7 @@ for (const figure of figures) {
 
 /* ---------- 2. No corpus-wide total and no month count ---------- */
 
-console.log('\n2. No corpus-wide total and no month count, on either page\n');
+console.log('\n2. No corpus-wide total and no month count, on any built page\n');
 
 const banned = [
   { re: /300[,.]?716[,.]?482/g, what: 'the corpus-wide game total' },
@@ -143,6 +171,9 @@ const banned = [
   },
 ];
 
+// This reads the whole of every page, the front page's findings entries
+// included. Check 3 lets a video's title carry a digit; it does not let it
+// carry one of these.
 for (const [name, text] of Object.entries(pages)) {
   for (const { re, what } of banned) {
     const hits = text.match(re);
@@ -151,13 +182,52 @@ for (const [name, text] of Object.entries(pages)) {
   }
 }
 
-/* ---------- 3. The front page carries no figures at all ---------- */
+/* ---------- 3. The front page's own prose carries no figures ---------- */
 
-console.log('\n3. The front page is an index and carries no figures\n');
+console.log("\n3. The front page is an index, and its own prose carries no figures\n");
 
-const digits = pages['index.html'].match(/\d/g);
-if (digits) fail(`index.html has digits in its visible text: ${JSON.stringify(digits)}`);
-else pass('index.html  no digit appears anywhere in its visible text');
+/**
+ * A link into a findings page, and everything inside it. Anchors cannot nest,
+ * so the first closing tag is this link's own and the lazy match is exact.
+ */
+const FINDINGS_LINK = /<a\b[^>]*\bhref="\/findings\/[^"]*"[^>]*>[\s\S]*?<\/a>/gi;
+
+/** A page's text with its findings entries taken out: the page's own words. */
+const proseOf = (html) => renderedText(html.replace(FINDINGS_LINK, ' '));
+
+// The exemption is only as good as the thing that draws its boundary, so that
+// is proved against a fixture too, exactly as the figure matcher is above. The
+// fixture is an entry of the shape the index will hold: a video title with a
+// rating band in it, wrapped in the card that links to its page.
+const INDEX_FIXTURE = `
+  <p class="rd-lede">The index says nothing with a digit in it.</p>
+  <a class="rd-card rd-entry" href="/findings/best-opening-by-rating-band/">
+    <p class="rd-card-title">The best opening at 1600, and why it is not the best at 2200</p>
+    <p class="rd-card-sub">Across 5 rating bands</p>
+  </a>
+  <p>then the page carries on afterwards</p>
+  <a class="rd-card rd-entry" href="/corpus/">The corpus, checked back to 2013</a>
+`;
+const FIXTURE_PROSE = proseOf(INDEX_FIXTURE);
+for (const [needle, want, why] of [
+  ['1600', false, 'a number in a findings link is exempt'],
+  ['5 rating bands', false, 'the whole entry is exempt, not only its title'],
+  ['carries on afterwards', true, 'the prose after an entry survives: the match is not greedy'],
+  ['nothing with a digit', true, 'the prose before an entry survives'],
+  ['2013', true, 'a link that is not a findings link is still read as prose'],
+]) {
+  const got = FIXTURE_PROSE.includes(needle);
+  if (got === want) pass(`exemption: ${why}`);
+  else fail(`the findings-entry matcher is broken: ${JSON.stringify(needle)} gave ${got}, wanted ${want}`);
+}
+
+const indexHtml = pageHtml('index.html');
+const entries = (indexHtml.match(FINDINGS_LINK) || []).length;
+pass(`index.html  ${entries} findings entries, exempt from the digit rule and read by check 2`);
+
+const digits = proseOf(indexHtml).match(/\d/g);
+if (digits) fail(`index.html has digits in its own prose: ${JSON.stringify(digits)}`);
+else pass('index.html  no digit appears outside a findings entry');
 
 console.log(failed ? `\n${failed} check(s) failed\n` : '\nall checks passed\n');
 process.exit(failed ? 1 : 0);

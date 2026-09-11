@@ -11,7 +11,7 @@ The repo name is forced by GitHub, not chosen: an account's own site has to live
 
 | Path | What it is |
 | --- | --- |
-| `index.html` | The front page. An index of published findings pages. Carries no figures. |
+| `index.html` | The front page. An index of published findings pages. Its own prose carries no figures; an entry's link text may, because a video title can. |
 | `corpus/index.html` | The standing corpus page: whether the stored copy of the Lichess archives matches what Lichess published. |
 | `src/_layout.html` | The shared shell: head, header lockup, nav, footer. Every page is this file with its fields filled in. |
 | `src/<name>.body.html` | One page's sections. This is the only file that differs between pages. |
@@ -60,10 +60,13 @@ a page citing a tag that does not exist fails here.
 It works on the visible text of the built pages, so the inlined stylesheet and the base64 avatar
 cannot pollute any check, and it proves four things:
 
-- its own figure matcher rejects fragments, tested against a fixture before anything else runs;
+- its two matchers are tested against a fixture before either is trusted: the figure matcher
+  rejects fragments, and the findings-entry matcher takes out exactly one entry and no prose
+  around it;
 - every figure on the corpus page appears in the report as a whole figure;
-- neither page carries a corpus-wide total or a month count;
-- the front page carries no digit at all.
+- no built page carries a corpus-wide total or a month count — every `index.html` in the repo is
+  found and read, so a findings page added later is covered without being named in `verify.mjs`;
+- the front page's own prose carries no digit at all.
 
 Run it after every build.
 
@@ -74,6 +77,13 @@ running, so any figure of that shape is wrong the moment the next month lands. P
 are safe and are what the corpus page carries. Every figure on that page is copied from
 `docs/CORPUS-FIDELITY.md` in the `lichess-corpus` repository at the tag the page names, and none of
 it is recalculated here.
+
+**The front page carries no digit of its own, and a findings entry is the exception.** The index
+has nothing to say in figures, so a number appearing in its prose is a corpus total or a month
+count that leaked there. But the index is a list of videos, and a video's title routinely carries
+a rating band, a move count or a year. So the digit rule stops at the text of a link into
+`/findings/`, and the rule above does not: a title saying "163 months" fails the check just as it
+would anywhere else. The exemption is drawn around the link, not the page.
 
 A second rule follows from the first: **the page claims only what the report checked.** The counts
 were verified in full on every month named, but the byte-for-byte comparison ran on all of 2013-01
