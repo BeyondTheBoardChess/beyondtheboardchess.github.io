@@ -44,7 +44,7 @@ const PAGES = [
 ];
 
 const layout = read('src/_layout.html');
-const css = read('assets/rainy-brand.css');
+const css = read('assets/brand.css');
 const avatar =
   'data:image/png;base64,' +
   readFileSync(join(root, 'assets/avatar.png')).toString('base64');
