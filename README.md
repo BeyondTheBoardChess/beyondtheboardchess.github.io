@@ -1,6 +1,6 @@
 <img src="assets/avatar.png" alt="Beyond the Board" width="96">
 
-# Beyond the Board — the data behind the videos
+# Beyond the Board: the data behind the videos
 
 Every number in a Beyond the Board video came from somewhere, and this is where you can go and
 check it. The games are a stored copy of the monthly archives Lichess publishes: fetched once,
