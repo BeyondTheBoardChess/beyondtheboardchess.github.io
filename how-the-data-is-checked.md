@@ -1,64 +1,56 @@
 # How the data is checked
 
-The games behind these videos are a stored copy of the monthly archives Lichess publishes. A check
-runs over that copy and asks whether it still matches the archive it was built from. On the months
-named below the game counts agreed in full, and every game the check compared came back character
-for character the same.
+The games behind these videos are a stored copy of the archives Lichess publishes for anyone to
+download. This page asks whether that copy still matches what Lichess published.
 
-**Verdict: PASS**, compared byte for byte.
+**Verdict: PASS.** Every game the check compared came back identical.
 
-## The months this covers
+| Month | Lichess published | Stored here | Difference | Rebuilt and compared | Came back wrong |
+| --- | ---: | ---: | ---: | --- | ---: |
+| 2013-01 | 121,332 | 121,332 | 0 | all 121,332 | 0 |
+| 2019-06 | 33,935,786 | 33,935,786 | 0 | 10,000 at random | 0 |
+| 2026-05 | 90,887,615 | 90,887,615 | 0 | 10,000 at random | 0 |
+| 2026-06 | 86,483,328 | 86,483,328 | 0 | 10,000 at random | 0 |
+| 2026-07 | 89,288,421 | 89,288,421 | 0 | 10,000 at random | 0 |
 
-The check runs a month at a time, and its verdict reaches exactly as far as the months it ran on.
-Those are **2013-01, 2019-06, 2026-05, 2026-06 and 2026-07**. Lichess publishes months beyond
-these, and more of them are still being stored. Nothing on this page says anything about a month
-that is not named here.
+The counts agree three ways: what Lichess published, what the archive splits into, and what sits
+in storage. 2013-01 was small enough to rebuild whole. The bigger months had 10,000 games each
+drawn at random and compared character for character.
 
-## 2013-01, checked in full
+Three more checks ran on all five months, and all three came back clean:
 
-On 2013-01, the oldest month Lichess publishes, the count agrees three ways: Lichess published
-121,332, the archive splits into 121,332 records, and the stored copy holds 121,332 rows. The
-difference against the published count is +0. The archive was split into records independently of
-the parser, so the middle figure is not the parser marking its own homework.
+- Every label Lichess puts on a game is stored in a field of its own. None left out, none left
+  undecided.
+- Where Lichess leaves something blank, it's stored blank rather than guessed at. No blanks turned
+  into text, and no way of finishing a game outside the six Lichess uses.
+- The four things worked out rather than copied, like the number of moves and whether the game had
+  clock times, were recalculated from the stored moves. No disagreements.
 
-Every one of the 121,332 games was rebuilt out of the stored copy and compared to the archive byte
-for byte, in archive order. Not a sample. Mismatches: 0. The four columns the storage step works
-out rather than copies were recomputed from the stored moves on all 121,332 games, and the
-disagreements came back at 0.
+## Check it yourself
 
-## The other months, and how much of each was compared
+The archives are public, and these are the exact files that were checked. Each is at
+<https://database.lichess.org/standard/>, named `lichess_db_standard_rated_<month>.pgn.zst`.
+Download one and its SHA-256 should read:
 
-These months are far too large to rebuild in full, so the byte-for-byte comparison runs on a
-sample of each. The counts still agree in full.
+| Month | SHA-256 of the file Lichess serves |
+| --- | --- |
+| 2013-01 | `aa40b3671fa3cf1072eb182892cd90b0e1e003a4a5943492f64b77e7f3fd1635` |
+| 2019-06 | `21e04a5f055501f056375592ff9c769b1b70c1b5a93c0fc256e2f46646035a91` |
+| 2026-05 | `249b4c13e92442ba6694d7f0bdb5b4639047bf74caba1611722a132a012ab294` |
+| 2026-06 | `8fd81071f56511e7546cb77e38db5cf32f7e8a437fb906e26959cc064d8b1f79` |
+| 2026-07 | `68738b1c448f051dc8d42db645d5b01749988a3bc1c24981adfe44ea92060dc7` |
 
-| Month | Published by Lichess | Difference | Games compared byte for byte | Mismatches |
-| --- | ---: | ---: | --- | ---: |
-| 2013-01 | 121,332 | +0 | every one of the 121,332, in archive order | 0 |
-| 2019-06 | 33,935,786 | +0 | 10,000 of 33,935,786 (0.029%) | 0 |
-| 2026-05 | 90,887,615 | +0 | 10,000 of 90,887,615 (0.011%) | 0 |
-| 2026-06 | 86,483,328 | +0 | 10,000 of 86,483,328 (0.012%) | 0 |
-| 2026-07 | 89,288,421 | +0 | 10,000 of 89,288,421 (0.011%) | 0 |
+The counts above are Lichess's own, from <https://database.lichess.org/standard/counts.txt>.
 
-Samples were drawn uniformly without replacement by `random.Random(0).sample`. On each sampled
-month the four computed columns were recomputed from the stored moves on those same 10,000 games,
-and the disagreements came back at 0.
+## Where this stops
 
-## What this says, and where it stops
+It says the stored copy is undamaged. It doesn't say a figure in a video is true. That gets
+checked separately, per video, against the games that video used.
 
-The check asks whether the stored copy is undamaged. Take a game out of storage, rebuild it, and
-you should get back the exact characters Lichess published. Every game the check compared did.
+It covers the five months above and no others. Lichess publishes more, and more are still being
+stored. Where the check compared a sample, it speaks for the games it drew, and the comparison ran
+against the stored copy, so what you can check from here is that its files are the ones Lichess
+serves.
 
-It says nothing about whether a figure in a video is true — that is a separate check, run per
-video against the games it actually used. It says nothing about a month that is not named above.
-And where it compared a sample, it speaks for the games it drew, not for the ones it did not.
-
-What is stored is the rated standard game archives Lichess publishes, as published, as they stood
-when they were fetched. Not every game ever played on Lichess, and not a live feed.
-
-## Where these numbers come from
-
-Every figure on this page is copied from `docs/CORPUS-FIDELITY.md` in the `lichess-corpus`
-repository at tag `0.1.0`, where the verdict is PASS. None of it is recalculated here. The
-published counts are Lichess's own, from `counts.txt`, fetched 2026-09-03T06:54:17Z from
-<https://database.lichess.org/standard/counts.txt>. The archives themselves are the
-`lichess_db_standard_rated` files on the same site.
+What's stored is the rated standard game archives Lichess publishes, as published. Not every game
+ever played on Lichess, and not a live feed.
