@@ -13,7 +13,7 @@ this page asks one question about my copy: does it still match what Lichess publ
 | 2026-06 | 86,483,328 | 86,483,328 | 0 | 10,000 at random | 0 |
 | 2026-07 | 89,288,421 | 89,288,421 | 0 | 10,000 at random | 0 |
 
-The count matches three ways on every month: Lichess's own number, the number of games inside the
+The count matches three ways on all five months: Lichess's own number, the number of games inside the
 file I downloaded, and the number I have saved. 2013-01 is small enough to check every single
 game, so every single game was checked. The other months are far too big for that, so 10,000 games
 of each were picked at random and compared letter by letter against the original.
