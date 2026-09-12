@@ -2,20 +2,20 @@
 
 # Beyond the Board: the data behind the videos
 
-Hi! Every number that ends up in one of my videos came from somewhere, and this is where you can
-come and check it yourself.
+Hi, and thanks for coming!
+
+Every number I put on screen came from somewhere, and this is where you can check any of it for
+yourself.
 
 The games are a stored copy of the game archives Lichess publishes for anyone to download, fetched
 once and kept as they came. Not scraped, not a live feed, and not assembled by hand. I've checked
-that copy against what Lichess actually published, month by month, and you can read exactly how.
+that copy against what Lichess actually published, month by month, and you can
+[read exactly how](how-the-data-is-checked.md).
 
 Once a video goes up, it gets a folder of its own here holding the question it asked, the games it
 drew on, and how every number on screen was calculated.
 
-Thank you for watching my channel :)
-
-**How I know the data is accurate:
-[how the data is checked](how-the-data-is-checked.md).**
+Thanks for watching my channel :)
 
 ## What's in here
 
