@@ -1,5 +1,0 @@
-# This file is the one setting GitHub needs to turn the pages in this folder into a website.
-# It has to be called _config.yml — that is the name GitHub looks for — and the line below just
-# picks the plain, readable style the pages are shown in. There is nothing to read here; the
-# pages are the Markdown (.md) files alongside it.
-theme: jekyll-theme-primer

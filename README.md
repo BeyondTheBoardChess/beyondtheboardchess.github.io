@@ -28,10 +28,9 @@ to run. Every file below is a page you read in the browser, and its name says wh
 | [how-the-data-is-checked.md](how-the-data-is-checked.md) | whether the stored games still match what Lichess published, month by month |
 | a folder named after a video | the question that video asked, and the working behind every figure in it |
 
-Three things here are plumbing rather than reading. This page itself is `README.md`, which is the
-name GitHub looks for when it decides what to show you first. `_config.yml` is the one setting
-GitHub needs to turn these files into a website. And `images` holds the logo at the top of the
-page.
+Two things here are plumbing rather than reading. This page itself is `README.md`, which is the
+name GitHub looks for when it decides what to show you first, and `images` holds the logo at the
+top of the page.
 
 ## Findings by video
 
