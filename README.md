@@ -2,6 +2,11 @@
 
 # Beyond the Board: the data behind the videos
 
+Hi! Welcome to how I prove all of my claims in my videos are 100% legitimate. Here you'll find how I verified my copy of LiChess' data is accurate or if you want to see a specific video's validation, you can find that here too.
+
+Thank you for watching my channel :)
+__________________________________________________________________________________
+
 Every number in a Beyond the Board video came from somewhere, and this is where you can go and
 check it. The games are a stored copy of the monthly archives Lichess publishes: fetched once,
 kept locally, and queried. Not scraped, not a live feed, and not assembled by hand.
