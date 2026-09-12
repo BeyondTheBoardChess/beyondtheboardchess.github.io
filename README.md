@@ -2,25 +2,24 @@
 
 # Beyond the Board: the data behind the videos
 
-Hi! Welcome to how I prove all of my claims in my videos are 100% legitimate. Here you'll find how I verified my copy of LiChess' data is accurate or if you want to see a specific video's validation, you can find that here too.
+Hi! This is where I show my working. Every number that ends up in one of my videos came from
+somewhere, and this is where you can come and check it yourself.
+
+The games are a stored copy of the game archives Lichess publishes for anyone to download, fetched
+once and kept as they came. Not scraped, not a live feed, and not assembled by hand. I've checked
+that copy against what Lichess actually published, month by month, and you can read exactly how.
+
+Once a video goes up, it gets a folder of its own here holding the question it asked, the games it
+drew on, and the working behind every figure that appeared on screen.
 
 Thank you for watching my channel :)
-__________________________________________________________________________________
 
-Every number in a Beyond the Board video came from somewhere, and this is where you can go and
-check it. The games are a stored copy of the monthly archives Lichess publishes: fetched once,
-kept locally, and queried. Not scraped, not a live feed, and not assembled by hand.
-
-Each video that reads that data gets a folder here, holding the question it asked, the games it
-drew on, and the working behind every figure that appeared on screen. Nothing is published yet,
-so the list below is empty for now.
-
-**How it is known the data is accurate:
+**How I know the data is accurate:
 [how the data is checked](how-the-data-is-checked.md).**
 
 ## What's in here
 
-You do not need a GitHub account, nothing here needs downloading, and none of it is code you have
+You don't need a GitHub account, nothing here needs downloading, and none of it is code you have
 to run. Every file below is a page you read in the browser, and its name says what it holds.
 
 | Open this | To read |
@@ -34,4 +33,4 @@ top of the page.
 
 ## Findings by video
 
-Nothing published yet.
+Nothing published yet. The first video that reads this data gets its folder here.
