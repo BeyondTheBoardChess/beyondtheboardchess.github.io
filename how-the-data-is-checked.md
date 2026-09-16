@@ -1,34 +1,27 @@
-# How the data is checked
+# What is this page?
 
-Lichess publishes every game played on it. I keep a copy. This page asks one question: does my
-copy still match what Lichess published?
-
-**Everything matched.** No game came back different.
+Lichess publishes every game played. I keep a copy. 
+This page asks one question: does my copy still match what Lichess published?
 
 ## The check
 
-Three counts have to agree for each month: Lichess's published number, the games inside the file I
-downloaded, and the games I have saved. They agree on every month below.
+Three checks have to pass for each month: Lichess's published number, the games inside the file I
+downloaded, and the games I have saved. The checks agree on every month below.
 
-Then the games themselves. 2013-01 is small enough to check whole, so every game in it was
-compared letter by letter against the original. The bigger months got 10,000 games each, picked at
-random and compared the same way. Nothing Lichess records was dropped, nothing it left blank was
-filled in with a guess, and the few numbers I work out myself, like how long a game lasted, were
-worked out again from the moves and matched every time.
+Then the games themselves. 2013-01 is small enough to check whole, larger months have 10k games verified at random.
 
 ## Check it yourself
 
-The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts
-are Lichess's own, at <https://database.lichess.org/standard/counts.txt>. Every file has a
-fingerprint: a code that comes out completely different if one character of the file changes.
-Download a month and compare it to the list below.
+The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts are Lichess's own, at <https://database.lichess.org/standard/counts.txt>. 
 
-## What this doesn't cover
+Every file has a **fingerprint**: a code that comes out completely different if one character of the file changes.
+Download a month and compare it to the list below if you want to check yourself.
 
-It says my copy is undamaged. It doesn't say a number in a video is right — that gets checked per
-video, against the games that video used. It covers the months below and no others, and a sampled
-month speaks only for its sample. What I have is the rated standard games Lichess publishes, not
-every game played there and not a live connection to the site.
+## What this page doesn't cover
+
+It doesn't say a number in any given video is correct — **that gets checked per video** against the games that video used. This page only covers the integrity of the data store. 
+
+What I have is the **rated standard games** Lichess publishes, not every game played.
 
 ## Month by month
 
