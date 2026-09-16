@@ -5,7 +5,6 @@ This page answers one question.
 Does my copy match what Lichess published?
 
 **Everything matched.**
-
 Not one game came back different.
 
 *Last checked September 2026, covering Lichess's files through July 2026.*
@@ -13,12 +12,10 @@ Not one game came back different.
 ## The check
 
 Three counts have to agree for each month.
-
 Lichess's published number, the games inside the file I downloaded, and the games I have saved.
 They agree on every month below.
 
 Then the games themselves.
-
 2013-01 is small enough to check whole.
 Larger months have 10k games verified at random, letter by letter against Lichess's original.
 
@@ -27,13 +24,11 @@ Larger months have 10k games verified at random, letter by letter against Liches
 The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts are Lichess's own, at <https://database.lichess.org/standard/counts.txt>.
 
 Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes.
-
 Download a month and compare it to the list below.
 
 ## What this page doesn't cover
 
 It doesn't say a number in any given video is correct, **that gets checked per video** against the games that video used.
-
 This page only covers whether my copy of the games is undamaged.
 
 What I have is the **rated standard games** Lichess publishes, not every game played.
