@@ -11,7 +11,7 @@ I downloaded those files once, kept them exactly as they came, and every number 
 
 I check my copy against what Lichess published, month by month.
 
-[Here's how I check it](how-the-data-is-checked.md).
+[Here's how I check it](how-the-data-is-checked.md)
 
 ## Findings by video
 
