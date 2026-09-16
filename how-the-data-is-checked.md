@@ -2,7 +2,7 @@
 
 Lichess publishes every game played.
 I keep a copy.
-This page asks one question: does my copy still match what Lichess published?
+This page answers one question - Does my copy match what Lichess published?
 
 **Everything matched.**
 Not one game came back different.
