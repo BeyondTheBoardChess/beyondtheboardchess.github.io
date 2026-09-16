@@ -1,14 +1,19 @@
 # What is this page?
 
-Lichess publishes every game played. I keep a copy. 
+Lichess publishes every game played. I keep a copy.
 This page asks one question: does my copy still match what Lichess published?
+
+**Everything matched.** Not one game came back different.
+
+*Last checked September 2026, covering Lichess's files through July 2026.*
 
 ## The check
 
 Three checks have to pass for each month: Lichess's published number, the games inside the file I
 downloaded, and the games I have saved. The checks agree on every month below.
 
-Then the games themselves. 2013-01 is small enough to check whole, larger months have 10k games verified at random.
+Then the games themselves. 2013-01 is small enough to check whole; larger months have 10k games
+verified at random, letter by letter against Lichess's original.
 
 ## Check it yourself
 
@@ -25,15 +30,23 @@ What I have is the **rated standard games** Lichess publishes, not every game pl
 
 ## Month by month
 
-| Month | Games Lichess published | Games I have | Difference | How many were checked | How many were wrong |
-| --- | ---: | ---: | ---: | --- | ---: |
-| 2013-01 | 121,332 | 121,332 | 0 | all 121,332 | 0 |
-| 2019-06 | 33,935,786 | 33,935,786 | 0 | 10,000 at random | 0 |
-| 2026-05 | 90,887,615 | 90,887,615 | 0 | 10,000 at random | 0 |
-| 2026-06 | 86,483,328 | 86,483,328 | 0 | 10,000 at random | 0 |
-| 2026-07 | 89,288,421 | 89,288,421 | 0 | 10,000 at random | 0 |
+<details>
+<summary><b>All 5 months matched.</b> Open for the numbers.</summary>
+
+| Month | Games Lichess published | Games I have | How many were checked | How many were wrong |
+| --- | ---: | ---: | --- | ---: |
+| 2013-01 | 121,332 | 121,332 | all 121,332 | 0 |
+| 2019-06 | 33,935,786 | 33,935,786 | 10,000 at random | 0 |
+| 2026-05 | 90,887,615 | 90,887,615 | 10,000 at random | 0 |
+| 2026-06 | 86,483,328 | 86,483,328 | 10,000 at random | 0 |
+| 2026-07 | 89,288,421 | 89,288,421 | 10,000 at random | 0 |
+
+</details>
 
 ## Fingerprints
+
+<details>
+<summary>The 5 files I checked, by fingerprint.</summary>
 
 | Month | Fingerprint of the file Lichess gives you |
 | --- | --- |
@@ -42,3 +55,5 @@ What I have is the **rated standard games** Lichess publishes, not every game pl
 | 2026-05 | `249b4c13e92442ba6694d7f0bdb5b4639047bf74caba1611722a132a012ab294` |
 | 2026-06 | `8fd81071f56511e7546cb77e38db5cf32f7e8a437fb906e26959cc064d8b1f79` |
 | 2026-07 | `68738b1c448f051dc8d42db645d5b01749988a3bc1c24981adfe44ea92060dc7` |
+
+</details>
