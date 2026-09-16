@@ -1,11 +1,8 @@
 # How the data is checked
 
-Lichess publishes every game played.
-
-I keep a copy.
+Lichess publishes every game played. I keep a copy.
 
 This page answers one question.
-
 Does my copy match what Lichess published?
 
 **Everything matched.**
@@ -19,13 +16,11 @@ Not one game came back different.
 Three counts have to agree for each month.
 
 Lichess's published number, the games inside the file I downloaded, and the games I have saved.
-
 They agree on every month below.
 
 Then the games themselves.
 
 2013-01 is small enough to check whole.
-
 Larger months have 10k games verified at random, letter by letter against Lichess's original.
 
 ## Check it yourself
