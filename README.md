@@ -7,7 +7,9 @@ Hi, and thanks for coming!
 Every number I put on screen came from somewhere, and this is where you can check any of it for yourself.
 
 Lichess lets anyone download the games played on it.
+
 I downloaded those files once, kept them exactly as they came, and every number in my videos comes from them.
+
 I check my copy against what Lichess published, month by month: [how the data is checked](how-the-data-is-checked.md).
 
 ## Findings by video
