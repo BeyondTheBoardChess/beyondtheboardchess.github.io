@@ -26,7 +26,7 @@ Download a month and compare it to the list below.
 
 ## What this page doesn't cover
 
-It doesn't say a number in any given video is correct — **that gets checked per video** against the games that video used.
+It doesn't say a number in any given video is correct, **that gets checked per video** against the games that video used.
 This page only covers whether my copy of the games is undamaged.
 
 What I have is the **rated standard games** Lichess publishes, not every game played.
