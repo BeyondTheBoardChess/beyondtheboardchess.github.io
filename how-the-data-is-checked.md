@@ -1,52 +1,36 @@
 # How the data is checked
 
-Lichess lets anyone download the games played on it. I downloaded those files and kept them, and
-this page asks one question about my copy: does it still match what Lichess published?
+Lichess publishes every game played on it. I keep a copy. This page asks one question: does my
+copy still match what Lichess published?
 
-**Verdict: everything matched.** Every game that was checked came back identical.
+**Everything matched.** No game came back different.
 
-The count matches three ways on every month listed at the bottom of this page: Lichess's own
-number, the number of games inside the file I downloaded, and the number I have saved. 2013-01 is
-small enough to check every single game, so every single game was checked. The other months are
-far too big for that, so 10,000 games of each were picked at random and compared letter by letter
-against the original.
+## The check
 
-## Three more checks
+Three counts have to agree for each month: Lichess's published number, the games inside the file I
+downloaded, and the games I have saved. They agree on every month below.
 
-**Is anything missing?** No. Everything Lichess records about a game is kept, on every month
-checked.
-
-**Is anything made up?** No. Where Lichess left something blank, it is still blank. Nothing was
-filled in with a guess.
-
-**Do the few numbers I work out myself hold up?** Yes. Things like how many moves a game lasted
-were worked out a second time from the moves themselves, and every one agreed.
+Then the games themselves. 2013-01 is small enough to check whole, so every game in it was
+compared letter by letter against the original. The bigger months got 10,000 games each, picked at
+random and compared the same way. Nothing Lichess records was dropped, nothing it left blank was
+filled in with a guess, and the few numbers I work out myself, like how long a game lasted, were
+worked out again from the moves and matched every time.
 
 ## Check it yourself
 
-You don't have to take my word for any of this. Lichess puts these files up for anyone, one per
-month, at <https://database.lichess.org/standard/>.
+The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts
+are Lichess's own, at <https://database.lichess.org/standard/counts.txt>. Every file has a
+fingerprint: a code that comes out completely different if one character of the file changes.
+Download a month and compare it to the list below.
 
-Every file has a fingerprint: a long code that comes out completely different if even one
-character of the file changes. The second table at the bottom of this page lists the fingerprints
-of the exact files I checked, so you can download a month yourself and confirm you got the same
-file I did.
+## What this doesn't cover
 
-The game counts in the first table are Lichess's own, published at
-<https://database.lichess.org/standard/counts.txt>.
+It says my copy is undamaged. It doesn't say a number in a video is right — that gets checked per
+video, against the games that video used. It covers the months below and no others, and a sampled
+month speaks only for its sample. What I have is the rated standard games Lichess publishes, not
+every game played there and not a live connection to the site.
 
-## Where this stops
-
-This says my copy of the games is undamaged. It doesn't say a number in a video is right. That
-gets checked separately, one video at a time, against the games that video used.
-
-It covers the months in the tables below and no others. Lichess has more, and I am still saving
-more of them. Where only a sample was checked, it speaks for the games it picked.
-
-What I have is the rated standard games Lichess publishes, exactly as they publish them. Not every
-game ever played there, and not a live connection to the site.
-
-## What was checked, month by month
+## Month by month
 
 | Month | Games Lichess published | Games I have | Difference | How many were checked | How many were wrong |
 | --- | ---: | ---: | ---: | --- | ---: |
@@ -56,7 +40,7 @@ game ever played there, and not a live connection to the site.
 | 2026-06 | 86,483,328 | 86,483,328 | 0 | 10,000 at random | 0 |
 | 2026-07 | 89,288,421 | 89,288,421 | 0 | 10,000 at random | 0 |
 
-## Fingerprints of the files
+## Fingerprints
 
 | Month | Fingerprint of the file Lichess gives you |
 | --- | --- |
