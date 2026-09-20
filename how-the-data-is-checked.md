@@ -7,7 +7,7 @@ Does my copy match what Lichess published?
 **Everything matched.**
 Not one game came back different.
 
-*Every month I have, all 164 of them, through August 2026. That is 8,130,696,420 games.*
+*I have all 164 months of games through August 2026. That is 8,130,696,420 games.*
 
 ## The check
 
