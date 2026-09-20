@@ -18,6 +18,8 @@ They agree on every month below.
 Then the games themselves.
 The 158 larger months have 10,000 games checked at random, letter by letter against Lichess's original.
 The 6 smaller ones are checked whole, every game in them.
+That comes to 2,546,028 games of 8,130,696,420.
+Where I checked a sample, it speaks for the games it picked and no others.
 
 ## Check it yourself
 
