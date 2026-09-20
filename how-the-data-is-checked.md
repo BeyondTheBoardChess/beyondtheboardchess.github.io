@@ -1,6 +1,6 @@
 # How the data is checked
 
-Lichess publishes every game played. I keep a copy.
+Lichess publishes every game ever played. I keep a copy.
 This page answers one question.
 Does my copy match what Lichess published?
 
