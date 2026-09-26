@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/site.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <div class="rd-top">
+        <img src="{{ "/images/beyond-the-board-logo.png" | relative_url }}" alt="">
+        <a class="rd-name" href="{{ "/" | relative_url }}">{{ site.title | default: "Beyond The Board" }}</a>
+      </div>
+{%- comment -%}
+  A page is its title and first line, then one panel per heading. The panels are cut from the
+  page's own headings, so a page written in plain markdown gets them without knowing about them.
+  Anything between the first line and the first heading gets a panel of its own.
+{%- endcomment -%}
+{%- assign sections = content | split: '<h2 ' -%}
+{%- assign opening = sections[0] | split: '</p>' %}
+      <div class="rd-hero">{{ opening[0] }}</p></div>
+{%- capture rest -%}{%- for piece in opening offset: 1 -%}{%- if forloop.last -%}{{ piece }}{%- else -%}{{ piece }}</p>{%- endif -%}{%- endfor -%}{%- endcapture -%}
+{%- assign rest_text = rest | strip -%}
+{%- if rest_text != "" %}
+      <section class="rd-card">{{ rest }}</section>
+{%- endif -%}
+{%- for section in sections offset: 1 %}
+      <section class="rd-card"><h2 {{ section }}</section>
+{%- endfor %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

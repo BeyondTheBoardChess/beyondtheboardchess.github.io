@@ -1,0 +1,53 @@
+/* The channel's look over the Primer theme GitHub Pages builds with: dark background, the
+   brand gradient on the name, and every section of a page in its own panel. The colours are
+   the brand skill's tokens. */
+
+:root {
+  --rd-void: #070C16;
+  --rd-surface: #111A2B;
+  --rd-well: #0A1120;
+  --rd-line: #253148;
+  --rd-ink: #EAEEF7;
+  --rd-ink-muted: #A7B2C9;
+  --rd-cyan: #4FD6EE;
+  --rd-gradient: linear-gradient(100deg, #FF3DA6 0%, #B98CF5 52%, #4FD6EE 100%);
+  --rd-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --rd-font: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+html, body { background: var(--rd-void); }
+
+body {
+  color: var(--rd-ink);
+  font-family: var(--rd-font);
+  background-image: radial-gradient(1200px 380px at 50% -120px, rgba(230, 2, 109, .18), rgba(0, 90, 177, .10) 55%, transparent 75%);
+  background-repeat: no-repeat;
+}
+
+.container-lg { max-width: 860px; }
+
+.markdown-body, .markdown-body p, .markdown-body li, .markdown-body td, .markdown-body th { color: var(--rd-ink); }
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { color: #FFFFFF; font-family: var(--rd-display); border-bottom-color: var(--rd-line); }
+.markdown-body a { color: var(--rd-cyan); }
+.markdown-body hr { background-color: var(--rd-line); }
+.markdown-body code, .markdown-body pre { background: var(--rd-surface); color: var(--rd-ink); }
+.markdown-body blockquote { color: var(--rd-ink-muted); border-left-color: var(--rd-line); }
+.markdown-body details summary { cursor: pointer; color: var(--rd-ink); }
+
+.rd-top { display: flex; align-items: center; gap: 14px; padding-bottom: 18px; margin-bottom: 28px; border-bottom: 1px solid var(--rd-line); }
+.rd-top img { width: 48px; height: 48px; border-radius: 10px; }
+.rd-top a.rd-name { font-family: var(--rd-display); font-weight: 700; font-size: 1.35rem; background: var(--rd-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; text-decoration: none; }
+
+.rd-hero { margin-bottom: 22px; }
+.markdown-body .rd-hero h1 { border: 0; margin: 0 0 10px; font-size: 2.2rem; }
+.markdown-body .rd-hero p { color: var(--rd-ink-muted); font-size: 1.06rem; }
+
+.rd-card { background: var(--rd-surface); border: 1px solid var(--rd-line); border-radius: 14px; padding: 22px 24px; margin: 0 0 18px; }
+.rd-card > :last-child { margin-bottom: 0; }
+.markdown-body .rd-card h2 { margin-top: 0; font-weight: 700; font-size: 1.35rem; border-bottom: 1px solid var(--rd-line); padding-bottom: 10px; margin-bottom: 14px; }
+.markdown-body .rd-card table { display: block; overflow-x: auto; }
+.markdown-body .rd-card table tr, .markdown-body .rd-card table tr:nth-child(2n) { background: var(--rd-well); border-color: var(--rd-line); }
+.markdown-body .rd-card table td, .markdown-body .rd-card table th { border-color: var(--rd-line); }
+
+.markdown-body a.rd-btn { display: inline-block; margin-top: 6px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--rd-cyan); color: var(--rd-cyan); font-weight: 600; text-decoration: none; }
+.markdown-body a.rd-btn:hover { background: rgba(79, 214, 238, .12); }

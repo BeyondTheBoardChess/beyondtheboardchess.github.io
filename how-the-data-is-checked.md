@@ -1,15 +1,17 @@
-# How the data is checked
+# How the Data is Checked
 
 Lichess publishes every game ever played. I keep a copy.
 This page answers one question.
 Does my copy match what Lichess published?
+
+## The Result
 
 **Everything matched.**
 Not one game came back different.
 
 *I have all 164 months of games through August 2026. That is 8,130,696,420 games.*
 
-## The check
+## What I Checked
 
 Three counts have to agree for each month.
 Lichess's published number, the games inside the file I downloaded, and the games I have saved.
@@ -20,24 +22,23 @@ The 158 larger months have 10,000 games checked at random, letter by letter agai
 The 6 smaller ones are checked whole, every game in them.
 That comes to 2,546,028 games of 8,130,696,420 that were completely verified.
 
-
-## Check it yourself
+## Verify It Yourself
 
 The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts are Lichess's own, at <https://database.lichess.org/standard/counts.txt>.
 
 Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes.
 Download a month and compare it to the list below.
 
-## What this page doesn't cover
+## What This Page Doesn't Cover
 
 It doesn't say a number in any given video is correct, **that gets checked per video** against the games that video used.
 This page only covers whether my copy of the games is undamaged.
 
 What I have is the **rated standard games** Lichess publishes, not every game played.
 
-## Month by month
+## Month by Month
 
-<details>
+<details markdown="1">
 <summary><b>All 164 months matched.</b> Open for the numbers.</summary>
 
 | Month | Games Lichess published | Games I have | How many were checked | How many were wrong |
@@ -211,7 +212,7 @@ What I have is the **rated standard games** Lichess publishes, not every game pl
 
 ## Fingerprints
 
-<details>
+<details markdown="1">
 <summary>The 164 files I checked, by fingerprint.</summary>
 
 | Month | Fingerprint of the file Lichess gives you |
