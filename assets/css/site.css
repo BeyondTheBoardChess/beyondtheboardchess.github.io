@@ -48,6 +48,7 @@ body {
 .markdown-body .rd-card table { display: block; overflow-x: auto; }
 .markdown-body .rd-card table tr, .markdown-body .rd-card table tr:nth-child(2n) { background: var(--rd-well); border-color: var(--rd-line); }
 .markdown-body .rd-card table td, .markdown-body .rd-card table th { border-color: var(--rd-line); }
+.markdown-body .rd-card td:first-child { white-space: nowrap; }
 
 .markdown-body a.rd-btn { display: inline-block; margin-top: 6px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--rd-cyan); color: var(--rd-cyan); font-weight: 600; text-decoration: none; }
 .markdown-body a.rd-btn:hover { background: rgba(79, 214, 238, .12); }
