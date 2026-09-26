@@ -1,0 +1,5 @@
+# Every page in the sidebar, in order. A video's findings page is added here when it goes up.
+- title: Home
+  url: /
+- title: How the Data is Checked
+  url: /how-the-data-is-checked.html
