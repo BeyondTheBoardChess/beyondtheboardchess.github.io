@@ -131,6 +131,16 @@ for (const entry of entries) {
     if (bodyField?.type !== "rich-text" || bodyField.options?.format !== "markdown") {
       fail(`${entry.path}: its body must be a markdown rich-text field`);
     }
+    // The editor shows each line of a paragraph on its own line, and once Rainy types in that
+    // paragraph it saves those line ends as real line breaks the site then shows (his first
+    // save, 2026-09-26). So a paragraph is one line; a break he wants ends in two spaces.
+    const blocks = parsed.body.split(/\n\s*\n/);
+    for (const block of blocks) {
+      const lines = block.trimEnd().split("\n");
+      if (/^\s*(#|\d+\.\s|[-*+]\s|\||<|```|>|\{)/.test(lines[0])) continue;
+      const soft = lines.slice(0, -1).findIndex((line) => !line.endsWith("  "));
+      if (soft >= 0) fail(`${entry.path}: the paragraph starting "${lines[0].slice(0, 50)}" runs over several lines; put it on one line, or editing it splits it on the page`);
+    }
     const saved = stringifyFrontMatter(parsed.data, richTextSave(parsed.body));
     if (saved.trimEnd() !== original.trimEnd()) {
       const a = original.trimEnd().split("\n");
