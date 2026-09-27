@@ -1,8 +1,8 @@
 # The front page's links (each shown as its platform's logo), every study newest first, and The Data.
 #
 # A study is named for the question it answers. Its Findings page and Method page each carry
-# `study: <key>` and `tab: findings` or `tab: method` in their front matter. The sidebar never
-# lists studies, so a long question and a long list both stay on the Studies page.
+# `study: <key>` and `tab: findings` or `tab: method` in their front matter. The sidebar lists
+# every study here by its full question on one line under Studies (DA-472).
 #
 # A study can name a `picture` that asks its question without a number (DA-469); it shows across
 # the top of the study's box on the Studies page, and `picture_alt` says what it shows in words.

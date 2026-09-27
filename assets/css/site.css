@@ -85,6 +85,13 @@ body {
 .markdown-body .rd-sections a { padding: 5px 10px; font-size: .88rem; color: #8A94AC; border-radius: 8px; }
 .markdown-body .rd-sections a:hover { color: var(--rd-cyan); }
 .markdown-body .rd-sections a.rd-here { color: var(--rd-cyan); }
+/* Every study under Studies, each on one line (DA-472). At rest a long question ends in "...";
+   pointing at the list, or reaching it with the keyboard, opens it out over the page wide enough
+   for every question whole. Past about ten studies it scrolls inside itself. */
+.rd-side { z-index: 3; }
+.rd-study-list { position: relative; box-sizing: border-box; width: calc(100% - 14px); max-height: min(320px, 42vh); overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--rd-line) transparent; }
+.markdown-body .rd-study-list a { display: block; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rd-study-list:hover, .rd-study-list:focus-within { width: max-content; max-width: calc(100vw - 48px); background: var(--rd-void); border: 1px solid var(--rd-line); border-radius: 10px; box-shadow: 0 12px 32px rgba(0, 0, 0, .55); }
 .rd-main { min-width: 0; }
 .markdown-body .rd-main h1, .markdown-body .rd-main h2 { scroll-margin-top: 24px; }
 
