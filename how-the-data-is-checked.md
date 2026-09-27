@@ -8,7 +8,7 @@ Lichess publishes every game ever played. I keep a copy. This page answers one q
 
 ## 1. Where Do the Numbers Come From?
 
-Every study on this site starts from the same games, and this page shows where they came from.
+Every study on this site is based on the same games and this page shows where they came from.
 
 [Lichess](https://lichess.org/) lets anyone download the games played on it. I downloaded those files once, kept them exactly as they came, and every number in my studies comes from them. I check my copy against what Lichess published, month by month.
 
