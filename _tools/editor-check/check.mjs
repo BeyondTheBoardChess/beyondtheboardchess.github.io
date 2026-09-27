@@ -143,24 +143,35 @@ for (const entry of entries) {
     if (JSON.stringify(YAML.parse(YAML.stringify(data))) !== JSON.stringify(data)) {
       fail(`${entry.path}: a save would change its values`);
     }
+    // Keys the editor does not show survive a save at the top level (merge), but a list is
+    // written back whole and each item keeps only its declared fields.
+    for (const field of entry.fields || []) {
+      if (field.type !== "object" || !field.list) continue;
+      const declared = new Set((field.fields || []).map((sub) => sub.name));
+      for (const [i, item] of (data?.[field.name] || []).entries()) {
+        for (const key of Object.keys(item || {})) {
+          if (!declared.has(key)) fail(`${entry.path}: ${field.name} item ${i + 1} has "${key}", which a save would delete; declare it in .pages.yml`);
+        }
+      }
+    }
   } else {
     fail(`${entry.path}: format "${entry.format}" is not one this check knows is safe`);
   }
 }
 
 // 4. Every word the page frame shows comes from the words list, and the editor shows each one.
-const layout = fs.readFileSync(path.join(SITE, "_layouts/default.html"), "utf8");
+const frame = [path.join(SITE, "_layouts/default.html"), ...fs.readdirSync(path.join(SITE, "_includes")).filter((name) => name.endsWith(".md") || name.endsWith(".html")).map((name) => path.join(SITE, "_includes", name))]
+  .map((file) => fs.readFileSync(file, "utf8"))
+  .join("\n");
 const wordsEntry = entries.find((entry) => entry.path === "_data/words.yml");
 const words = YAML.parse(fs.readFileSync(path.join(SITE, "_data/words.yml"), "utf8"));
 const wordFields = new Set((wordsEntry?.fields || []).map((field) => field.name));
-for (const [, key] of layout.matchAll(/site\.data\.words\.([a-z_]+)/g)) {
+for (const [, key] of frame.matchAll(/site\.data\.words\.([a-z_]+)/g)) {
   if (typeof words[key] !== "string" || !words[key]) fail(`_data/words.yml: "${key}" is used by the page frame but has no words`);
   if (!wordFields.has(key)) fail(`.pages.yml: the words list does not show "${key}"`);
 }
 for (const key of Object.keys(words)) {
-  if (!layout.includes(`site.data.words.${key}`) && !fs.readdirSync(path.join(SITE, "_includes")).some((name) => name.endsWith(".md") && fs.readFileSync(path.join(SITE, "_includes", name), "utf8").includes(`site.data.words.${key}`))) {
-    fail(`_data/words.yml: "${key}" is not shown anywhere on the site`);
-  }
+  if (!frame.includes(`site.data.words.${key}`)) fail(`_data/words.yml: "${key}" is not shown anywhere on the site`);
 }
 
 if (failures.length) {

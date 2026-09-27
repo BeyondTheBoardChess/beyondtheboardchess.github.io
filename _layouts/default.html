@@ -57,17 +57,17 @@
 {%- endfor %}
           </div>
         </div>
-        <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="{{ site.data.words.hide_menu }}" data-hide="{{ site.data.words.hide_menu }}" data-show="{{ site.data.words.show_menu }}">
+        <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="{{ site.data.words.hide_menu | escape }}" data-hide="{{ site.data.words.hide_menu | escape }}" data-show="{{ site.data.words.show_menu | escape }}">
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
-          <span>{{ site.data.words.menu }}</span>
+          <span>{{ site.data.words.menu | escape }}</span>
         </button>
       </div>
       <div class="rd-layout">
         <nav class="rd-nav" id="rd-nav" aria-label="Pages">
-          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies }}</a>
+          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
           <hr class="rd-nav-rule">
 {%- if data_page.url == page.url %}
-          <a class="rd-page rd-current" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title }}</a>
+          <a class="rd-page rd-current" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title | escape }}</a>
           <div class="rd-sections rd-jump">
 {%- for section in sections offset: 1 -%}
 {%- assign section_id = section | split: '"' -%}
@@ -76,16 +76,16 @@
 {%- endfor %}
           </div>
 {%- else %}
-          <a class="rd-page" href="{{ data_page.url | relative_url }}">{{ data_page.title }}</a>
+          <a class="rd-page" href="{{ data_page.url | relative_url }}">{{ data_page.title | escape }}</a>
 {%- endif %}
         </nav>
         <main class="rd-main">
 {%- if study %}
-          <a class="rd-back" href="{{ "/" | relative_url }}">{{ site.data.words.all_studies }}</a>
-          <div class="rd-hero"><h1 class="rd-fit">{{ study.title }}</h1></div>
+          <a class="rd-back" href="{{ "/" | relative_url }}">{{ site.data.words.all_studies | escape }}</a>
+          <div class="rd-hero"><h1 class="rd-fit">{{ study.title | escape }}</h1></div>
           <div class="rd-tabs">
-            <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab }}</a>
-            <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab }}</a>
+            <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab | escape }}</a>
+            <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab | escape }}</a>
           </div>
 {%- assign opening_text = sections[0] | strip -%}
 {%- if opening_text != "" %}
@@ -102,15 +102,15 @@
 {%- endfor %}
 {%- if on_front -%}
 {%- for s in site.data.nav.studies %}
-          <a class="rd-card rd-study" href="{{ s.url | relative_url }}"><h2>{{ s.title }}</h2></a>
+          <a class="rd-card rd-study" href="{{ s.url | relative_url }}"><h2>{{ s.title | escape }}</h2></a>
 {%- else %}
-          <section class="rd-card"><h2>{{ site.data.words.no_studies_title }}</h2><p>{{ site.data.words.no_studies_text }}</p></section>
+          <section class="rd-card"><h2>{{ site.data.words.no_studies_title | escape }}</h2><p>{{ site.data.words.no_studies_text | escape }}</p></section>
 {%- endfor -%}
 {%- endif %}
         </main>
       </div>
     </div>
-    <a class="rd-pencil" hidden href="https://app.pagescms.org/BeyondTheBoardChess/beyondtheboardchess.github.io/main/file/{% if page.path contains '.md' %}{{ page.path | slugify }}{% else %}words{% endif %}" title="{{ site.data.words.pencil }}" aria-label="{{ site.data.words.pencil }}">
+    <a class="rd-pencil" hidden href="https://app.pagescms.org/BeyondTheBoardChess/beyondtheboardchess.github.io/main/file/{% if page.path contains '.md' %}{{ page.path | slugify }}{% else %}words{% endif %}" title="{{ site.data.words.pencil | escape }}" aria-label="{{ site.data.words.pencil | escape }}">
       <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
     </a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>

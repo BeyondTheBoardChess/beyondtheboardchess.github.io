@@ -1,7 +1,7 @@
-## {{ site.data.words.months_heading }}
+## {{ site.data.words.months_heading | escape }}
 
 <details markdown="1">
-<summary><b>{{ site.data.words.months_summary_bold }}</b> {{ site.data.words.months_summary_rest }}</summary>
+<summary><b>{{ site.data.words.months_summary_bold | escape }}</b> {{ site.data.words.months_summary_rest | escape }}</summary>
 
 | Month | Games Lichess published | Games I have | How many were checked | How many were wrong |
 | --- | ---: | ---: | --- | ---: |
@@ -172,10 +172,10 @@
 
 </details>
 
-## {{ site.data.words.fingerprints_heading }}
+## {{ site.data.words.fingerprints_heading | escape }}
 
 <details markdown="1">
-<summary>{{ site.data.words.fingerprints_summary }}</summary>
+<summary>{{ site.data.words.fingerprints_summary | escape }}</summary>
 
 | Month | Fingerprint of the file Lichess gives you |
 | --- | --- |
