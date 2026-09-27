@@ -143,6 +143,9 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
    page's notice wears (DA-453). */
 .markdown-body a.rd-study .rd-building { display: inline-block; margin-top: 12px; padding: 4px 12px; border: 2px solid #FFC24B; border-radius: 8px; color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .95rem; letter-spacing: .02em; }
 
+/* A study's picture of its question (DA-469) runs the width of its box above the question, and
+   shrinks with the box on a phone. */
+.markdown-body a.rd-study img.rd-study-picture { display: block; width: 100%; height: auto; margin: 0 0 18px; border-radius: 10px; background: var(--rd-void); }
 
 /* A site named in the prose carries its own logo in front of the link, at the height of the text. */
 .markdown-body a.rd-site-link { white-space: nowrap; }

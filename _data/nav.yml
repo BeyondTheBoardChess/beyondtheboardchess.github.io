@@ -3,6 +3,9 @@
 # A study is named for the question it answers. Its Findings page and Method page each carry
 # `study: <key>` and `tab: findings` or `tab: method` in their front matter. The sidebar never
 # lists studies, so a long question and a long list both stay on the Studies page.
+#
+# A study can name a `picture` that asks its question without a number (DA-469); it shows across
+# the top of the study's box on the Studies page, and `picture_alt` says what it shows in words.
 links:
   - title: YouTube
     icon: youtube
@@ -22,6 +25,8 @@ studies:
     url: /performance-after-wins-or-losses/
     method_url: /performance-after-wins-or-losses/method
     under_construction: true
+    picture: /images/performance-after-wins-or-losses.svg
+    picture_alt: "Five wins in a row and five losses in a row, each followed by a blank next game"
 data:
   title: The Data
   url: /how-the-data-is-checked.html

@@ -119,6 +119,8 @@ content:
           - { name: url, type: string, hidden: true }
           - { name: method_url, type: string, hidden: true }
           - { name: under_construction, label: Under Construction, type: boolean }
+          - { name: picture, type: string, hidden: true }
+          - { name: picture_alt, label: "Picture, in words (for anyone who can't see it)", type: string }
       - name: data
         label: The Data
         type: object
