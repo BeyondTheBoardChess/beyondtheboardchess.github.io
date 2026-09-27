@@ -12,5 +12,6 @@ months_heading: 7. How Did Each Month Compare?
 months_summary_bold: All {months} months matched.
 months_summary_rest: Open for the numbers and each file's fingerprint.
 months_download: Download the table
+months_no_fingerprint: not recorded
 pencil: Change the words on this page
 under_construction: Under Construction

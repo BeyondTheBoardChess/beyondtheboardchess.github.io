@@ -74,6 +74,7 @@ content:
       - { name: months_summary_bold, label: "The Data page: month table, bold words ({months} is filled in with the number of months)", type: string }
       - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
       - { name: months_download, label: "The Data page: button that downloads the month table", type: string }
+      - { name: months_no_fingerprint, label: "The Data page: month table, in place of a fingerprint nobody recorded", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
       - { name: under_construction, label: "Studies page: note on a study that isn't finished", type: string }
   - name: study-titles

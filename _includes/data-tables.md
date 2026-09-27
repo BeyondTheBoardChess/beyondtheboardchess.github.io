@@ -14,6 +14,6 @@
 
 | Month | Games Lichess published | Games I have | How many were checked | How many were wrong | Fingerprint of the file |
 | --- | ---: | ---: | --- | ---: | --- |
-{% for row in checks.rows %}| {% if row.passed %}{{ row.month }}{% else %}**{{ row.month }}**{% endif %} | {{ row.published }} | {{ row.stored }} | {{ row.checked }} | {{ row.wrong }} | {% if row.fingerprint %}<span class="rd-fp" tabindex="0" role="button" title="{{ row.fingerprint }} (click to see it in full and copy it)"><span class="rd-fp-a">{{ row.head }}</span><span class="rd-fp-b">{{ row.tail }}</span></span>{% else %}not recorded{% endif %} |
+{% for row in checks.rows %}| {% if row.passed %}{{ row.month }}{% else %}**{{ row.month }}**{% endif %} | {{ row.published }} | {{ row.stored }} | {{ row.checked }} | {{ row.wrong }} | {% if row.fingerprint %}<span class="rd-fp" tabindex="0" role="button" title="{{ row.fingerprint }} (click to see it in full and copy it)"><span class="rd-fp-a">{{ row.head }}</span><span class="rd-fp-b">{{ row.tail }}</span></span>{% else %}{{ site.data.words.months_no_fingerprint | escape }}{% endif %} |
 {% endfor %}
 </details>
