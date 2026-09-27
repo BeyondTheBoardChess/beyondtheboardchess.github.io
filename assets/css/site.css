@@ -160,7 +160,6 @@ a.rd-pencil svg { width: 20px; height: 20px; }
   .markdown-body .rd-hero h1.rd-fit { font-size: 1.6rem; }
 }
 
-/* The Method tab of a study that isn't finished (DA-461): the gold Under Construction notice under
-   the tabs, and each number still being counted as a gold box in the text. */
-.markdown-body .rd-main > p.rd-building { display: inline-block; margin: 0 0 20px; padding: 6px 14px; border: 2px solid #FFC24B; border-radius: 8px; color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: 1.06rem; letter-spacing: .02em; }
+/* The Method tab of a study that isn't finished (DA-461): each number still being counted is a
+   gold box in the text. The Under Construction badge stays on the Studies page panel only (DA-462). */
 .markdown-body .rd-tab-method code { background: #FFC24B; color: #070C16; border-radius: 4px; padding: .1em .45em; font-family: var(--rd-font); font-weight: 600; font-size: .88em; white-space: normal; }

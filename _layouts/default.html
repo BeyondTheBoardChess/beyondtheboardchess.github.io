@@ -91,9 +91,6 @@
             <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab | escape }}</a>
             <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab | escape }}</a>
           </div>
-{%- if page.tab == "method" and study.under_construction %}
-          <p class="rd-building">{{ site.data.words.under_construction | escape }}</p>
-{%- endif %}
 {%- assign opening_text = sections[0] | strip -%}
 {%- if opening_text != "" %}
           <section class="rd-card">{{ sections[0] }}</section>
