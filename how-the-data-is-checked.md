@@ -4,7 +4,7 @@ Lichess publishes every game ever played. I keep a copy.
 This page answers one question.
 Does my copy match what Lichess published?
 
-## Where the Numbers Come From
+## 1. Where Do the Numbers Come From?
 
 Every study on this site starts from the same games, and this page shows where they came from.
 
@@ -12,7 +12,14 @@ Lichess lets anyone download the games played on it.
 I downloaded those files once, kept them exactly as they came, and every number in my studies comes from them.
 I check my copy against what Lichess published, month by month.
 
-## How Did I Load This Data?
+## 2. Did My Copy Match?
+
+**Everything matched.**
+Not one game came back different.
+
+*I have all 164 months of games through August 2026. That is 8,130,696,420 games.*
+
+## 3. How Did I Load This Data?
 
 <ol>
 <li>I tried a few months first. I picked the oldest month Lichess has, a month from the middle and the newest months, because each era stores its games a little differently. I made sure they all came out right before loading anything else.</li>
@@ -23,14 +30,7 @@ I check my copy against what Lichess published, month by month.
 <li>Then I checked my copy against what Lichess published. That's the rest of this page.</li>
 </ol>
 
-## The Result
-
-**Everything matched.**
-Not one game came back different.
-
-*I have all 164 months of games through August 2026. That is 8,130,696,420 games.*
-
-## What I Checked
+## 4. What Did I Check?
 
 Three counts have to agree for each month.
 Lichess's published number, the games inside the file I downloaded, and the games I have saved.
@@ -41,21 +41,21 @@ The 158 larger months have 10,000 games checked at random, letter by letter agai
 The 6 smaller ones are checked whole, every game in them.
 That comes to 2,546,028 games of 8,130,696,420 that were completely verified.
 
-## Verify It Yourself
-
-The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts are Lichess's own, at <https://database.lichess.org/standard/counts.txt>.
-
-Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes.
-Download a month and compare it to the list below.
-
-## What This Page Doesn't Cover
+## 5. What Doesn't This Page Cover?
 
 It doesn't say a number in any given study is correct, **that gets checked per study** against the games that study used.
 This page only covers whether my copy of the games is undamaged.
 
 What I have is the **rated standard games** Lichess publishes, not every game played.
 
-## Month by Month
+## 6. How Can You Check My Copy Yourself?
+
+The files are public, one per month, at <https://database.lichess.org/standard/>, and the counts are Lichess's own, at <https://database.lichess.org/standard/counts.txt>.
+
+Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes.
+Download a month and compare it to the list below.
+
+## 7. How Did Each Month Compare?
 
 <details markdown="1">
 <summary><b>All 164 months matched.</b> Open for the numbers.</summary>
