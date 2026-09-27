@@ -15,8 +15,10 @@
 {%- comment -%}
   Three kinds of page share this layout.
 
-  The front page is Studies: its title and welcome, links to the channel, then one panel per
-  study from _data/nav.yml, newest first.
+  Every page opens on the logo, the site's name and, under the name, the channel's links.
+
+  The front page is Studies: its title and welcome, then one panel per study from
+  _data/nav.yml, newest first.
 
   A study page carries `study:` (its key in _data/nav.yml) and `tab:` (findings or method) in
   its front matter. It opens on a link back to all studies, the study's question as its title,
@@ -38,7 +40,14 @@
     <div class="container-lg px-3 my-5 markdown-body">
       <div class="rd-top">
         <img src="{{ "/images/beyond-the-board-logo.png" | relative_url }}" alt="">
-        <a class="rd-name" href="{{ "/" | relative_url }}">{{ site.title | default: "Beyond The Board" }}</a>
+        <div class="rd-brand">
+          <a class="rd-name" href="{{ "/" | relative_url }}">{{ site.title | default: "Beyond The Board" }}</a>
+          <div class="rd-links">
+{%- for link in site.data.nav.links %}
+            <a class="rd-social" href="{{ link.url }}" aria-label="{{ link.title }}" title="{{ link.title }}" style="--rd-brand: {{ link.colour }}">{% include icons/{{ link.icon }}.svg %}</a>
+{%- endfor %}
+          </div>
+        </div>
         <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="Hide the menu">
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
           <span>Menu</span>
@@ -75,13 +84,6 @@
 {%- endif -%}
 {%- else %}
           <div class="rd-hero">{{ opening[0] }}</p></div>
-{%- if on_front %}
-          <div class="rd-links">
-{%- for link in site.data.nav.links %}
-            <a class="rd-social" href="{{ link.url }}" aria-label="{{ link.title }}" title="{{ link.title }}" style="--rd-brand: {{ link.colour }}">{% include icons/{{ link.icon }}.svg %}</a>
-{%- endfor %}
-          </div>
-{%- endif -%}
 {%- if rest_text != "" %}
           <section class="rd-card">{{ rest }}</section>
 {%- endif -%}
