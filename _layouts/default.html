@@ -237,36 +237,31 @@
         var headings = Array.prototype.filter.call(
           document.querySelectorAll(".rd-main h2[id]"), function (h) { return byId[h.id]; });
         if (!headings.length) return;
-        // A clicked link stays lit until the reader scrolls by hand: the last
-        // sections are too short to reach the top, so the jump alone would
-        // leave the one above them lit.
-        var clicked = null;
-        function light(id) {
-          links.forEach(function (a) { a.classList.toggle("rd-here", a === byId[id]); });
+        // Room below the last section, so that clicking any link, the last one
+        // included, scrolls its heading to the top of the window (DA-468).
+        var main = document.querySelector(".rd-main"), last = headings[headings.length - 1];
+        function makeRoom() {
+          var room = parseFloat(main.style.paddingBottom) || 0;
+          var page = document.documentElement.scrollHeight - room;
+          var top = last.getBoundingClientRect().top + window.scrollY -
+            (parseFloat(getComputedStyle(last).scrollMarginTop) || 0);
+          main.style.paddingBottom = Math.max(0, Math.ceil(top + window.innerHeight - page)) + "px";
         }
+        // A section is being read once its heading reaches the top of the
+        // window, where a clicked link puts it; a short section above must not
+        // light the one below it.
         function update() {
-          if (clicked) return light(clicked);
-          // A heading is being read once it passes 30% down the window. Over
-          // the last screen of the page that line slides to the bottom edge,
-          // so short closing sections each get their turn before the end.
-          var height = window.innerHeight;
-          var left = document.documentElement.scrollHeight - height - window.scrollY;
-          var line = height * (0.3 + 0.7 * Math.max(0, 1 - left / height));
-          var current = null;
+          var line = Math.min(100, window.innerHeight * 0.3), current = null;
           headings.forEach(function (h) {
-            if (h.getBoundingClientRect().top <= line - 1) current = h.id;
+            if (h.getBoundingClientRect().top <= line) current = h.id;
           });
-          if (current) light(current);
-          else links.forEach(function (a) { a.classList.remove("rd-here"); });
+          links.forEach(function (a) { a.classList.toggle("rd-here", a === byId[current]); });
         }
-        links.forEach(function (a) {
-          a.addEventListener("click", function () { clicked = a.getAttribute("href").slice(1); update(); });
-        });
-        ["wheel", "touchstart", "keydown"].forEach(function (type) {
-          window.addEventListener(type, function () { clicked = null; }, { passive: true });
-        });
+        makeRoom();
+        if ("ResizeObserver" in window) new ResizeObserver(function () { makeRoom(); update(); }).observe(main);
+        window.addEventListener("load", function () { makeRoom(); update(); });
+        window.addEventListener("resize", function () { makeRoom(); update(); });
         window.addEventListener("scroll", update, { passive: true });
-        window.addEventListener("resize", update);
         update();
       })();
     </script>
