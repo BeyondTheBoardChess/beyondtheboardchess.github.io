@@ -137,6 +137,20 @@
       fitTitles();
       window.addEventListener("resize", fitTitles);
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitTitles);
+      // A fingerprint opens out in full when clicked, and the whole code is copied.
+      document.querySelectorAll(".rd-fp").forEach(function (fp) {
+        function open() {
+          var full = fp.textContent;
+          fp.classList.toggle("rd-open");
+          if (!fp.classList.contains("rd-open")) { fp.classList.remove("rd-copied"); return; }
+          if (navigator.clipboard) navigator.clipboard.writeText(full).then(function () {
+            fp.classList.add("rd-copied");
+            setTimeout(function () { fp.classList.remove("rd-copied"); }, 1500);
+          }, function () {});
+        }
+        fp.addEventListener("click", function () { if (!String(window.getSelection())) open(); });
+        fp.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+      });
       anchors.add(".rd-main section h2, .rd-main section h3");
       // Light up the sidebar link for the section being read.
       (function () {
