@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="110 20 1290 550">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 80 1210 430">
   <!-- The tilt study's question as a picture (DA-469, Rainy's sketch A): five wins then a blank
        next game, five losses then a blank next game. It asks and never hints at the answer.
        Cropped close and the rows drawn nearer each other than the sketch, so the study's box
-       stays short on the Studies page (Rainy, 2026-09-26: "way too big").
+       stays short on the Studies page (Rainy, 2026-09-26: "way too big"). No words: he had the
+       "Next game" labels taken off the same night.
        Its words for anyone who can't see it are the study's picture_alt in _data/nav.yml. An image
        cannot read the site's colour tokens, so these are copied from site.css: #070C16 is
-       rd-void, #A7B2C9 is rd-ink-muted, #FF3DA6 is the site's pink. (A double dash is not
+       rd-void, #A7B2C9 (the arrows) is rd-ink-muted, #FF3DA6 is the site's pink. (A double dash is not
        allowed inside this note, and one stops the picture drawing at all.) -->
   <defs>
     <marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
       <path d="M0 0 L10 5 L0 10 Z" fill="#A7B2C9"/>
     </marker>
   </defs>
-  <rect x="110" y="20" width="1290" height="550" fill="#070C16"/>
+  <rect x="120" y="80" width="1210" height="430" fill="#070C16"/>
   <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="700" text-anchor="middle">
     <g fill="#3BD68F">
       <rect x="150" y="110" width="150" height="150" rx="22"/>
@@ -43,10 +44,6 @@
     <g fill="#FF3DA6" font-size="104">
       <text x="1225" y="222">?</text>
       <text x="1225" y="442">?</text>
-    </g>
-    <g fill="#A7B2C9" font-weight="600" font-size="52">
-      <text x="1225" y="82">Next game</text>
-      <text x="1225" y="542">Next game</text>
     </g>
   </g>
 </svg>
