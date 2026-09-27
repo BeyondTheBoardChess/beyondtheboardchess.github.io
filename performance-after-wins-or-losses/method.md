@@ -123,15 +123,15 @@ Each of these could reasonably have gone the other way. Each says what I picked,
 
 **A shorter stretch gives smaller gaps.** A day is the shortest stretch Expected uses. Shuffling within a sitting gives smaller gaps still, so every figure here is an upper bound.
 
-**Losing makes the next game harder.** After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is tougher relative to them. On the test months the ratings alone made two thirds to nine tenths of the extra long losing streaks. The How much of a losing streak is tilt? chart separates that step out. `Still counting: the share`
+**Losing makes the next game harder.** After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is tougher relative to them. On the test months the ratings alone made 2/3 to 9/10 of the extra long losing streaks. The **How much of a losing streak is tilt?** chart separates that step out. `Still counting: the share`
 
-**A streak can span days.** A losing streak of 10 might be four losses one night and six the next, so a long streak isn't always one bad sitting. The break chart shows what a break does to a streak.
+**A streak can span days.** A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The break chart shows what a break does to a streak.
 
 **An account isn't always one person.** Lichess lets players rename their accounts. A renamed account looks like two players with a streak cut at the rename. Accounts can be shared or sold. Neither can be seen in the games.
 
 **New accounts can't be spotted.** Lichess's files don't say how settled a player's rating is, so new accounts with swinging ratings are counted like everyone else.
 
-**Times are to the second.** Two games that start in the same second have no set order.
+**Times are to the second.** 2 games that start in the same second have no set order.
 
 **The break is at the latest.** Lichess doesn't record when a game ends, so every break is the shortest it could have been.
 
