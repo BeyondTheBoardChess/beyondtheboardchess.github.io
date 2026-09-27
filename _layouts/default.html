@@ -30,7 +30,7 @@
   from each page's own headings, so a page written in plain markdown gets them for free.
 
   Every fixed word here comes from _data/words.yml, and a page with `month_tables: true` gets
-  the month table and fingerprints from _includes/data-tables.md after its own sections, so
+  the month table, each file's fingerprint in its last column, from _includes/data-tables.md after its own sections, so
   that Rainy's edit pencil (DA-450, .pages.yml) can change any word without touching HTML.
   The pencil shows only on a browser that has opened the site once with ?pencil=on.
 {%- endcomment -%}
@@ -166,6 +166,20 @@
       fitTitles();
       window.addEventListener("resize", fitTitles);
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitTitles);
+      // A fingerprint opens out in full when clicked, and the whole code is copied.
+      document.querySelectorAll(".rd-fp").forEach(function (fp) {
+        function open() {
+          var full = fp.textContent;
+          fp.classList.toggle("rd-open");
+          if (!fp.classList.contains("rd-open")) { fp.classList.remove("rd-copied"); return; }
+          if (navigator.clipboard) navigator.clipboard.writeText(full).then(function () {
+            fp.classList.add("rd-copied");
+            setTimeout(function () { fp.classList.remove("rd-copied"); }, 1500);
+          }, function () {});
+        }
+        fp.addEventListener("click", function () { if (!String(window.getSelection())) open(); });
+        fp.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+      });
       anchors.add(".rd-main section h2, .rd-main section h3");
       // Light up the sidebar link for the section being read.
       (function () {

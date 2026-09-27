@@ -49,7 +49,7 @@ content:
         hidden: true
       - name: body
         label: Words
-        description: The month table and the fingerprints are under Words on every page.
+        description: The month table, with each file's fingerprint in its last column, is under Words on every page.
         type: rich-text
         options:
           format: markdown
@@ -73,8 +73,6 @@ content:
       - { name: months_heading, label: "The Data page: heading over the month table", type: string }
       - { name: months_summary_bold, label: "The Data page: month table, bold words", type: string }
       - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
-      - { name: fingerprints_heading, label: "The Data page: heading over the fingerprints", type: string }
-      - { name: fingerprints_summary, label: "The Data page: fingerprints, line to open them", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
       - { name: under_construction, label: "Studies page: note on a study that isn't finished", type: string }
   - name: study-titles

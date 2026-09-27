@@ -43,4 +43,4 @@ What I have is the **rated standard games** Lichess publishes, not every game pl
 
 The files are public, one per month, at the [Lichess Database](https://database.lichess.org/standard/), and the counts are Lichess's own, at the [Lichess Database Counts](https://database.lichess.org/standard/counts.txt).
 
-Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes. Download a month and compare it to the list below.
+Every file has a **fingerprint**, a code that comes out completely different if one character of the file changes. Download a month and compare it to the last column of the table below. Click a fingerprint to see the whole code and copy it.
