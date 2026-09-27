@@ -1,0 +1,30 @@
+# The edit pencil (DA-450) rewrites a whole page on every save, so a page is only safe to edit
+# while the check in _tools/editor-check passes. This runs that check on every push, and on
+# any branch other than main also builds the site so the result can be compared before it lands.
+name: editor-check
+on: push
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+        working-directory: _tools/editor-check
+      - run: npm run check
+        working-directory: _tools/editor-check
+  build:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site

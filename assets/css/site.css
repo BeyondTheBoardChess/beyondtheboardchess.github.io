@@ -119,6 +119,11 @@ body.rd-nav-hidden .rd-nav { display: none; }
 .markdown-body a.rd-site-link { white-space: nowrap; }
 .rd-site-link svg { width: 1em; height: 1em; margin-right: .3em; vertical-align: -.12em; fill: currentColor; stroke: currentColor; }
 
+/* Rainy's edit pencil (DA-450): shown only on his browser, and never over the words. */
+a.rd-pencil { position: fixed; right: 16px; bottom: 16px; z-index: 10; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--rd-line); background: var(--rd-surface); color: var(--rd-cyan); }
+a.rd-pencil[hidden] { display: none; }
+a.rd-pencil svg { width: 20px; height: 20px; }
+
 /* Phones: no menu button (the menu is already a row of tabs), and a question too long for one
    line wraps at a size that still reads as a title. Last in the file so it wins. */
 @media (max-width: 900px) {

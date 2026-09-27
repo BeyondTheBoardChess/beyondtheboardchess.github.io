@@ -1,0 +1,24 @@
+{
+  "name": "editor-check",
+  "private": true,
+  "type": "module",
+  "description": "Proves a save from the site's edit pencil leaves every page exactly as it was.",
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "@tiptap/core": "^3.20.0",
+    "@tiptap/extension-image": "^3.20.0",
+    "@tiptap/extension-link": "^3.20.0",
+    "@tiptap/extension-table": "^3.20.0",
+    "@tiptap/extension-table-cell": "^3.20.0",
+    "@tiptap/extension-table-header": "^3.20.0",
+    "@tiptap/extension-table-row": "^3.20.0",
+    "@tiptap/extension-underline": "^3.20.0",
+    "@tiptap/markdown": "^3.20.0",
+    "@tiptap/pm": "^3.20.0",
+    "@tiptap/starter-kit": "^3.20.0",
+    "jsdom": "^26.1.0",
+    "yaml": "^2.8.0"
+  }
+}

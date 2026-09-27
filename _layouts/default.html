@@ -28,8 +28,17 @@
 
   The sidebar lists only Studies and The Data, however many studies there are. Panels are cut
   from each page's own headings, so a page written in plain markdown gets them for free.
+
+  Every fixed word here comes from _data/words.yml, and a page with `month_tables: true` gets
+  the month table and fingerprints from _includes/data-tables.md after its own sections, so
+  that Rainy's edit pencil (DA-450, .pages.yml) can change any word without touching HTML.
+  The pencil shows only on a browser that has opened the site once with ?pencil=on.
 {%- endcomment -%}
-{%- assign sections = content | split: '<h2 ' -%}
+{%- capture page_content -%}{{ content }}{%- if page.month_tables -%}{%- capture tables -%}{% include data-tables.md %}{%- endcapture -%}{{ tables | markdownify }}{%- endif -%}{%- endcapture -%}
+{%- comment -%} A link to Lichess in a page's words gets Lichess's logo in front of it. {%- endcomment -%}
+{%- capture lichess_link -%}<a class="rd-site-link" href="https://lichess.org/">{% include icons/lichess.svg %}Lichess</a>{%- endcapture -%}
+{%- assign page_content = page_content | replace: '<a href="https://lichess.org/">Lichess</a>', lichess_link -%}
+{%- assign sections = page_content | split: '<h2 ' -%}
 {%- assign opening = sections[0] | split: '</p>' -%}
 {%- capture rest -%}{%- for piece in opening offset: 1 -%}{%- if forloop.last -%}{{ piece }}{%- else -%}{{ piece }}</p>{%- endif -%}{%- endfor -%}{%- endcapture -%}
 {%- assign rest_text = rest | strip -%}
@@ -48,14 +57,14 @@
 {%- endfor %}
           </div>
         </div>
-        <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="Hide the menu">
+        <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="{{ site.data.words.hide_menu }}" data-hide="{{ site.data.words.hide_menu }}" data-show="{{ site.data.words.show_menu }}">
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
-          <span>Menu</span>
+          <span>{{ site.data.words.menu }}</span>
         </button>
       </div>
       <div class="rd-layout">
         <nav class="rd-nav" id="rd-nav" aria-label="Pages">
-          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>Studies</a>
+          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies }}</a>
           <hr class="rd-nav-rule">
 {%- if data_page.url == page.url %}
           <a class="rd-page rd-current" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title }}</a>
@@ -72,11 +81,11 @@
         </nav>
         <main class="rd-main">
 {%- if study %}
-          <a class="rd-back" href="{{ "/" | relative_url }}">&larr; All Studies</a>
+          <a class="rd-back" href="{{ "/" | relative_url }}">{{ site.data.words.all_studies }}</a>
           <div class="rd-hero"><h1 class="rd-fit">{{ study.title }}</h1></div>
           <div class="rd-tabs">
-            <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>Findings</a>
-            <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>Method</a>
+            <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab }}</a>
+            <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab }}</a>
           </div>
 {%- assign opening_text = sections[0] | strip -%}
 {%- if opening_text != "" %}
@@ -95,14 +104,32 @@
 {%- for s in site.data.nav.studies %}
           <a class="rd-card rd-study" href="{{ s.url | relative_url }}"><h2>{{ s.title }}</h2></a>
 {%- else %}
-          <section class="rd-card"><h2>No Studies Yet</h2><p>Each study gets a page here with the question it asked, the games it used, and how every number was worked out.</p></section>
+          <section class="rd-card"><h2>{{ site.data.words.no_studies_title }}</h2><p>{{ site.data.words.no_studies_text }}</p></section>
 {%- endfor -%}
 {%- endif %}
         </main>
       </div>
     </div>
+    <a class="rd-pencil" hidden href="https://app.pagescms.org/BeyondTheBoardChess/beyondtheboardchess.github.io/main/file/{% if page.path contains '.md' %}{{ page.path | slugify }}{% else %}words{% endif %}" title="{{ site.data.words.pencil }}" aria-label="{{ site.data.words.pencil }}">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+    </a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
+      // Rainy's edit pencil: opening any page with ?pencil=on shows it on this browser from then
+      // on, and ?pencil=off hides it again. Visitors never see it; the lock is the editor's own
+      // sign-in, not this.
+      (function () {
+        var pencil = document.querySelector(".rd-pencil");
+        if (!pencil) return;
+        var on = false;
+        try {
+          var asked = new URLSearchParams(location.search).get("pencil");
+          if (asked === "on") localStorage.setItem("rd-pencil", "1");
+          if (asked === "off") localStorage.removeItem("rd-pencil");
+          on = localStorage.getItem("rd-pencil") === "1";
+        } catch (e) {}
+        pencil.hidden = !on;
+      })();
       // The menu can be hidden on a computer, and the choice is remembered on this browser.
       (function () {
         var button = document.querySelector(".rd-nav-toggle");
@@ -110,7 +137,7 @@
         function set(hidden) {
           document.body.classList.toggle("rd-nav-hidden", hidden);
           button.setAttribute("aria-expanded", hidden ? "false" : "true");
-          button.title = hidden ? "Show the menu" : "Hide the menu";
+          button.title = hidden ? button.dataset.show : button.dataset.hide;
           try { localStorage.setItem("rd-nav-hidden", hidden ? "1" : "0"); } catch (e) {}
           fitTitles();
         }

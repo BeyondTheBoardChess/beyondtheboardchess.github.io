@@ -1,0 +1,96 @@
+# Pages CMS (app.pagescms.org): the editor the pencil on each page opens. DA-450.
+#
+# Every page on the site needs an entry here named for its path (Jekyll's slugify, so
+# README.md is readme-md), or its pencil opens nothing. A page's body is edited as rich text,
+# which rewrites the whole body on save, so page bodies hold plain markdown only: raw HTML
+# such as <details> or <br> belongs in the page frame or an include. The check in
+# _tools/editor-check proves both; run it after changing any page.
+settings:
+  hide: true
+  content:
+    merge: true
+  commit:
+    templates:
+      create: Edited verbiage on site
+      update: Edited verbiage on site
+      delete: Edited verbiage on site
+      rename: Edited verbiage on site
+content:
+  - name: readme-md
+    label: Studies page
+    type: file
+    path: README.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: body
+        label: Words
+        type: rich-text
+        options:
+          format: markdown
+          switcher: false
+          media: false
+  - name: how-the-data-is-checked-md
+    label: The Data page
+    type: file
+    path: how-the-data-is-checked.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: month_tables
+        type: boolean
+        hidden: true
+      - name: body
+        label: Words
+        description: The month table and the fingerprints are under Words on every page.
+        type: rich-text
+        options:
+          format: markdown
+          switcher: false
+          media: false
+  - name: words
+    label: Words on every page
+    type: file
+    path: _data/words.yml
+    format: yaml
+    fields:
+      - { name: studies, label: "Menu: link to the Studies page", type: string }
+      - { name: all_studies, label: "Study page: link back to all studies", type: string }
+      - { name: findings_tab, label: "Study page: Findings tab", type: string }
+      - { name: method_tab, label: "Study page: Method tab", type: string }
+      - { name: menu, label: "Menu button", type: string }
+      - { name: hide_menu, label: "Menu button hint when the menu is open", type: string }
+      - { name: show_menu, label: "Menu button hint when the menu is hidden", type: string }
+      - { name: no_studies_title, label: "Studies page with no studies: heading", type: string }
+      - { name: no_studies_text, label: "Studies page with no studies: sentence", type: text }
+      - { name: months_heading, label: "The Data page: heading over the month table", type: string }
+      - { name: months_summary_bold, label: "The Data page: month table, bold words", type: string }
+      - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
+      - { name: fingerprints_heading, label: "The Data page: heading over the fingerprints", type: string }
+      - { name: fingerprints_summary, label: "The Data page: fingerprints, line to open them", type: string }
+      - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
+  - name: study-titles
+    label: Study titles and The Data
+    type: file
+    path: _data/nav.yml
+    format: yaml
+    fields:
+      - name: studies
+        label: Studies
+        type: object
+        list: true
+        fields:
+          - { name: key, type: string, hidden: true }
+          - { name: title, label: Title, type: string }
+          - { name: url, type: string, hidden: true }
+          - { name: method_url, type: string, hidden: true }
+      - name: data
+        label: The Data
+        type: object
+        fields:
+          - { name: title, label: Menu name, type: string }
+          - { name: url, type: string, hidden: true }
