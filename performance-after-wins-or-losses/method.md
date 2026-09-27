@@ -4,27 +4,27 @@ title: What Happens to a Player's Performance After Consecutive Wins or Losses?
 study: performance-after-wins-or-losses
 tab: method
 ---
-This page says exactly how every number on the Findings tab was worked out, in enough detail to check it or rebuild it from the same public games. Every number behind every chart goes in a spreadsheet download with one row per number. The download comes with the finished numbers.
+This page says exactly how every number on the Findings tab was worked out. Every number behind every chart goes is in a downloadable spreadsheet with one row per metric. 
 
 ## Definitions
 
-**Streak.** Games one player lost in a row or won in a row, in the order they played them. A draw doesn't end a streak and doesn't add to it. Draws are taken out of a player's games before streaks are counted, so seven losses, two draws and three more losses is a losing streak of 10. A game with no result recorded is taken out the same way. A streak doesn't stop at midnight or when a player takes a break. Four losses one evening and six the next morning is a losing streak of 10.
+**Streak.** Games one player lost in a row or won in a row in the order they played them. A draw doesn't end or add to a streak. Draws are taken out of a player's games before streaks are counted, so 7 losses, 2 draws and 3 more losses counts as a losing streak of 10. A game with no result recorded is taken out the same way. A streak doesn't stop at midnight or when a player takes a break. 4 losses one evening and 6 the next morning is a losing streak of 10.
 
-**Right after a streak.** The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as half and a loss as 0.
+**Right after a streak.** The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as 1/2, and a loss as 0.
 
-**Win rate.** Wins out of games played, with a draw counting as half a win.
+**Win rate.** Wins out of games played, with a draw counting as 1/2 a win.
 
-**Expected.** A player's win rate that calendar day once the day's games are put in a random order. Every game the player played that day keeps its result and only the order changes. A day runs midnight to midnight UTC, the clock Lichess records its games in.
+**Expected.** A player's win rate that calendar day once the day's games are put in a random order. Every game the player played that day keeps its result and only the order changes. A day runs midnight to midnight UTC, which is how Lichess records its games.
 
-**Tilt.** How far a player's win rate right after a losing streak falls below Expected. Tilt is a name for a gap in the numbers. Nothing here can see what a player is feeling (see Limits).
+**Tilt.** How far a player's win rate right after a losing streak falls below Expected. Tilt is a name for a gap in the numbers.
 
 **Hot Streak.** How far a player's win rate right after a winning streak rises above Expected. Hot Streak is also a name for a gap in the numbers.
 
 **Facing stronger opponents.** The win rate the two players' ratings predict for a game. I measured it from the games themselves by counting how often a player wins at every rating gap across all the games in the study.
 
-**Against an opponent within 100 points.** Both players' ratings as Lichess recorded them on that game are no more than 100 points apart, either way.
+**Against an opponent within 100 points.** Both players' ratings as Lichess recorded them on that game are no more than 100 points apart.
 
-**Speed.** Lichess sorts a game by its clock. It adds the starting time to 40 times the increment and calls a game bullet from 30 seconds up to 3 minutes, blitz from 3 minutes up to 8 and rapid from 8 minutes up to 25. A player's streaks are counted under the speed that player played most. The Summary tab counts every speed, classical and ultraBullet included. Those two have no tab of their own.
+**Speed.** Lichess sorts a game by its clock. It calls a game bullet from 30 seconds up to 3 minutes, blitz from 3 minutes up to 8 and rapid from 8 minutes up to 25. A player's streaks are counted under the speed that player played most. The Summary tab counts every speed, including classical and ultraBullet. Those two time controls do not have a tab of their own.
 
 **Rating group.** A player's average rating across all their games in the study, in groups of 200 points from 1000 up, then 2200 and up. The Chess.com range under each Lichess range is a conversion, read from the ChessGoals rating comparison table.
 
