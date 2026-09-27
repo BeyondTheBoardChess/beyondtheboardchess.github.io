@@ -21,6 +21,7 @@ studies:
     title: "What Happens to a Player's Performance After Consecutive Wins or Losses?"
     url: /performance-after-wins-or-losses/
     method_url: /performance-after-wins-or-losses/method
+    under_construction: true
 data:
   title: The Data
   url: /how-the-data-is-checked.html

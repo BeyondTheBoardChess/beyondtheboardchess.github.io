@@ -76,6 +76,7 @@ content:
       - { name: fingerprints_heading, label: "The Data page: heading over the fingerprints", type: string }
       - { name: fingerprints_summary, label: "The Data page: fingerprints, line to open them", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
+      - { name: under_construction, label: "Studies page: note on a study that isn't finished", type: string }
   - name: study-titles
     label: Study titles and The Data
     type: file
@@ -91,6 +92,7 @@ content:
           - { name: title, label: Title, type: string }
           - { name: url, type: string, hidden: true }
           - { name: method_url, type: string, hidden: true }
+          - { name: under_construction, label: Under Construction, type: boolean }
       - name: data
         label: The Data
         type: object

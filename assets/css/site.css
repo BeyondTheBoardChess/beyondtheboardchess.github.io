@@ -114,6 +114,10 @@ body.rd-nav-hidden .rd-layout { grid-template-columns: minmax(0, 1fr); }
 body.rd-nav-hidden .rd-nav { display: none; }
 .markdown-body a.rd-study h2 { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
+/* A study that isn't finished says so under its question (DA-454), in the gold outline its own
+   page's notice wears (DA-453). */
+.markdown-body a.rd-study .rd-building { display: inline-block; margin-top: 12px; padding: 4px 12px; border: 2px solid #FFC24B; border-radius: 8px; color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .95rem; letter-spacing: .02em; }
+
 
 /* A site named in the prose carries its own logo in front of the link, at the height of the text. */
 .markdown-body a.rd-site-link { white-space: nowrap; }
