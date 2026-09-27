@@ -17,7 +17,8 @@
 
   Every page opens on the logo, the site's name and, under the name, the channel's links.
 
-  The front page is Studies: its title and welcome, then one panel per study from
+  The front page is Studies: its title and welcome, every paragraph of the welcome under the
+  title with space between them (DA-474), then one panel per study from
   _data/nav.yml, newest first. Each panel reads: the Under Construction note if
   the study isn't finished, its question, then the picture of its question if it names one
   (DA-469), all inside the link, so clicking the picture opens the study.
@@ -141,6 +142,8 @@
 {%- if opening_text != "" %}
           <section class="rd-card">{{ sections[0] }}</section>
 {%- endif -%}
+{%- elsif on_front %}
+          <div class="rd-hero">{{ sections[0] }}</div>
 {%- else %}
           <div class="rd-hero">{{ opening[0] }}</p></div>
 {%- if rest_text != "" %}
