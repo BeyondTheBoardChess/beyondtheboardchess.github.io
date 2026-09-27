@@ -1,0 +1,22 @@
+# The front page's links (each shown as its platform's logo), every study newest first, and The Data.
+#
+# A study is named for the question it answers. Its Findings page and Method page each carry
+# `study: <key>` and `tab: findings` or `tab: method` in their front matter. The sidebar never
+# lists studies, so a long question and a long list both stay on the Studies page.
+links:
+  - title: YouTube
+    icon: youtube
+    colour: "#FF0000"
+    url: https://www.youtube.com/@BeyondtheBoardChess
+  - title: Chess.com Blog
+    icon: chessdotcom
+    colour: "#81B64C"
+    url: https://www.chess.com/blog/BeyondTheBoardChess
+  - title: Reddit
+    icon: reddit
+    colour: "#FF4500"
+    url: https://www.reddit.com/user/RainyDaysPlays/
+studies: []
+data:
+  title: The Data
+  url: /how-the-data-is-checked.html

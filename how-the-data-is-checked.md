@@ -1,8 +1,16 @@
-# How the Data is Checked
+# The Data
 
 Lichess publishes every game ever played. I keep a copy.
 This page answers one question.
 Does my copy match what Lichess published?
+
+## Where the Numbers Come From
+
+Every study on this site starts from the same games, and this page shows where they came from.
+
+Lichess lets anyone download the games played on it.
+I downloaded those files once, kept them exactly as they came, and every number in my studies comes from them.
+I check my copy against what Lichess published, month by month.
 
 ## The Result
 
@@ -31,7 +39,7 @@ Download a month and compare it to the list below.
 
 ## What This Page Doesn't Cover
 
-It doesn't say a number in any given video is correct, **that gets checked per video** against the games that video used.
+It doesn't say a number in any given study is correct, **that gets checked per study** against the games that study used.
 This page only covers whether my copy of the games is undamaged.
 
 What I have is the **rated standard games** Lichess publishes, not every game played.
