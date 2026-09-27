@@ -3,7 +3,8 @@
        next game, five losses then a blank next game. It asks and never hints at the answer.
        Its words for anyone who can't see it are the study's picture_alt in _data/nav.yml. An image
        cannot read the site's colour tokens, so these are copied from site.css: #070C16 is
-       --rd-void, #A7B2C9 is --rd-ink-muted, #FF3DA6 is the site's pink. -->
+       rd-void, #A7B2C9 is rd-ink-muted, #FF3DA6 is the site's pink. (A double dash is not
+       allowed inside this note, and one stops the picture drawing at all.) -->
   <defs>
     <marker id="head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
       <path d="M0 0 L10 5 L0 10 Z" fill="#A7B2C9"/>
