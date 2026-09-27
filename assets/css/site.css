@@ -60,7 +60,8 @@ body {
 /* The sidebar: every page, and under the current one its sections. On a phone it becomes a
    row of tabs above the page and the section links drop away. */
 .rd-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 36px; align-items: start; }
-.rd-nav { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 4px; }
+.rd-side { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 14px; }
+.rd-nav { display: flex; flex-direction: column; gap: 4px; }
 .markdown-body .rd-nav a { text-decoration: none; }
 .markdown-body .rd-nav a.rd-page { display: block; padding: 10px 14px; border-radius: 10px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .98rem; }
 .markdown-body .rd-nav a.rd-page:hover { color: #FFFFFF; background: rgba(17, 26, 43, .7); }
@@ -74,7 +75,8 @@ body {
 
 @media (max-width: 900px) {
   .rd-layout { grid-template-columns: minmax(0, 1fr); gap: 20px; }
-  .rd-nav { position: static; flex-direction: row; overflow-x: auto; gap: 8px; padding-bottom: 4px; }
+  .rd-side { position: static; }
+  .rd-nav { flex-direction: row; overflow-x: auto; gap: 8px; padding-bottom: 4px; }
   .markdown-body .rd-nav a.rd-page { white-space: nowrap; border: 1px solid var(--rd-line); }
   .markdown-body .rd-nav a.rd-current { box-shadow: inset 0 -3px 0 #FF3DA6; }
   .rd-sections { display: none; }
@@ -106,11 +108,13 @@ body {
 .markdown-body a.rd-social:hover { transform: translateY(-2px); opacity: 1; }
 .rd-social svg { width: 100%; height: 100%; fill: currentColor; }
 
-/* The button that hides the menu, so a study's question has the whole width. */
-.rd-top .rd-nav-toggle { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--rd-line); background: transparent; color: var(--rd-ink-muted); font: 600 .9rem var(--rd-display); cursor: pointer; }
-.rd-top .rd-nav-toggle:hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
+/* The button that hides the menu, so a study's question has the whole width. It sits above
+   Studies and travels with the menu, and with the menu hidden it is all that is left of the
+   left column (DA-457). */
+.rd-nav-toggle { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--rd-line); background: transparent; color: var(--rd-ink-muted); font: 600 .9rem var(--rd-display); cursor: pointer; }
+.rd-nav-toggle:hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
 .rd-nav-toggle svg { width: 18px; height: 18px; }
-body.rd-nav-hidden .rd-layout { grid-template-columns: minmax(0, 1fr); }
+body.rd-nav-hidden .rd-layout { grid-template-columns: auto minmax(0, 1fr); }
 body.rd-nav-hidden .rd-nav { display: none; }
 .markdown-body a.rd-study h2 { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
@@ -132,7 +136,7 @@ a.rd-pencil svg { width: 20px; height: 20px; }
    line wraps at a size that still reads as a title. Last in the file so it wins. */
 @media (max-width: 900px) {
   .markdown-body hr.rd-nav-rule { display: none; }
-  .rd-top .rd-nav-toggle { display: none; }
+  .rd-nav-toggle { display: none; }
   body.rd-nav-hidden .rd-nav { display: flex; }
   .markdown-body .rd-hero h1.rd-fit { font-size: 1.6rem; }
 }
