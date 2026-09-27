@@ -12,6 +12,17 @@ Lichess lets anyone download the games played on it.
 I downloaded those files once, kept them exactly as they came, and every number in my studies comes from them.
 I check my copy against what Lichess published, month by month.
 
+## How Did I Load This Data?
+
+<ol>
+<li>I tried a few months first. I picked the oldest month Lichess has, a month from the middle and the newest months, because each era stores its games a little differently. I made sure they all came out right before loading anything else.</li>
+<li>I downloaded every month, oldest first, one file at a time over a single connection so I wasn't putting extra load on Lichess.</li>
+<li>I kept every file exactly as it came and wrote down its fingerprint the moment it landed.</li>
+<li>I turned every game into one row in a table. Everything Lichess records about a game is in that row and nothing gets thrown out on the way in. I filter by speed or rating when I ask a question.</li>
+<li>A few times a check caught my program reading something wrong, like the opening moves. Each time, I fixed the program and reloaded every month from scratch.</li>
+<li>Then I checked my copy against what Lichess published. That's the rest of this page.</li>
+</ol>
+
 ## The Result
 
 **Everything matched.**
