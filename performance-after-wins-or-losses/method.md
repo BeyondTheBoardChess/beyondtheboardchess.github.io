@@ -28,9 +28,9 @@ This page says exactly how every number on the Findings tab was worked out. Ever
 
 **Rating group.** A player's average rating across all their games in the study, in groups of 200 points from 1000 up, then 2200 and up. The Chess.com range under each Lichess range is a conversion, read from the ChessGoals rating comparison table.
 
-**The break.** The time between the end of one game and the start of the player's next. Lichess records when a game starts but not when it ends, so I use the latest the first game could have ended given its clock and how many moves it lasted. A break shown as under a minute means the player was back within a minute at the latest.
+**The break.** The time between the end of one game and the start of the player's next. Lichess records when a game starts but not when it ends, so I use the latest time that the first game could have ended given its clock and how many moves it lasted. A break shown as under 1 minute means the player was back within 1 minute at the latest.
 
-**Move accuracy.** Lichess's own accuracy figure, the one a player sees on a game's analysis page. It comes from a chess engine grading every move, here Stockfish 19 looking 12 moves deep.
+**Move accuracy.** Lichess's own accuracy figure, the stats a player sees on a game's analysis page. It comes from a chess engine grading every move. I used Stockfish 19 looking 12 moves deep.
 
 ## Judgement Calls
 
@@ -44,7 +44,7 @@ Each of these could reasonably have gone the other way. Each says what I picked,
 
 **Tournament games are left out.** Why: arena and Swiss games aren't paired by rating and the next game is set by the tournament rather than chosen by the player. They were 8.8% of the test months' games. The other choice keeps the same direction with a smaller gap. On the test months losing streaks of 10 or more ran 1.093 times what chance makes with tournament games in and 1.114 with them out. `Still counting: both figures for all 13 years`
 
-**Rematches stay in.** Why: playing the same opponent again is part of how people play. The other choice changes the size. Taking out every game against the opponent from the game before took the extra long losing streaks from 1.093 times chance to 1.048 on the test months, about half. What was left was still above all 20 random orders. `Still counting: both figures for all 13 years`
+**Rematches stay in.** Why: playing the same opponent again is part of how people play. The other choice changes the size. Taking out every game against the opponent from the game before took the extra long losing streaks from 1.093 times chance to 1.048 on the test months, about half. What was left out still ended up above all 20 random orders. `Still counting: both figures for all 13 years`
 
 **A player needs at least 10 games in the study to count.** Why: fewer games can't make a long streak. The other choice doesn't change the answer. Raising the bar to 50 games removed 16% of players and 9.4% of the long losing streaks on the test months. The main figure didn't move. `Still counting: both figures for all 13 years`
 
@@ -87,7 +87,7 @@ Each of these could reasonably have gone the other way. Each says what I picked,
 
 **6. What the ratings predict.** The win rate at every rating gap, measured across all the games and checked against the real results gap by gap before any chart uses it.
 
-**7. The tabs.** Every number is split by speed, by rating group and by both together. Each tab draws its own slice.
+**7. The tabs.** Every number is split by speed, by rating group, and by both together. Each tab draws its own slice.
 
 **8. Accuracy.** `Still counting: how many` games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19 looking 12 moves deep. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
@@ -105,7 +105,7 @@ Each of these could reasonably have gone the other way. Each says what I picked,
 
 **No game goes missing between steps.** At each step the games going in are counted against the games coming out.
 
-**The tests catch real mistakes.** I broke the counting on purpose seven times, once at each step. A test caught every one.
+**The tests catch real mistakes.** I broke the counting on purpose seven times, once at each step. A test caught every one. (mutation checks)
 
 **The real order against chance.** Streaks in the real order are compared with 20 separate random orders. The real count has to land outside every one of them before it's called more than chance. `Still counting: the result`
 
