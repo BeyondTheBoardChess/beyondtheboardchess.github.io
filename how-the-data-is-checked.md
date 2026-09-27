@@ -8,7 +8,7 @@ Does my copy match what Lichess published?
 
 Every study on this site starts from the same games, and this page shows where they came from.
 
-Lichess lets anyone download the games played on it.
+<a class="rd-site-link" href="https://lichess.org/">{% include icons/lichess.svg %}Lichess</a> lets anyone download the games played on it.
 I downloaded those files once, kept them exactly as they came, and every number in my studies comes from them.
 I check my copy against what Lichess published, month by month.
 

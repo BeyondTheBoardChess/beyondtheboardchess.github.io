@@ -114,6 +114,11 @@ body.rd-nav-hidden .rd-layout { grid-template-columns: minmax(0, 1fr); }
 body.rd-nav-hidden .rd-nav { display: none; }
 .markdown-body a.rd-study h2 { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
+
+/* A site named in the prose carries its own logo in front of the link, at the height of the text. */
+.markdown-body a.rd-site-link { white-space: nowrap; }
+.rd-site-link svg { width: 1em; height: 1em; margin-right: .3em; vertical-align: -.12em; fill: currentColor; stroke: currentColor; }
+
 /* Phones: no menu button (the menu is already a row of tabs), and a question too long for one
    line wraps at a size that still reads as a title. Last in the file so it wins. */
 @media (max-width: 900px) {
