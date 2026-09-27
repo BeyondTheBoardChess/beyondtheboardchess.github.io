@@ -40,6 +40,29 @@
 {%- comment -%} A link to Lichess in a page's words gets Lichess's logo in front of it. {%- endcomment -%}
 {%- capture lichess_link -%}<a class="rd-site-link" href="https://lichess.org/">{% include icons/lichess.svg %}Lichess</a>{%- endcapture -%}
 {%- assign page_content = page_content | replace: '<a href="https://lichess.org/">Lichess</a>', lichess_link -%}
+{%- comment -%}
+  The Data page's figures come from _data/checks.json, which the corpus writes after each check
+  of the games and nothing else ever writes (DA-456). In the page's words, {months} and the like
+  are figures. A pair such as {verdict}…{/verdict} holds Rainy's sentence for an ordinary check;
+  when the check was not ordinary, the data carries its own sentence and it replaces his, so a
+  month that failed can never sit under "Everything matched".
+{%- endcomment -%}
+{%- if page.month_tables -%}
+{%- for said in site.data.checks.say -%}
+{%- assign mark_open = said[0] | prepend: "{" | append: "}" -%}
+{%- assign mark_close = said[0] | prepend: "{/" | append: "}" -%}
+{%- if page_content contains mark_open -%}
+{%- assign held = page_content | split: mark_open -%}{%- assign held = held[1] | split: mark_close | first -%}
+{%- capture marked -%}{{ mark_open }}{{ held }}{{ mark_close }}{%- endcapture -%}
+{%- if said[1] -%}{%- assign held = said[1] | markdownify | remove: "<p>" | remove: "</p>" | strip -%}{%- endif -%}
+{%- assign page_content = page_content | replace: marked, held -%}
+{%- endif -%}
+{%- endfor -%}
+{%- for figure in site.data.checks.figures -%}
+{%- assign mark = figure[0] | prepend: "{" | append: "}" -%}
+{%- assign page_content = page_content | replace: mark, figure[1] -%}
+{%- endfor -%}
+{%- endif -%}
 {%- assign sections = page_content | split: '<h2 ' -%}
 {%- assign opening = sections[0] | split: '</p>' -%}
 {%- capture rest -%}{%- for piece in opening offset: 1 -%}{%- if forloop.last -%}{{ piece }}{%- else -%}{{ piece }}</p>{%- endif -%}{%- endfor -%}{%- endcapture -%}

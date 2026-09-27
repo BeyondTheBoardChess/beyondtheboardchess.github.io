@@ -184,6 +184,38 @@ for (const key of Object.keys(words)) {
   if (!frame.includes(`site.data.words.${key}`)) fail(`_data/words.yml: "${key}" is not shown anywhere on the site`);
 }
 
+// 5. The Data page types no figure of its own (DA-456). Every one comes from _data/checks.json,
+// which the corpus rewrites after each check of the games, so a figure typed into the page or
+// its table would silently stay behind when a month is added. And every placeholder has
+// something to fill it, and every sentence pair is whole, or the page would show a raw {name}.
+const checks = JSON.parse(fs.readFileSync(path.join(SITE, "_data/checks.json"), "utf8"));
+const tablesFile = path.join(SITE, "_includes/data-tables.md");
+const tables = fs.readFileSync(tablesFile, "utf8");
+const wordsText = fs.readFileSync(path.join(SITE, "_data/words.yml"), "utf8");
+const usedByTable = new Set([...tables.matchAll(/checks\.say\.([a-z]+)/g)].map((m) => m[1]));
+for (const entry of entries.filter((e) => e.fields?.some((field) => field.name === "month_tables"))) {
+  const body = parseFrontMatter(fs.readFileSync(path.join(SITE, entry.path), "utf8").replace(/\r\n/g, "\n")).body;
+  const typed = [
+    ...Object.values(checks.figures),
+    ...checks.rows.flatMap((row) => [row.month, row.published, row.fingerprint]),
+  ].filter((figure) => figure && figure.length >= 3);
+  for (const [where, text] of [[entry.path, body], ["_data/words.yml", wordsText], ["_includes/data-tables.md", tables]]) {
+    for (const figure of new Set(typed)) {
+      if (text.includes(figure)) fail(`${where}: "${figure}" is typed in; write the placeholder for it instead, or it goes stale when a month is added`);
+    }
+    for (const [, name] of text.matchAll(/\{\/?([a-z]+)\}/g)) {
+      if (!(name in checks.figures) && !(name in checks.say)) fail(`${where}: {${name}} is not a figure or sentence the check of the games fills in`);
+    }
+  }
+  for (const name of Object.keys(checks.say).filter((name) => !usedByTable.has(name))) {
+    const opens = body.split(`{${name}}`).length - 1;
+    const closes = body.split(`{/${name}}`).length - 1;
+    if (opens !== 1 || closes !== 1 || body.indexOf(`{${name}}`) > body.indexOf(`{/${name}}`)) {
+      fail(`${entry.path}: needs {${name}} and then {/${name}} once each around its sentence, or a problem the check finds cannot replace it`);
+    }
+  }
+}
+
 if (failures.length) {
   console.error(`The edit pencil is not safe to use:\n\n- ${failures.join("\n- ")}`);
   process.exit(1);

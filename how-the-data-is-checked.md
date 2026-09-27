@@ -14,9 +14,9 @@ Every study on this site is based on the same games and this page shows where th
 
 ## 2. Did My Copy Match?
 
-**Everything matched.** Not one game came back different.
+{verdict}**Everything matched.** Not one game came back different.{/verdict}
 
-*I have all 164 months of games through August 2026. That is 8,130,696,420 games.*
+*{coverage}I have all {months} months of games through {through}. That is {games} games.{/coverage}*
 
 ## 3. How Did I Load This Data?
 
@@ -29,9 +29,9 @@ Every study on this site is based on the same games and this page shows where th
 
 ## 4. What Did I Check?
 
-Three counts have to agree for each month. Lichess's published number, the games inside the file I downloaded, and the games I have saved. They agree on every month below.
+Three counts have to agree for each month. Lichess's published number, the games inside the file I downloaded, and the games I have saved. {counts}They agree on every month below.{/counts}
 
-Then the games themselves. The 158 larger months have 10,000 games checked at random, letter by letter against Lichess's original. The 6 smaller ones are checked whole, every game in them. That comes to 2,546,028 games of 8,130,696,420 that were completely verified.
+Then the games themselves. {sampling}The {larger} larger months have {sample} games checked at random, letter by letter against Lichess's original. The {smaller} smaller ones are checked whole, every game in them. That comes to {verified} games of {games} that were completely verified.{/sampling}
 
 ## 5. What Doesn't This Page Cover?
 

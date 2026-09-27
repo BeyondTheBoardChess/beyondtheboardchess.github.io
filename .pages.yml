@@ -49,7 +49,7 @@ content:
         hidden: true
       - name: body
         label: Words
-        description: The month table, with each file's fingerprint in its last column, is under Words on every page.
+        description: "Words in curly brackets, like {months}, are filled in with the latest numbers from the check of the games, so keep them as they are. Words between a pair like {verdict} and {/verdict} show only when the check comes back normal; if it finds a problem, a sentence saying so shows in their place. The month table, with each file's fingerprint in its last column, is filled in the same way and its words are under Words on every page."
         type: rich-text
         options:
           format: markdown
@@ -71,7 +71,7 @@ content:
       - { name: no_studies_title, label: "Studies page with no studies: heading", type: string }
       - { name: no_studies_text, label: "Studies page with no studies: sentence", type: text }
       - { name: months_heading, label: "The Data page: heading over the month table", type: string }
-      - { name: months_summary_bold, label: "The Data page: month table, bold words", type: string }
+      - { name: months_summary_bold, label: "The Data page: month table, bold words ({months} is filled in with the number of months)", type: string }
       - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
       - { name: months_download, label: "The Data page: button that downloads the month table", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }

@@ -9,7 +9,7 @@ no_studies_title: No Studies Yet
 no_studies_text: Each study gets a page here with the question it asked, the
   games it used, and how every number was worked out.
 months_heading: 7. How Did Each Month Compare?
-months_summary_bold: All 164 months matched.
+months_summary_bold: All {months} months matched.
 months_summary_rest: Open for the numbers and each file's fingerprint.
 months_download: Download the table
 pencil: Change the words on this page
