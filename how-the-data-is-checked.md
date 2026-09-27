@@ -4,8 +4,8 @@ month_tables: true
 ---
 # The Data
 
-Lichess publishes every game ever played. I keep a copy.
-This page answers one question.
+Lichess publishes every game ever played. I keep a copy.  
+This page answers one question:  
 Does my copy match what Lichess published?
 
 ## 1. Where Do the Numbers Come From?
