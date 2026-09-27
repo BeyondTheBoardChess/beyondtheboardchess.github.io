@@ -106,13 +106,15 @@ body {
 .markdown-body a.rd-study h2 { color: #FFFFFF; }
 .markdown-body a.rd-study p { color: var(--rd-ink-muted); margin-bottom: 0; }
 
-/* A study page: a way back, the question as its title, and its two tabs. */
-.markdown-body a.rd-back { display: inline-block; margin-bottom: 14px; color: var(--rd-ink-muted); font-weight: 600; font-size: .92rem; text-decoration: none; }
+/* A study page: a row with the way back and, across from it, a small Findings / Method switch
+   (DA-465), then the question as its title. The page you are on is filled pink. */
+.rd-study-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.markdown-body a.rd-back { display: inline-block; color: var(--rd-ink-muted); font-weight: 600; font-size: .92rem; text-decoration: none; }
 .markdown-body a.rd-back:hover { color: var(--rd-cyan); }
-.rd-tabs { display: flex; gap: 6px; margin: 0 0 20px; border-bottom: 1px solid var(--rd-line); }
-.markdown-body a.rd-tab { padding: 10px 18px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.rd-tabs { display: inline-flex; flex-shrink: 0; gap: 2px; padding: 3px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); }
+.markdown-body a.rd-tab { padding: 6px 16px; border-radius: 999px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; }
 .markdown-body a.rd-tab:hover { color: #FFFFFF; }
-.markdown-body a.rd-tab.rd-tab-current { color: #FFFFFF; border-bottom-color: #FF3DA6; }
+.markdown-body a.rd-tab.rd-tab-current { color: #FFFFFF; background: #FF3DA6; }
 
 /* The front page's links: each platform's own logo in its own colour. */
 /* The channel's links, a small row under the site's name on every page. */
