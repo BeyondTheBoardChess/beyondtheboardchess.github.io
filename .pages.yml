@@ -94,6 +94,8 @@ content:
       - { name: menu, label: "Menu button, while the menu is open", type: string }
       - { name: hide_menu, label: "Menu button hint when the menu is open", type: string }
       - { name: show_menu, label: "Menu button hint when the menu is collapsed (the button is just its icon then)", type: string }
+      - { name: widen_studies, label: "Menu: hint on the arrow beside Studies that widens the menu to each study's full question", type: string }
+      - { name: narrow_studies, label: "Menu: hint on the same arrow once the menu is wide", type: string }
       - { name: no_studies_title, label: "Studies page with no studies: heading", type: string }
       - { name: no_studies_text, label: "Studies page with no studies: sentence", type: text }
       - { name: months_heading, label: "The Data page: heading over the month table", type: string }

@@ -30,9 +30,10 @@
   Any other page (The Data) is its title and first line, then one panel per heading.
 
   The sidebar lists Studies, every study's full question under it on one line, then The Data
-  (DA-472). A question too long for the sidebar ends in "..." until the reader points at the
-  list, which then opens out over the page to show each one whole; past about ten studies the
-  list scrolls inside itself, so The Data never moves down. Above them sits
+  (DA-472). A question too long for the sidebar ends in "..."; the arrow at the end of the
+  Studies row widens the sidebar until every question fits, and the page narrows beside it
+  (DA-473). Past about ten studies the list scrolls inside itself, so The Data never moves
+  down. Above them sits
   the Pages button that hides the menu, and the two stay on screen together while the page
   scrolls, so the menu can be closed or brought back from anywhere (DA-457). Panels are cut
   from each page's own headings, so a page written in plain markdown gets them for free.
@@ -96,13 +97,20 @@
             <span>{{ site.data.words.menu | escape }}</span>
           </button>
         <nav class="rd-nav" id="rd-nav" aria-label="Pages">
-          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
 {%- if site.data.nav.studies.size > 0 %}
-          <div class="rd-sections rd-study-list">
+          <div class="rd-page-row">
+          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
+          <button class="rd-widen" type="button" aria-controls="rd-study-list" aria-expanded="false" title="{{ site.data.words.widen_studies | escape }}" aria-label="{{ site.data.words.widen_studies | escape }}" data-widen="{{ site.data.words.widen_studies | escape }}" data-narrow="{{ site.data.words.narrow_studies | escape }}">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+          </button>
+          </div>
+          <div class="rd-sections rd-study-list" id="rd-study-list">
 {%- for s in site.data.nav.studies %}
             <a{% if study and study.key == s.key %} class="rd-here" aria-current="page"{% endif %} href="{{ s.url | relative_url }}" title="{{ s.title | escape }}">{{ s.title | escape }}</a>
 {%- endfor %}
           </div>
+{%- else %}
+          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
 {%- endif %}
           <hr class="rd-nav-rule">
 {%- if data_page.url == page.url %}
@@ -239,6 +247,24 @@
         link.href = URL.createObjectURL(new Blob([lines.join("\r\n") + "\r\n"], { type: "text/csv" }));
         link.hidden = false;
       });
+      // The arrow beside Studies widens the sidebar to every study's full question, and the
+      // choice is remembered on this browser (DA-473).
+      (function () {
+        var button = document.querySelector(".rd-widen");
+        if (!button) return;
+        function set(wide) {
+          document.body.classList.toggle("rd-studies-wide", wide);
+          button.setAttribute("aria-expanded", wide ? "true" : "false");
+          button.title = wide ? button.dataset.narrow : button.dataset.widen;
+          button.setAttribute("aria-label", button.title);
+          try { localStorage.setItem("rd-studies-wide", wide ? "1" : "0"); } catch (e) {}
+          fitTitles();
+        }
+        var saved = null;
+        try { saved = localStorage.getItem("rd-studies-wide"); } catch (e) {}
+        if (saved === "1") set(true);
+        button.addEventListener("click", function () { set(!document.body.classList.contains("rd-studies-wide")); });
+      })();
       // The study being read is always in view in the sidebar's list, however far down it sits.
       (function () {
         var here = document.querySelector(".rd-study-list a.rd-here");

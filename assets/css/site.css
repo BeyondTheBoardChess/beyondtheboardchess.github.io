@@ -85,13 +85,18 @@ body {
 .markdown-body .rd-sections a { padding: 5px 10px; font-size: .88rem; color: #8A94AC; border-radius: 8px; }
 .markdown-body .rd-sections a:hover { color: var(--rd-cyan); }
 .markdown-body .rd-sections a.rd-here { color: var(--rd-cyan); }
-/* Every study under Studies, each on one line (DA-472). At rest a long question ends in "...";
-   pointing at the list, or reaching it with the keyboard, opens it out over the page wide enough
-   for every question whole. Past about ten studies it scrolls inside itself. */
-.rd-side { z-index: 3; }
-.rd-study-list { position: relative; box-sizing: border-box; width: calc(100% - 14px); max-height: min(320px, 42vh); overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--rd-line) transparent; }
+/* Every study under Studies, each on one line (DA-472). A long question ends in "..." until the
+   arrow at the end of the Studies row widens the sidebar to fit every question whole, the page
+   narrowing beside it (DA-473). Past about ten studies the list scrolls inside itself. */
+.rd-study-list { position: relative; max-height: min(320px, 42vh); overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; scrollbar-color: var(--rd-line) transparent; }
 .markdown-body .rd-study-list a { display: block; flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.rd-study-list:hover, .rd-study-list:focus-within { width: max-content; max-width: calc(100vw - 48px); background: var(--rd-void); border: 1px solid var(--rd-line); border-radius: 10px; box-shadow: 0 12px 32px rgba(0, 0, 0, .55); }
+.rd-page-row { position: relative; }
+.rd-widen { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; padding: 0; border-radius: 8px; border: 1px solid var(--rd-line); background: var(--rd-well); color: var(--rd-ink-muted); cursor: pointer; }
+.rd-widen:hover, .rd-widen:focus-visible { color: #FFFFFF; border-color: var(--rd-ink-muted); }
+.rd-widen svg { width: 16px; height: 16px; transition: transform .2s; }
+body.rd-studies-wide .rd-widen svg { transform: rotate(180deg); }
+body.rd-studies-wide .rd-layout { grid-template-columns: fit-content(640px) minmax(0, 1fr); }
+body.rd-studies-wide .rd-side { min-width: 230px; }
 .rd-main { min-width: 0; }
 .markdown-body .rd-main h1, .markdown-body .rd-main h2 { scroll-margin-top: 24px; }
 
@@ -140,6 +145,7 @@ body {
 .rd-nav-toggle svg { width: 18px; height: 18px; }
 body.rd-nav-hidden .rd-layout { grid-template-columns: auto minmax(0, 1fr); }
 body.rd-nav-hidden .rd-nav { display: none; }
+body.rd-nav-hidden .rd-side { min-width: 0; }
 /* Collapsed, the button folds down to its icon alone: enough to bring the menu back, and no
    more (DA-460). Its hint and screen-reader name say Expand. */
 body.rd-nav-hidden .rd-nav-toggle { padding: 8px; }
@@ -168,6 +174,9 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 @media (max-width: 900px) {
   .markdown-body hr.rd-nav-rule { display: none; }
   .rd-nav-toggle { display: none; }
+  .rd-widen { display: none; }
+  body.rd-studies-wide .rd-layout { grid-template-columns: minmax(0, 1fr); }
+  body.rd-studies-wide .rd-side { min-width: 0; }
   body.rd-nav-hidden .rd-nav { display: flex; }
   .markdown-body .rd-hero h1.rd-fit { font-size: 1.6rem; }
 }
