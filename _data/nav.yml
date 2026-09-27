@@ -16,7 +16,11 @@ links:
     icon: reddit
     colour: "#FF4500"
     url: https://www.reddit.com/user/RainyDaysPlays/
-studies: []
+studies:
+  - key: performance-after-wins-or-losses
+    title: "What Happens to a Player's Performance After Consecutive Wins or Losses?"
+    url: /performance-after-wins-or-losses/
+    method_url: /performance-after-wins-or-losses/method
 data:
   title: The Data
   url: /how-the-data-is-checked.html
