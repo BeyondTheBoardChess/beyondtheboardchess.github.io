@@ -68,6 +68,9 @@ body {
 
 .markdown-body a.rd-btn { display: inline-block; margin-top: 6px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--rd-cyan); color: var(--rd-cyan); font-weight: 600; text-decoration: none; }
 .markdown-body a.rd-btn:hover { background: rgba(79, 214, 238, .12); }
+/* The month table's download button stays hidden until the script has built its file. */
+.markdown-body a.rd-download[hidden] { display: none; }
+.markdown-body a.rd-download { margin: 0 0 12px; }
 
 /* The sidebar: every page, and under the current one its sections. On a phone it becomes a
    row of tabs above the page and the section links drop away. */

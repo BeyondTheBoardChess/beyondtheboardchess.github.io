@@ -180,6 +180,22 @@
         fp.addEventListener("click", function () { if (!String(window.getSelection())) open(); });
         fp.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
       });
+      // The month table's download button: a spreadsheet file built from the table on the page, so
+      // the two can never disagree. Each fingerprint goes in whole, and figures lose their commas
+      // so a spreadsheet reads them as numbers. Without the script the button stays hidden.
+      document.querySelectorAll(".rd-download").forEach(function (link) {
+        var table = link.closest("details") && link.closest("details").querySelector("table");
+        if (!table) return;
+        var lines = Array.prototype.map.call(table.rows, function (row) {
+          return Array.prototype.map.call(row.cells, function (cell) {
+            var text = cell.textContent.trim();
+            if (/^[\d,]+$/.test(text)) text = text.replace(/,/g, "");
+            return '"' + text.replace(/"/g, '""') + '"';
+          }).join(",");
+        });
+        link.href = URL.createObjectURL(new Blob([lines.join("\r\n") + "\r\n"], { type: "text/csv" }));
+        link.hidden = false;
+      });
       anchors.add(".rd-main section h2, .rd-main section h3");
       // Light up the sidebar link for the section being read.
       (function () {

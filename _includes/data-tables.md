@@ -3,6 +3,8 @@
 <details markdown="1">
 <summary><b>{{ site.data.words.months_summary_bold | escape }}</b> {{ site.data.words.months_summary_rest | escape }}</summary>
 
+<p><a class="rd-btn rd-download" href="#" download="lichess-months-and-fingerprints.csv" hidden>{{ site.data.words.months_download | escape }}</a></p>
+
 | Month | Games Lichess published | Games I have | How many were checked | How many were wrong | Fingerprint of the file |
 | --- | ---: | ---: | --- | ---: | --- |
 | 2013-01 | 121,332 | 121,332 | all 121,332 | 0 | <span class="rd-fp" tabindex="0" role="button" title="aa40b3671fa3cf1072eb182892cd90b0e1e003a4a5943492f64b77e7f3fd1635 (click to see it in full and copy it)"><span class="rd-fp-a">aa40b3671fa3cf1072eb182892cd90b0e1e003a4a5943492f64b77e7f3</span><span class="rd-fp-b">fd1635</span></span> |

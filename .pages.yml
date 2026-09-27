@@ -73,6 +73,7 @@ content:
       - { name: months_heading, label: "The Data page: heading over the month table", type: string }
       - { name: months_summary_bold, label: "The Data page: month table, bold words", type: string }
       - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
+      - { name: months_download, label: "The Data page: button that downloads the month table", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
       - { name: under_construction, label: "Studies page: note on a study that isn't finished", type: string }
   - name: study-titles
