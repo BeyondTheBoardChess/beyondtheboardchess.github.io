@@ -131,6 +131,10 @@ body {
 .rd-nav-toggle svg { width: 18px; height: 18px; }
 body.rd-nav-hidden .rd-layout { grid-template-columns: auto minmax(0, 1fr); }
 body.rd-nav-hidden .rd-nav { display: none; }
+/* Collapsed, the button folds down to its icon alone: enough to bring the menu back, and no
+   more (DA-460). Its hint and screen-reader name say Expand. */
+body.rd-nav-hidden .rd-nav-toggle { padding: 8px; }
+body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 .markdown-body a.rd-study h2 { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
 /* A study that isn't finished says so under its question (DA-454), in the gold outline its own

@@ -65,9 +65,9 @@ content:
       - { name: all_studies, label: "Study page: link back to all studies", type: string }
       - { name: findings_tab, label: "Study page: Findings tab", type: string }
       - { name: method_tab, label: "Study page: Method tab", type: string }
-      - { name: menu, label: "Menu button", type: string }
+      - { name: menu, label: "Menu button, while the menu is open", type: string }
       - { name: hide_menu, label: "Menu button hint when the menu is open", type: string }
-      - { name: show_menu, label: "Menu button hint when the menu is hidden", type: string }
+      - { name: show_menu, label: "Menu button hint when the menu is collapsed (the button is just its icon then)", type: string }
       - { name: no_studies_title, label: "Studies page with no studies: heading", type: string }
       - { name: no_studies_text, label: "Studies page with no studies: sentence", type: text }
       - { name: months_heading, label: "The Data page: heading over the month table", type: string }

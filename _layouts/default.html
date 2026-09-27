@@ -142,6 +142,7 @@
           document.body.classList.toggle("rd-nav-hidden", hidden);
           button.setAttribute("aria-expanded", hidden ? "false" : "true");
           button.title = hidden ? button.dataset.show : button.dataset.hide;
+          button.setAttribute("aria-label", button.title);
           try { localStorage.setItem("rd-nav-hidden", hidden ? "1" : "0"); } catch (e) {}
           fitTitles();
         }
