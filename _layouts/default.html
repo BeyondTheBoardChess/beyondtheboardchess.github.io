@@ -21,8 +21,9 @@
   _data/nav.yml, newest first.
 
   A study page carries `study:` (its key in _data/nav.yml) and `tab:` (findings or method) in
-  its front matter. It opens on a link back to all studies, the study's question as its title,
-  and a Findings / Method tab row, so a long question never has to fit in the sidebar.
+  its front matter. It opens on a row holding the link back to all studies and, across from it,
+  a small Findings / Method switch (DA-465); then the study's question as its title, so a long
+  question never has to fit in the sidebar and nothing sits between the title and the page.
 
   Any other page (The Data) is its title and first line, then one panel per heading.
 
@@ -106,14 +107,16 @@
 {%- endif %}
         </nav>
         </aside>
-        <main class="rd-main">
+        <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}">
 {%- if study %}
+          <div class="rd-study-top">
           <a class="rd-back" href="{{ "/" | relative_url }}">{{ site.data.words.all_studies | escape }}</a>
-          <div class="rd-hero"><h1 class="rd-fit">{{ study.title | escape }}</h1></div>
           <div class="rd-tabs">
             <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab | escape }}</a>
             <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab | escape }}</a>
           </div>
+          </div>
+          <div class="rd-hero"><h1 class="rd-fit">{{ study.title | escape }}</h1></div>
 {%- assign opening_text = sections[0] | strip -%}
 {%- if opening_text != "" %}
           <section class="rd-card">{{ sections[0] }}</section>

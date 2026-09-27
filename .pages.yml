@@ -55,6 +55,32 @@ content:
           format: markdown
           switcher: false
           media: false
+  - name: performance-after-wins-or-losses-method-md
+    label: "Study: What happens after consecutive wins or losses, Method tab"
+    type: file
+    path: performance-after-wins-or-losses/method.md
+    format: yaml-frontmatter
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: title
+        type: string
+        hidden: true
+      - name: study
+        type: string
+        hidden: true
+      - name: tab
+        type: string
+        hidden: true
+      - name: body
+        label: Words
+        description: A number in a gold box is still being counted.
+        type: rich-text
+        options:
+          format: markdown
+          switcher: false
+          media: false
   - name: words
     label: Words on every page
     type: file
