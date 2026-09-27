@@ -54,14 +54,16 @@ body {
 .markdown-body .rd-card table td, .markdown-body .rd-card table th { border-color: var(--rd-line); }
 .markdown-body .rd-card td:first-child { white-space: nowrap; }
 
-/* A file's fingerprint in the month table: the start, a gap, and the last six characters, so the
-   table stays inside the page. The whole code is still in the cell, so selecting it copies all
-   of it; a click opens it out in full and copies it. */
-.rd-fp { display: inline-flex; max-width: 15ch; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 85%; background: var(--rd-surface); border: 1px solid var(--rd-line); border-radius: 6px; padding: 1px 6px; cursor: pointer; white-space: nowrap; }
+/* A file's fingerprint in the month table: the start cut short with an ellipsis, then the last six
+   characters, so the table stays inside the page. The whole code is still in the cell and nothing
+   here makes a line break, so selecting it copies all 64 characters as one line; a click opens it
+   out in full and copies it. Inline boxes rather than flex, because flex items are blocks and a
+   browser copies a line break between them. */
+.rd-fp { display: inline-block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 85%; background: var(--rd-surface); border: 1px solid var(--rd-line); border-radius: 6px; padding: 1px 6px; cursor: pointer; white-space: nowrap; }
 .rd-fp:hover, .rd-fp:focus { border-color: var(--rd-cyan); outline: none; }
-.rd-fp-a { overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-.rd-fp-b { flex: none; }
-.rd-fp.rd-open { display: inline; max-width: none; white-space: normal; word-break: break-all; }
+.rd-fp-a { display: inline-block; max-width: 7ch; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom; }
+.rd-fp.rd-open { display: inline; white-space: normal; word-break: break-all; }
+.rd-fp.rd-open .rd-fp-a { display: inline; max-width: none; overflow: visible; }
 .rd-fp.rd-copied::after { content: "Copied"; margin-left: 8px; color: var(--rd-cyan); font-family: var(--rd-font); word-break: normal; }
 
 .markdown-body a.rd-btn { display: inline-block; margin-top: 6px; padding: 9px 16px; border-radius: 999px; border: 1px solid var(--rd-cyan); color: var(--rd-cyan); font-weight: 600; text-decoration: none; }
