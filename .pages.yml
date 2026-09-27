@@ -25,6 +25,9 @@ content:
       - name: layout
         type: string
         hidden: true
+      - name: permalink
+        type: string
+        hidden: true
       - name: body
         label: Words
         type: rich-text

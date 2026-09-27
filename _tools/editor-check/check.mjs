@@ -119,6 +119,10 @@ for (const entry of entries) {
       fail(`${entry.path}: needs front matter with at least one setting, or the editor's first save leaves one it cannot read back`);
       continue;
     }
+    // GitHub Pages only turns README.md into the front page while it has no front matter.
+    if (entry.path === "README.md" && parsed.data.permalink !== "/") {
+      fail("README.md: needs `permalink: /` in its front matter, or the site loses its front page");
+    }
     const declared = new Set((entry.fields || []).map((field) => field.name));
     for (const key of Object.keys(parsed.data)) {
       if (!declared.has(key)) fail(`${entry.path}: front matter "${key}" is not a field in .pages.yml`);
