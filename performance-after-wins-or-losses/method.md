@@ -8,7 +8,7 @@ This page says exactly how every number on the Findings tab was worked out, in e
 
 ## Definitions
 
-**Streak.** Games one player lost in a row or won in a row, in the order they played them. A draw doesn't end a streak and doesn't add to it. Draws are taken out of a player's games before streaks are counted, so seven losses, two draws and three more losses is a losing streak of 10. A game with no result recorded is taken out the same way.
+**Streak.** Games one player lost in a row or won in a row, in the order they played them. A draw doesn't end a streak and doesn't add to it. Draws are taken out of a player's games before streaks are counted, so seven losses, two draws and three more losses is a losing streak of 10. A game with no result recorded is taken out the same way. A streak doesn't stop at midnight or when a player takes a break. Four losses one evening and six the next morning is a losing streak of 10.
 
 **Right after a streak.** The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as half and a loss as 0.
 
@@ -125,7 +125,7 @@ Each of these could reasonably have gone the other way. Each says what I picked,
 
 **Losing makes the next game harder.** After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is tougher relative to them. On the test months the ratings alone made two thirds to nine tenths of the extra long losing streaks. The How much of a losing streak is tilt? chart separates that step out. `Still counting: the share`
 
-**Players stop playing.** A player who closes the laptop mid-streak ends the streak, so some streaks look shorter than the day felt.
+**A streak can span days.** A losing streak of 10 might be four losses one night and six the next, so a long streak isn't always one bad sitting. The break chart shows what a break does to a streak.
 
 **An account isn't always one person.** Lichess lets players rename their accounts. A renamed account looks like two players with a streak cut at the rename. Accounts can be shared or sold. Neither can be seen in the games.
 
