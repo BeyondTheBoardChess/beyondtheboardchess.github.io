@@ -98,8 +98,11 @@ body {
 .markdown-body a.rd-tab.rd-tab-current { color: #FFFFFF; border-bottom-color: #FF3DA6; }
 
 /* The front page's links: each platform's own logo in its own colour. */
-.rd-links { display: flex; gap: 14px; margin: -4px 0 26px; }
-.markdown-body a.rd-social { display: inline-flex; width: 30px; height: 30px; color: var(--rd-brand); transition: transform .15s, opacity .15s; opacity: .9; }
+/* The channel's links, a small row under the site's name on every page. */
+.rd-brand { display: flex; flex-direction: column; gap: 6px; }
+.rd-top .rd-brand a.rd-name { line-height: 1.1; }
+.rd-links { display: flex; gap: 10px; }
+.markdown-body a.rd-social { display: inline-flex; width: 18px; height: 18px; color: var(--rd-brand); transition: transform .15s, opacity .15s; opacity: .9; }
 .markdown-body a.rd-social:hover { transform: translateY(-2px); opacity: 1; }
 .rd-social svg { width: 100%; height: 100%; fill: currentColor; }
 
