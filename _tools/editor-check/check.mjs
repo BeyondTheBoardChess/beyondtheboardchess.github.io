@@ -184,7 +184,7 @@ for (const key of Object.keys(words)) {
   if (!frame.includes(`site.data.words.${key}`)) fail(`_data/words.yml: "${key}" is not shown anywhere on the site`);
 }
 
-// 5. The Data page types no figure of its own (DA-456). Every one comes from _data/checks.json,
+// 5. The Lichess Data page types no figure of its own (DA-456). Every one comes from _data/checks.json,
 // which the corpus rewrites after each check of the games, so a figure typed into the page or
 // its table would stay behind, unnoticed, when a month is added. And every placeholder has
 // something to fill it, and every sentence pair is whole, or the page would show a raw {name}.

@@ -36,7 +36,7 @@ content:
           switcher: false
           media: false
   - name: how-the-data-is-checked-md
-    label: The Data page
+    label: The Lichess Data page
     type: file
     path: how-the-data-is-checked.md
     format: yaml-frontmatter
@@ -98,15 +98,15 @@ content:
       - { name: narrow_studies, label: "Menu: hint on the same arrow once the menu is wide", type: string }
       - { name: no_studies_title, label: "Studies page with no studies: heading", type: string }
       - { name: no_studies_text, label: "Studies page with no studies: sentence", type: text }
-      - { name: months_heading, label: "The Data page: heading over the month table", type: string }
-      - { name: months_summary_bold, label: "The Data page: month table, bold words ({months} is filled in with the number of months)", type: string }
-      - { name: months_summary_rest, label: "The Data page: month table, words after the bold", type: string }
-      - { name: months_download, label: "The Data page: button that downloads the month table", type: string }
-      - { name: months_no_fingerprint, label: "The Data page: month table, in place of a fingerprint nobody recorded", type: string }
+      - { name: months_heading, label: "The Lichess Data page: heading over the month table", type: string }
+      - { name: months_summary_bold, label: "The Lichess Data page: month table, bold words ({months} is filled in with the number of months)", type: string }
+      - { name: months_summary_rest, label: "The Lichess Data page: month table, words after the bold", type: string }
+      - { name: months_download, label: "The Lichess Data page: button that downloads the month table", type: string }
+      - { name: months_no_fingerprint, label: "The Lichess Data page: month table, in place of a fingerprint nobody recorded", type: string }
       - { name: pencil, label: "The pencil's hint (only you see it)", type: string }
       - { name: under_construction, label: "Studies page: note on a study that isn't finished", type: string }
   - name: study-titles
-    label: Study titles and The Data
+    label: Study titles and The Lichess Data
     type: file
     path: _data/nav.yml
     format: yaml
@@ -124,7 +124,7 @@ content:
           - { name: picture, type: string, hidden: true }
           - { name: picture_alt, label: "Picture, in words (for anyone who can't see it)", type: string }
       - name: data
-        label: The Data
+        label: The Lichess Data
         type: object
         fields:
           - { name: title, label: Menu name, type: string }

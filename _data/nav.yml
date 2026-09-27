@@ -1,4 +1,4 @@
-# The front page's links (each shown as its platform's logo), every study newest first, and The Data.
+# The front page's links (each shown as its platform's logo), every study newest first, and The Lichess Data.
 #
 # A study is named for the question it answers. Its Findings page and Method page each carry
 # `study: <key>` and `tab: findings` or `tab: method` in their front matter. The sidebar lists
@@ -28,5 +28,5 @@ studies:
     picture: /images/performance-after-wins-or-losses.svg
     picture_alt: "Five wins in a row and five losses in a row, each followed by a blank next game"
 data:
-  title: The Data
+  title: The Lichess Data
   url: /how-the-data-is-checked.html

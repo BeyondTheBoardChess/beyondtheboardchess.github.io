@@ -2,7 +2,7 @@
 layout: default
 month_tables: true
 ---
-# The Data
+# The Lichess Data
 
 Lichess publishes every game ever played. I keep a copy. This page answers one question: Does my copy match what Lichess published?
 

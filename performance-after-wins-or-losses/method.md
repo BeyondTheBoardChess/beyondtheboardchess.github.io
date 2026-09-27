@@ -116,7 +116,7 @@ Each of these could reasonably have gone the other way.
 
 ## Steps
 
-**1. The games.** Every game Lichess published from January 2013 to August 2026. That's 8,130,696,420 games in 164 monthly files. [The Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) lists every file by name with its fingerprint and Lichess's own count of its games.
+**1. The games.** Every game Lichess published from January 2013 to August 2026. That's 8,130,696,420 games in 164 monthly files. [The Lichess Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) lists every file by name with its fingerprint and Lichess's own count of its games.
 
 **2. What was left out.**
 
@@ -147,7 +147,7 @@ Each of these could reasonably have gone the other way.
 
 ## Checks
 
-**The saved games match what Lichess published.** Every month's count matches Lichess's own count. Games rebuilt from the saved copy come back identical to the originals. [The Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) shows the result month by month. `Still counting: the version of the games this study used`
+**The saved games match what Lichess published.** Every month's count matches Lichess's own count. Games rebuilt from the saved copy come back identical to the originals. [The Lichess Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) shows the result month by month. `Still counting: the version of the games this study used`
 
 **Every rule was tested on made-up players where the right answer is known.** Each rule has test cases on both sides of every edge. Some examples:
 
