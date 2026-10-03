@@ -28,7 +28,6 @@ studies:
     title: "What Happens to a Player's Performance After Consecutive Wins or Losses?"
     url: /performance-after-wins-or-losses/
     method_url: /performance-after-wins-or-losses/method
-    under_construction: true
     picture: /images/performance-after-wins-or-losses.svg
     picture_alt: "Five wins in a row and five losses in a row, each followed by a blank next game"
 data:
