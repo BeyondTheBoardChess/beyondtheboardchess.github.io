@@ -177,7 +177,7 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
    Data page's section links land on a section: the tile sits near the top of the screen and wears
    the soft pink edge of the hover, so the reader sees which study they came from. */
 .markdown-body a.rd-study { scroll-margin-top: 24px; }
-.markdown-body a.rd-study:target { border-color: rgba(255, 61, 166, .55); box-shadow: 0 14px 40px -18px rgba(255, 61, 166, .55); }
+.markdown-body a.rd-study:target { outline: none; border-color: rgba(255, 61, 166, .55); box-shadow: 0 14px 40px -18px rgba(255, 61, 166, .55); }
 .rd-study-art { display: flex; align-items: center; justify-content: center; padding: 22px 26px; background: var(--rd-void) radial-gradient(420px 200px at 50% 50%, rgba(255, 61, 166, .10), transparent 70%); border-left: 1px solid var(--rd-line); }
 .markdown-body a.rd-study img.rd-study-picture { display: block; width: 100%; max-width: 440px; height: auto; background: transparent; }
 .rd-study-body { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; padding: 26px 30px; }
