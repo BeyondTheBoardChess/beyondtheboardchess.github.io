@@ -150,12 +150,14 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 
 
 /* The welcome under Studies reads as the heading's quiet subtext (DA-497, after DA-494 to
-   DA-496): every line the same size and colour, close under the heading, then a thin line
-   across the column with room either side, so the welcome never looks like one more study.
+   DA-496): every line the same size and colour and the full width of the column, close
+   under the heading, then a soft brand-colour line fading out to the right (DA-498), unlike
+   the page's grey rules, so the welcome never looks like one more study.
    Only the look is set here; the words stay Rainy's, from the pencil. */
-.markdown-body .rd-welcome { margin-bottom: 0; padding-bottom: 28px; border-bottom: 1px solid var(--rd-line); }
+.markdown-body .rd-welcome { position: relative; margin-bottom: 0; padding-bottom: 30px; }
+.markdown-body .rd-welcome::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 2px; background: linear-gradient(90deg, rgba(255, 61, 166, .7), rgba(185, 140, 245, .35) 45%, transparent); }
 .markdown-body .rd-welcome h1 { margin-bottom: 10px; }
-.markdown-body .rd-welcome p { max-width: 72ch; margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
+.markdown-body .rd-welcome p { margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
 .markdown-body .rd-welcome p:last-child { margin-bottom: 0; }
 .markdown-body .rd-welcome + a.rd-study { margin-top: 32px; }
 
