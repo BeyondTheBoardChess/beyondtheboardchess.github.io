@@ -113,11 +113,6 @@ body.rd-studies-wide .rd-side { min-width: 230px; }
 .markdown-body hr.rd-nav-rule { height: 1px; margin: 10px 0; padding: 0; border: 0; background: var(--rd-line); }
 
 
-/* A study is a whole panel that links through; its title never has to fit in the sidebar. */
-.markdown-body a.rd-study { display: block; color: var(--rd-ink); text-decoration: none; transition: border-color .15s; }
-.markdown-body a.rd-study:hover { border-color: var(--rd-cyan); }
-.markdown-body a.rd-study h2 { color: #FFFFFF; }
-.markdown-body a.rd-study p { color: var(--rd-ink-muted); margin-bottom: 0; }
 
 /* A study page: a row with the way back and, across from it, a small Findings / Method switch
    (DA-465), then the question as its title. The page you are on is filled pink. */
@@ -151,15 +146,34 @@ body.rd-nav-hidden .rd-side { min-width: 0; }
    more (DA-460). Its hint and screen-reader name say Expand. */
 body.rd-nav-hidden .rd-nav-toggle { padding: 8px; }
 body.rd-nav-hidden .rd-nav-toggle span { display: none; }
-.markdown-body a.rd-study h2 { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
 
-/* A study that isn't finished says so above its question (DA-454, moved above by DA-469), in the gold outline its own
-   page's notice wears (DA-453). */
-.markdown-body a.rd-study .rd-building { display: inline-block; margin-bottom: 12px; padding: 4px 12px; border: 2px solid #FFC24B; border-radius: 8px; color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .95rem; letter-spacing: .02em; }
 
-/* A study's picture of its question (DA-469) sits under the question, kept short so a list of
-   studies stays easy to scroll, and shrinks with the box on a phone. */
-.markdown-body a.rd-study img.rd-study-picture { display: block; width: auto; max-width: 100%; height: auto; max-height: 170px; margin: 16px 0 0; border-radius: 10px; background: var(--rd-void); }
+
+/* A study on the Studies page is one tile that links through (DA-492): its picture of the
+   question (DA-469) leads on the left in a dark well, and the question sits beside it with
+   an arrow. A thin brand gradient runs down the tile's edge so it stands apart from the
+   plain panels, and pointing at it lifts it and lights the edge pink. On a phone the picture
+   sits on top. */
+.markdown-body a.rd-study { position: relative; display: grid; grid-template-columns: 1fr; margin: 0 0 18px; overflow: hidden; border: 1px solid var(--rd-line); border-radius: 16px; background: linear-gradient(135deg, #16223A 0%, var(--rd-surface) 60%); color: var(--rd-ink); text-decoration: none; transition: transform .18s, border-color .18s, box-shadow .18s; }
+.markdown-body a.rd-study::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: linear-gradient(180deg, #FF3DA6, #B98CF5 52%, #4FD6EE); }
+.markdown-body a.rd-study.rd-study-has-picture { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); }
+.markdown-body a.rd-study:hover, .markdown-body a.rd-study:focus-visible { transform: translateY(-3px); border-color: rgba(255, 61, 166, .55); box-shadow: 0 14px 40px -18px rgba(255, 61, 166, .55); }
+.rd-study-art { display: flex; align-items: center; justify-content: center; padding: 22px 26px; background: var(--rd-void) radial-gradient(420px 200px at 50% 50%, rgba(255, 61, 166, .10), transparent 70%); border-right: 1px solid var(--rd-line); }
+.markdown-body a.rd-study img.rd-study-picture { display: block; width: 100%; max-width: 440px; height: auto; background: transparent; }
+.rd-study-body { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; padding: 26px 30px; }
+.markdown-body a.rd-study h2 { margin: 0; padding: 0; border: 0; color: #FFFFFF; font-size: 1.5rem; line-height: 1.25; }
+/* A study that isn't finished says so above its question (DA-454), in the gold its own page's
+   notice wears (DA-453). */
+.markdown-body a.rd-study .rd-building { display: inline-block; padding: 3px 10px; border: 1px solid #FFC24B; border-radius: 999px; background: rgba(255, 194, 75, .10); color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
+.rd-study-go { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--rd-line); color: var(--rd-ink-muted); transition: transform .18s, color .18s, border-color .18s, background .18s; }
+.rd-study-go svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.markdown-body a.rd-study:hover .rd-study-go, .markdown-body a.rd-study:focus-visible .rd-study-go { transform: translateX(4px); color: #FFFFFF; border-color: #FF3DA6; background: #FF3DA6; }
+@media (max-width: 700px) {
+  .markdown-body a.rd-study.rd-study-has-picture { grid-template-columns: 1fr; }
+  .rd-study-art { border-right: 0; border-bottom: 1px solid var(--rd-line); padding: 18px; }
+  .rd-study-body { padding: 20px 20px 22px 24px; }
+  .markdown-body a.rd-study h2 { font-size: 1.25rem; }
+}
 
 /* A site named in the prose carries its own logo in front of the link, at the height of the text. */
 .markdown-body a.rd-site-link { white-space: nowrap; }
