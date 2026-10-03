@@ -4,7 +4,13 @@ title: What Happens to a Player's Performance After Consecutive Wins or Losses?
 study: performance-after-wins-or-losses
 tab: method
 ---
-This page says exactly how every number on the [Findings tab](/performance-after-wins-or-losses/) was worked out. Every number behind every chart is in a [downloadable spreadsheet](/performance-after-wins-or-losses/performance-after-wins-or-losses-numbers.csv) with one row per metric.
+This page says exactly how every number on the [Findings tab](/performance-after-wins-or-losses/) was worked out.
+
+## Download the Numbers
+
+Every number behind every chart on the Findings tab, in one spreadsheet with a row for each number.
+
+[Download the spreadsheet](/performance-after-wins-or-losses/performance-after-wins-or-losses-numbers.csv){: .rd-btn download="performance-after-wins-or-losses-numbers.csv"}
 
 ## Definitions
 

@@ -254,3 +254,15 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 /* Only the answer line's verdict is a pill. A bold chart name later in a Why line is the next
    element after that line's label too, since the words between are not elements. */
 .markdown-body .rd-items:has(#judgement-calls) .rd-item li:last-child > strong:first-child + strong { display: inline-block; margin-right: 4px; padding: 1px 10px; border-radius: 999px; background: rgba(79, 214, 238, .14); color: var(--rd-cyan); font-family: var(--rd-display); font-size: .88rem; }
+
+/* A Method page's opening lines sit under the title as quiet subtext, the same grey and size as
+   the Studies welcome (DA-507). */
+.markdown-body .rd-subtext { margin: -8px 0 22px; }
+.markdown-body .rd-subtext p { margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
+.markdown-body .rd-subtext p:last-child { margin-bottom: 0; }
+
+/* The spreadsheet download on a Method page is a filled button with a download arrow, so it reads
+   as the thing to click rather than one more link (DA-507). */
+.markdown-body a.rd-btn[download] { display: inline-flex; align-items: center; gap: 8px; margin-top: 2px; padding: 10px 18px; background: var(--rd-cyan); color: var(--rd-void); }
+.markdown-body a.rd-btn[download]:hover { background: #7FE3F4; }
+.markdown-body a.rd-btn[download]::before { content: ""; width: 18px; height: 18px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; }

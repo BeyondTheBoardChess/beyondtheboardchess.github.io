@@ -141,7 +141,13 @@
           </div>
           <div class="rd-hero"><h1 class="rd-fit">{{ study.title | escape }}</h1></div>
 {%- assign opening_text = sections[0] | strip -%}
-{%- if opening_text != "" %}
+{%- comment -%}
+  A Method page's opening lines are the title's quiet subtext, like the Studies welcome and the
+  Findings summary, not a box (DA-507). Rainy, 2026-10-03: "make this subtext like my other site pages."
+{%- endcomment -%}
+{%- if opening_text != "" and page.tab == "method" %}
+          <div class="rd-subtext">{{ sections[0] }}</div>
+{%- elsif opening_text != "" %}
           <section class="rd-card">{{ sections[0] }}</section>
 {%- endif -%}
 {%- elsif on_front %}
