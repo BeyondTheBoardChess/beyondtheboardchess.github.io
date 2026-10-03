@@ -133,7 +133,7 @@
         <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}">
 {%- if study %}
           <div class="rd-study-top">
-          <a class="rd-back" href="{{ "/" | relative_url }}">{{ site.data.words.all_studies | escape }}</a>
+          <a class="rd-back" href="{{ "/" | relative_url }}#{{ study.key }}">{{ site.data.words.all_studies | escape }}</a>
           <div class="rd-tabs">
             <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab | escape }}</a>
             <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab | escape }}</a>
@@ -175,7 +175,7 @@
 {%- endfor %}
 {%- if on_front -%}
 {%- for s in site.data.nav.studies %}
-          <a class="rd-study{% if s.picture %} rd-study-has-picture{% endif %}" href="{{ s.url | relative_url }}"><span class="rd-study-body">{% if s.under_construction %}<span class="rd-building">{{ site.data.words.under_construction | escape }}</span>{% endif %}<h2>{{ s.title | escape }}</h2></span>{% if s.picture %}<span class="rd-study-art"><img class="rd-study-picture" src="{{ s.picture | relative_url }}" alt="{{ s.picture_alt | escape }}"></span>{% endif %}</a>
+          <a class="rd-study{% if s.picture %} rd-study-has-picture{% endif %}" id="{{ s.key }}" href="{{ s.url | relative_url }}"><span class="rd-study-body">{% if s.under_construction %}<span class="rd-building">{{ site.data.words.under_construction | escape }}</span>{% endif %}<h2>{{ s.title | escape }}</h2></span>{% if s.picture %}<span class="rd-study-art"><img class="rd-study-picture" src="{{ s.picture | relative_url }}" alt="{{ s.picture_alt | escape }}"></span>{% endif %}</a>
 {%- else %}
           <section class="rd-card"><h2>{{ site.data.words.no_studies_title | escape }}</h2><p>{{ site.data.words.no_studies_text | escape }}</p></section>
 {%- endfor -%}
