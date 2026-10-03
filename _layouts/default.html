@@ -158,18 +158,22 @@
   heading. Rainy, 2026-10-03: "If someone wanted to quickly go through and see a certain
   definition, they should be able to do that pretty easily." No row of item names above the
   cards: he turned that down the same day, "it distracts from the actual information below".
+  Each part opens and closes on a click of its heading, and starts closed so the page first
+  reads as five headings (DA-504). Rainy, 2026-10-03: "I'm also a huge fan of expandable and
+  collapsible boxes."
 {%- endcomment -%}
 {%- assign items = section | split: '<h3 ' -%}
 {%- if page.tab == "method" and items.size > 1 %}
 {%- assign part_id = items[0] | split: '"' -%}{%- assign part_id = part_id[1] -%}
-{%- capture part_icon -%}>{% include method-icon.html part=part_id %}{%- endcapture %}
-          <section class="rd-card rd-items"><h2 {{ items[0] | replace_first: '>', part_icon }}
+{%- capture part_icon -%}>{% include method-icon.html part=part_id %}{%- endcapture -%}
+{%- assign part_head = items[0] | split: '</h2>' %}
+          <details class="rd-card rd-items"><summary><h2 {{ part_head[0] | replace_first: '>', part_icon }}</h2><svg class="rd-part-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary>{{ part_head[1] }}
             <div class="rd-item-grid">
 {%- for item in items offset: 1 %}
               <div class="rd-item"><h3 {{ item }}</div>
 {%- endfor %}
             </div>
-          </section>
+          </details>
 {%- else %}
           <section class="rd-card"><h2 {{ section }}</section>
 {%- endif -%}
@@ -296,7 +300,20 @@
         var list = here.parentNode;
         if (here.offsetTop + here.offsetHeight > list.clientHeight) list.scrollTop = here.offsetTop - list.clientHeight / 2;
       })();
-      anchors.add(".rd-main section h2, .rd-main section h3");
+      anchors.add(".rd-main section h2, .rd-main section h3, .rd-main details h2, .rd-main details h3");
+      // A link to anything inside a closed Method part opens that part first (DA-504).
+      (function () {
+        function openTarget() {
+          var id = decodeURIComponent(location.hash.slice(1));
+          var target = id && document.getElementById(id);
+          var part = target && target.closest("details.rd-items");
+          if (!part || part.open) return;
+          part.open = true;
+          target.scrollIntoView();
+        }
+        openTarget();
+        window.addEventListener("hashchange", openTarget);
+      })();
       // Light up the sidebar link for the section being read.
       (function () {
         var links = document.querySelectorAll(".rd-jump a");
