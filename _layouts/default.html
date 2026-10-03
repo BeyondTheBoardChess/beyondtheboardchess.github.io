@@ -145,7 +145,8 @@
           <section class="rd-card">{{ sections[0] }}</section>
 {%- endif -%}
 {%- elsif on_front %}
-          <div class="rd-hero rd-welcome">{{ sections[0] }}</div>
+{%- assign welcome = sections[0] | split: "</h1>" %}
+          <div class="rd-hero rd-welcome">{{ welcome[0] }}</h1>{% if welcome[1] and welcome[1] != "" %}<div class="rd-intro">{{ welcome[1] }}</div>{% endif %}</div>
 {%- else %}
           <div class="rd-hero">{{ opening[0] }}</p></div>
 {%- if rest_text != "" %}

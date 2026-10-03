@@ -151,11 +151,14 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 
 /* The welcome under Studies (DA-494, calmed by DA-495): the first line a little larger and
    white, the rest quieter and kept to an easy reading width, then room before the study
-   tiles. Only the look is set here; the words stay Rainy's, from the pencil. */
+   tiles. Since DA-496 the welcome sits in its own quiet panel under the heading, so it reads
+   as the site's introduction. Only the look is set here; the words stay Rainy's, from the
+   pencil. */
+.markdown-body .rd-intro { padding: 22px 26px; border: 1px solid var(--rd-line); border-radius: 14px; background: var(--rd-well); }
 .markdown-body .rd-welcome { margin-bottom: 34px; }
 .markdown-body .rd-welcome h1 { margin-bottom: 16px; }
-.markdown-body .rd-welcome p { max-width: 64ch; margin-bottom: 12px; color: var(--rd-ink-muted); font-size: 1.02rem; line-height: 1.65; }
-.markdown-body .rd-welcome h1 + p { margin-bottom: 16px; color: var(--rd-ink); font-size: 1.15rem; line-height: 1.5; }
+.markdown-body .rd-welcome p { margin-bottom: 12px; color: var(--rd-ink-muted); font-size: 1.02rem; line-height: 1.65; }
+.markdown-body .rd-intro > p:first-child { margin-bottom: 16px; color: var(--rd-ink); font-size: 1.15rem; line-height: 1.5; }
 .markdown-body .rd-welcome p:last-child { margin-bottom: 0; }
 
 /* A study on the Studies page is one tile that links through (DA-492): its picture of the
