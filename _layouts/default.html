@@ -181,6 +181,11 @@
             </div>
           </details>
 {%- else %}
+{%- comment -%} A Method page's Download the Numbers heading carries the Excel mark (DA-507). {%- endcomment -%}
+{%- if page.tab == "method" and section contains 'id="download-the-numbers"' -%}
+{%- capture excel_icon -%}>{% include icons/excel.svg %}{%- endcapture -%}
+{%- assign section = section | replace_first: '>', excel_icon -%}
+{%- endif %}
           <section class="rd-card"><h2 {{ section }}</section>
 {%- endif -%}
 {%- endfor %}

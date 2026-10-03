@@ -265,3 +265,6 @@ a.rd-pencil svg { width: 20px; height: 20px; }
    arrow (DA-507); Rainy found the filled one too loud. */
 .markdown-body a.rd-btn[download] { display: inline-flex; align-items: center; gap: 8px; margin-top: 2px; font-size: .92rem; }
 .markdown-body a.rd-btn[download]::before { content: ""; width: 18px; height: 18px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; }
+
+/* The Excel mark before a Method page's Download the Numbers heading, sized like the parts' icons (DA-507). */
+.rd-excel-icon { width: 1.15em; height: 1.15em; margin-right: .45em; vertical-align: -.2em; }
