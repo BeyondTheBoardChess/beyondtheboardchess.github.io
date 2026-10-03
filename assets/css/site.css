@@ -261,8 +261,7 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 .markdown-body .rd-subtext p { margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
 .markdown-body .rd-subtext p:last-child { margin-bottom: 0; }
 
-/* The spreadsheet download on a Method page is a filled button with a download arrow, so it reads
-   as the thing to click rather than one more link (DA-507). */
-.markdown-body a.rd-btn[download] { display: inline-flex; align-items: center; gap: 8px; margin-top: 2px; padding: 10px 18px; background: var(--rd-cyan); color: var(--rd-void); }
-.markdown-body a.rd-btn[download]:hover { background: #7FE3F4; }
+/* The spreadsheet download on a Method page is the site's quiet outlined button with a download
+   arrow (DA-507); Rainy found the filled one too loud. */
+.markdown-body a.rd-btn[download] { display: inline-flex; align-items: center; gap: 8px; margin-top: 2px; font-size: .92rem; }
 .markdown-body a.rd-btn[download]::before { content: ""; width: 18px; height: 18px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12'/%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E") center / contain no-repeat; }
