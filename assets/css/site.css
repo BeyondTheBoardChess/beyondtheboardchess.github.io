@@ -236,5 +236,7 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 .markdown-body .rd-item ul { padding-left: 1.3em; }
 .rd-items:has(#judgement-calls) .rd-item ul { padding-left: 0; list-style: none; }
 .rd-items:has(#judgement-calls) .rd-item li + li { margin-top: 12px; }
-.markdown-body .rd-item li > strong:first-child { display: block; margin-bottom: 2px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; }
-.markdown-body .rd-item li > strong:first-child + strong { display: inline-block; margin-right: 4px; padding: 1px 10px; border-radius: 999px; background: rgba(79, 214, 238, .14); color: var(--rd-cyan); font-family: var(--rd-display); font-size: .88rem; }
+.markdown-body .rd-items:has(#judgement-calls) .rd-item li > strong:first-child { display: block; margin-bottom: 2px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; }
+/* Only the answer line's verdict is a pill. A bold chart name later in a Why line is the next
+   element after that line's label too, since the words between are not elements. */
+.markdown-body .rd-items:has(#judgement-calls) .rd-item li:last-child > strong:first-child + strong { display: inline-block; margin-right: 4px; padding: 1px 10px; border-radius: 999px; background: rgba(79, 214, 238, .14); color: var(--rd-cyan); font-family: var(--rd-display); font-size: .88rem; }
