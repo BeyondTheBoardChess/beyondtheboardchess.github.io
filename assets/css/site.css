@@ -218,15 +218,13 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 .markdown-body .rd-tab-method code { background: #FFC24B; color: #070C16; border-radius: 4px; padding: .1em .45em; font-family: var(--rd-font); font-weight: 600; font-size: .88em; white-space: normal; }
 
 /* A Method page reads at a glance (DA-500): every definition, judgement call, step, check and
-   limit is a card of its own with its name large, and a row of the part's names above the cards
-   jumps to one. Definitions, checks and limits sit two to a row on a wide screen; a judgement call
-   and a step take the full width, since each reads top to bottom. In a judgement call, Why, The
-   other choice and Does the answer change? are small labels over their text, and the answer's
-   first word (Yes, No, Barely, Only the size, Not measured) is a pill. */
-.markdown-body .rd-items > h2 { margin-bottom: 6px; }
-.rd-item-jump { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 18px; }
-.markdown-body .rd-item-jump a { padding: 3px 11px; border: 1px solid var(--rd-line); border-radius: 999px; color: var(--rd-ink-muted); font-size: .82rem; line-height: 1.5; text-decoration: none; }
-.markdown-body .rd-item-jump a:hover { color: #FFFFFF; border-color: var(--rd-cyan); }
+   limit is a card of its own with its name large. No row of names above the cards: Rainy turned
+   that down, "it distracts from the actual information below". Definitions, checks and limits
+   sit two to a row on a wide screen; a judgement call and a step take the full width, since each
+   reads top to bottom. In a judgement call, Why, The other choice and Does the answer change? are
+   small labels over their text, and the answer's first word (Yes, No, Barely, Only the size, Not
+   measured) is a pill. */
+.markdown-body .rd-items > h2 { margin-bottom: 18px; }
 .rd-item-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
 .rd-items:has(#definitions, #checks, #limits) .rd-item-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
 .markdown-body .rd-item { padding: 18px 20px; border: 1px solid var(--rd-line); border-radius: 12px; background: var(--rd-well); scroll-margin-top: 24px; }

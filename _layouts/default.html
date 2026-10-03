@@ -155,14 +155,13 @@
 {%- for section in sections offset: 1 %}
 {%- comment -%}
   A Method page (DA-500) puts every item of a part in a card of its own, cut at each `### `
-  heading, with a row of the part's item names above them so a reader can jump to one.
-  Rainy, 2026-10-03: "If someone wanted to quickly go through and see a certain definition,
-  they should be able to do that pretty easily."
+  heading. Rainy, 2026-10-03: "If someone wanted to quickly go through and see a certain
+  definition, they should be able to do that pretty easily." No row of item names above the
+  cards: he turned that down the same day, "it distracts from the actual information below".
 {%- endcomment -%}
 {%- assign items = section | split: '<h3 ' -%}
 {%- if page.tab == "method" and items.size > 1 %}
           <section class="rd-card rd-items"><h2 {{ items[0] }}
-            <nav class="rd-item-jump" aria-label="In this part">{%- for item in items offset: 1 -%}{%- assign item_id = item | split: '"' -%}{%- assign item_title = item | split: '</h3>' | first | split: '>' | last -%}<a href="#{{ item_id[1] }}">{{ item_title }}</a>{%- endfor -%}</nav>
             <div class="rd-item-grid">
 {%- for item in items offset: 1 %}
               <div class="rd-item"><h3 {{ item }}</div>
