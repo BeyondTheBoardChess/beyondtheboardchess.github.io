@@ -1,4 +1,64 @@
 ﻿Chart,Speed,Rating,Streak,What the number is,Number,Games behind the number
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 wins,"After 1 Wins: win rate in the next game, after a break of under a minute (%)",50.89,2406463027
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 losses,"After 1 Losses: win rate in the next game, after a break of under a minute (%)",50.12,2232696952
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 wins,"After 1 Wins: win rate in the next game, after a break of under an hour (%)",49.22,551975436
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 losses,"After 1 Losses: win rate in the next game, after a break of under an hour (%)",49.1,579417526
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 wins,"After 1 Wins: win rate in the next game, after a break of an hour or more (%)",49.24,661118500
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 losses,"After 1 Losses: win rate in the next game, after a break of an hour or more (%)",49.06,812308134
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 wins,"After 2 Wins: win rate in the next game, after a break of under a minute (%)",52.29,1194507834
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 losses,"After 2 Losses: win rate in the next game, after a break of under a minute (%)",48.74,1092991174
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 wins,"After 2 Wins: win rate in the next game, after a break of under an hour (%)",49.97,288163999
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 losses,"After 2 Losses: win rate in the next game, after a break of under an hour (%)",48.39,291852357
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 wins,"After 2 Wins: win rate in the next game, after a break of an hour or more (%)",49.81,337319784
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 2 losses,"After 2 Losses: win rate in the next game, after a break of an hour or more (%)",48.57,436148785
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 wins,"After 3 Wins: win rate in the next game, after a break of under a minute (%)",53.16,609933732
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 losses,"After 3 Losses: win rate in the next game, after a break of under a minute (%)",47.67,555290684
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 wins,"After 3 Wins: win rate in the next game, after a break of under an hour (%)",50.59,150619932
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 losses,"After 3 Losses: win rate in the next game, after a break of under an hour (%)",47.76,148839755
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 wins,"After 3 Wins: win rate in the next game, after a break of an hour or more (%)",50.29,174871636
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 3 losses,"After 3 Losses: win rate in the next game, after a break of an hour or more (%)",48.05,229787951
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 wins,"After 4 Wins: win rate in the next game, after a break of under a minute (%)",54.24,317290002
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 losses,"After 4 Losses: win rate in the next game, after a break of under a minute (%)",46.49,288768587
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 wins,"After 4 Wins: win rate in the next game, after a break of under an hour (%)",51.26,79064950
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 losses,"After 4 Losses: win rate in the next game, after a break of under an hour (%)",47.09,76700103
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 wins,"After 4 Wins: win rate in the next game, after a break of an hour or more (%)",50.81,91427504
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 4 losses,"After 4 Losses: win rate in the next game, after a break of an hour or more (%)",47.46,121381702
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",55.51,168416566
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",45.16,153484744
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",52.06,41911144
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",46.35,40071661
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",51.44,48408037
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",46.74,64744908
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 wins,"After 6 Wins: win rate in the next game, after a break of under a minute (%)",57.07,91483769
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 losses,"After 6 Losses: win rate in the next game, after a break of under a minute (%)",43.54,83494437
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 wins,"After 6 Wins: win rate in the next game, after a break of under an hour (%)",53,22507089
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 losses,"After 6 Losses: win rate in the next game, after a break of under an hour (%)",45.44,21264144
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 wins,"After 6 Wins: win rate in the next game, after a break of an hour or more (%)",52.24,26007151
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 6 losses,"After 6 Losses: win rate in the next game, after a break of an hour or more (%)",45.8,35026640
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 wins,"After 7 Wins: win rate in the next game, after a break of under a minute (%)",58.91,51064279
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 losses,"After 7 Losses: win rate in the next game, after a break of under a minute (%)",41.63,46662722
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 wins,"After 7 Wins: win rate in the next game, after a break of under an hour (%)",54.16,12307769
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 losses,"After 7 Losses: win rate in the next game, after a break of under an hour (%)",44.32,11496720
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 wins,"After 7 Wins: win rate in the next game, after a break of an hour or more (%)",53.23,14234957
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 7 losses,"After 7 Losses: win rate in the next game, after a break of an hour or more (%)",44.63,19308223
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 wins,"After 8 Wins: win rate in the next game, after a break of under a minute (%)",61.05,29393310
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 losses,"After 8 Losses: win rate in the next game, after a break of under a minute (%)",39.38,26899027
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 wins,"After 8 Wins: win rate in the next game, after a break of under an hour (%)",55.66,6876949
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 losses,"After 8 Losses: win rate in the next game, after a break of under an hour (%)",42.92,6360554
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 wins,"After 8 Wins: win rate in the next game, after a break of an hour or more (%)",54.53,7968274
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 8 losses,"After 8 Losses: win rate in the next game, after a break of an hour or more (%)",43.13,10893071
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 wins,"After 9 Wins: win rate in the next game, after a break of under a minute (%)",63.49,17524118
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 losses,"After 9 Losses: win rate in the next game, after a break of under a minute (%)",36.8,16056941
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 wins,"After 9 Wins: win rate in the next game, after a break of under an hour (%)",57.49,3952188
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 losses,"After 9 Losses: win rate in the next game, after a break of under an hour (%)",41.17,3619975
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 wins,"After 9 Wins: win rate in the next game, after a break of an hour or more (%)",56.16,4585262
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 9 losses,"After 9 Losses: win rate in the next game, after a break of an hour or more (%)",41.35,6319899
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",66.13,10832931
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",34.08,9938820
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",59.67,2353975
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",39.2,2133157
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",58.11,2742704
+What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",39.29,3790926
 How does a streak affect a player's accuracy?,Summary,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.11,179853
 How does a streak affect a player's accuracy?,Summary,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,179845
 How does a streak affect a player's accuracy?,Summary,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.3,179844
