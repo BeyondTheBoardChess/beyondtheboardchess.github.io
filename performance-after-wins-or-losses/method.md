@@ -4,7 +4,7 @@ title: What Happens to a Player's Performance After Consecutive Wins or Losses?
 study: performance-after-wins-or-losses
 tab: method
 ---
-This page says exactly how every number on the [Findings tab](/performance-after-wins-or-losses/) was worked out. Every number behind every chart is in a downloadable spreadsheet with one row per metric.
+This page says exactly how every number on the [Findings tab](/performance-after-wins-or-losses/) was worked out. Every number behind every chart is in a [downloadable spreadsheet](/performance-after-wins-or-losses/performance-after-wins-or-losses-numbers.csv) with one row per metric.
 
 ## Definitions
 
@@ -38,51 +38,51 @@ Each of these could reasonably have gone the other way.
 
 **A draw doesn't end a streak.**
 
-- **Why:** Players draw far more often in slow games and at higher ratings, from 1.5% of games in ultraBullet to 5.5% in classical on the test months. If a draw ended a streak, slow games and strong players would look less streaky only because they draw more.
+- **Why:** Players draw far more often in slow games and at higher ratings. Across all 13 years, players drew 1.5% of their ultraBullet games and 4.9% of their classical games. If a draw ended a streak, slow games and strong players would look less streaky only because they draw more.
 - **The other choice:** A draw ends the streak.
-- **Does the answer change?** Barely. On the test months the number of long streaks changes by about 1/4 and the answer by about 1 part in 100. `Still counting: both figures for all 13 years`
+- **Does the answer change?** Barely. For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks when a draw didn't end a streak, and 1,121 streaks when a draw ended a streak.
 
-**Expected shuffles the games within 1 calendar day.**
+**Expected puts the games in a random order within 1 calendar day.**
 
-- **Why:** People get better at chess. Over a long stretch a player's wins bunch up toward the end because they improved. A shuffle across that stretch would count the improvement as streaks. Nobody improves measurably in a day.
-- **The other choice:** Shuffle a shorter or a longer stretch.
-- **Does the answer change?** Yes. On the test months losing streaks of 10 or more came out at 1.049 times what chance makes within 1 sitting (games less than 1 hour apart), 1.096 within 1 day and 1.243 across all 3 months. A day is the shortest stretch the games mark clearly. The sitting figure is lower still, so the day's figures are an upper bound. `Still counting: the 3 figures for all 13 years`
+- **Why:** People get better at chess. Over a long stretch a player's wins bunch up toward the end because they improved. Putting the games from that whole stretch in a random order would count the improvement as streaks. A player's strength doesn't change measurably within a day.
+- **The other choice:** Put the games in a random order over a shorter or a longer stretch.
+- **Does the answer change?** Yes. For every 1,000 losing streaks of 10 or more found once a player's games were put in a random order, the games in the order they were really played had 1,058 streaks when the random order stayed within 1 sitting (games less than 1 hour apart), 1,107 streaks when the random order stayed within 1 day, and 1,431 streaks when the random order ran across all 13 years. A day is the shortest stretch the games mark clearly. The sitting figure is lower still, so the day's figures are an upper bound.
 
-**Expected comes from the shuffled day.**
+**Expected comes from the day's games put in a random order.**
 
-- **Why:** Some days a player loses more whatever the order. The ratings can't see that, so a bad day would be counted as tilt.
+- **Why:** Some days a player loses more whatever the order. The ratings can't see that, so a day with more losses than usual would be counted as tilt.
 - **The other choice:** Expected from the ratings alone.
-- **Does the answer change?** Yes. After 4 losses on the test months, the ratings' prediction would have put 1.50 points of a 2.05-point gap on the streak. The **How much of a losing streak is tilt?** chart shows both steps side by side. `Still counting: both figures for all 13 years`
+- **Does the answer change?** Yes. After 10 or more losses, players won 30.8% of their next games. The ratings alone predicted 40.7%, a gap of 9.9%. The day's games put in a random order predicted 32.3%, a gap of 1.6%. So using the ratings alone as Expected would have made the gap after the streak 8.3% larger than the random order showed. The **How much of a losing streak is tilt?** chart shows both steps side by side.
 
 **Tournament games are left out.**
 
-- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Tournament games were 8.8% of the test months' games.
+- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Across all 13 years, 11.0% of the games players played were tournament games.
 - **The other choice:** Keep tournament games in.
-- **Does the answer change?** Only the size. On the test months losing streaks of 10 or more ran 1.093 times what chance makes with tournament games in and 1.114 with them out. `Still counting: both figures for all 13 years`
+- **Does the answer change?** Only the size. For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks with tournament games in, and 1,125 streaks with tournament games out.
 
 **Rematches stay in.**
 
 - **Why:** Playing the same opponent again is part of how people play.
 - **The other choice:** Take out every game against the opponent from the game before.
-- **Does the answer change?** Only the size. On the test months the extra long losing streaks went from 1.093 times chance to 1.048, about 1/2. What remained still ended up above all 20 random orders. `Still counting: both figures for all 13 years`
+- **Does the answer change?** Only the size. For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks with rematches in, and 1,046 streaks with rematches out. So rematches account for 61 of the 107 extra streaks, about 60%. What remained still ended up above all 20 random orders.
 
 **A player needs at least 10 games in the study to count.**
 
 - **Why:** Fewer games can't make a long streak.
 - **The other choice:** A higher bar of 50 games.
-- **Does the answer change?** No. On the test months the higher bar removed 16% of players and 9.4% of the long losing streaks. The main figure didn't move. `Still counting: both figures for all 13 years`
+- **Does the answer change?** No. I tested this on about 1 in every 340 players, picked at random from all 13 years. Raising the bar to 50 games took out 40% of those players but only 5.2% of their long losing streaks. The main figure didn't move.
 
 **A player's streaks are counted under the speed they played most.**
 
-- **Why:** The charts compare the real order with a shuffled one inside the same speed. If a streak took the speed of its own games, a shuffle could move the streak from one speed to another. Then the two numbers being compared would stop describing the same players.
+- **Why:** The charts compare the real order with a random order inside the same speed. If a streak took the speed of its own games, putting the games in a random order could move the streak from one speed to another. Then the two numbers being compared would stop describing the same players.
 - **The other choice:** Each streak takes the speed of its own games.
 - **Does the answer change?** Not measured.
 
 **An abandoned game counts as the result Lichess recorded.**
 
-- **Why:** Walking away from a game is something a player on a bad streak does.
+- **Why:** Abandoning a game is the player's own choice, so its result counts like any other game's.
 - **The other choice:** Leave abandoned games out.
-- **Does the answer change?** Not measured. Abandoned games were 0.26% of players' games on the test months, too few to move any figure.
+- **Does the answer change?** Not measured. Across all 13 years, about 0.29% of games were abandoned, too few to move any figure.
 
 **Games with no rating are left out.**
 
@@ -94,7 +94,7 @@ Each of these could reasonably have gone the other way.
 
 - **Why:** When a player starts a second game before the first could have ended, there's no break to measure.
 - **The other choice:** Count those as a break of 0.
-- **Does the answer change?** Yes. On the test months about 23 million real instant rematches would have become about 130 million. `Still counting: both figures for all 13 years`
+- **Does the answer change?** Yes. Across all 13 years, about 730 million games started within 10 seconds of the player's last game ending. Counting overlapping games as a break of 0 would have raised that to about 7.8 billion.
 
 **A tab with too few games is dropped.**
 
@@ -112,7 +112,7 @@ Each of these could reasonably have gone the other way.
 
 - **Why:** Grading every game in the study would take years of computer time.
 - **The other choice:** Grade every game.
-- **Does the answer change?** Not measured. I graded `Still counting: how many` games drawn at random. The sample holds 7,000 at each place in a streak for every speed and rating group. A place that can't reach 7,000 games is graded whole and dropped from its tab if the place is still too thin.
+- **Does the answer change?** Not measured. I graded about 2.15 million games drawn at random. The sample holds 7,000 at each place in a streak for every speed and rating group on the tabs. A place that can't reach 7,000 games is graded whole and dropped from its tab if the place is still too thin.
 
 ## Steps
 
@@ -135,19 +135,19 @@ Each of these could reasonably have gone the other way.
 - the break before it
 - its year
 
-**5. Expected.** Each player's games from each day are put in a random order and step 4 runs again on the shuffled order. For the **How often do streaks happen?** chart the shuffle runs 20 times and the real order is compared with the average of the 20. For the game right after a streak the shuffle runs once.
+**5. Expected.** Each player's games from each day are put in a random order and step 4 runs again on the new order. For the **How often do streaks happen?** chart the games are put in a random order 20 separate times and the real order is compared with the average of the 20. For the game right after a streak they are put in a random order once.
 
 **6. What the ratings predict.** The win rate at every rating gap, measured across all the games and checked against the real results gap by gap before any chart uses it.
 
 **7. The tabs.** Every number is split by speed, by rating group, and by both together. Each tab draws its own slice.
 
-**8. Accuracy.** `Still counting: how many` games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19 looking 12 moves deep. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
+**8. Accuracy.** About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19 looking 12 moves deep. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
-**9. The numbers.** Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download comes with the finished numbers.
+**9. The numbers.** Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 6,438 rows.
 
 ## Checks
 
-**The saved games match what Lichess published.** Every month's count matches Lichess's own count. Games rebuilt from the saved copy come back identical to the originals. [The Lichess Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) shows the result month by month. `Still counting: the version of the games this study used`
+**The saved games match what Lichess published.** Every month's count matches Lichess's own count. Games rebuilt from the saved copy come back identical to the originals. [The Lichess Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) shows the result month by month. This study used all 164 months on that page.
 
 **Every rule was tested on made-up players where the right answer is known.** Each rule has test cases on both sides of every edge. Some examples:
 
@@ -159,23 +159,23 @@ Each of these could reasonably have gone the other way.
 
 **The tests catch real mistakes.** I broke the counting on purpose 7 times, once at each step. A test caught every one. (mutation checks)
 
-**The real order against chance.** Streaks in the real order are compared with 20 separate random orders (a permutation test). The real count has to land outside every one of them before the real count is called more than chance. `Still counting: the result`
+**The real order against chance.** Streaks in the real order are compared with 20 separate random orders (a permutation test). The real count has to land outside every one of them before the real count is called more than chance. Across all 13 years it did, for losing and winning streaks of 6, 10, 15 and 20 or more.
 
 **The ratings' prediction matches real results.** The predicted win rate at each rating gap is checked against how often players really won at that gap.
 
-**The full count reproduces the test run.** The program that ran all 164 months was run on the 3 test months first and compared with the test run. `Still counting: the result`
+**The full count reproduces the test run.** The program that ran all 164 months was run on the 3 test months first and compared with the test run. It matched: 442,462 losing streaks of 10 or more on the 3 test months both times.
 
-**Every number in the video checked before it's said.** `Still counting: the final check's result`
+**Every number in the video checked before it's said.** Every number was counted a second time by a separate program and came out the same.
 
-**Nobody has published this for Lichess.** There's no outside figure to compare these numbers with, for Lichess or any other site.
+**No published figure to compare with.** There's no outside figure to compare these numbers with, for Lichess or any other site.
 
 ## Limits
 
-**This can't see inside anyone's head.** Tilt and Hot Streak are names for a gap in the numbers. Draws come in streaks too. On the test months streaks of 6 or more draws happened 1.45 times as often as chance makes them. Nobody rage-draws. So part of what makes streaks run long isn't about feelings at all. `Still counting: the draw figure`
+**This can't measure how a player feels.** Tilt and Hot Streak are names for a gap in the numbers. Draws come in streaks too. For every 1,000 streaks of 6 or more draws found once each day's games were put in a random order, the games in the order they were really played had about 1,340 streaks. A streak of draws is hard to explain by frustration. So part of what makes streaks run long has nothing to do with how a player feels.
 
-**A shorter stretch gives smaller gaps.** A day is the shortest stretch Expected uses. Shuffling within a sitting gives smaller gaps still, so every figure here is an upper bound.
+**A shorter stretch gives smaller gaps.** A day is the shortest stretch Expected uses. Putting the games in a random order within a sitting gives smaller gaps still, so every figure here is an upper bound.
 
-**Losing makes the next game harder.** After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is tougher relative to them. On the test months the ratings alone made 2/3 to 9/10 of the extra long losing streaks. The **How much of a losing streak is tilt?** chart separates that step out. `Still counting: the share`
+**After a loss, the next opponent is relatively stronger.** After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is rated higher relative to the player. On 3 recent test months, the games in the order they were really played had more losing streaks of 10 or more than once each day's games were put in a random order, and the ratings alone made about 67% or more of that difference. That share wasn't counted for all 13 years. The **How much of a losing streak is tilt?** chart separates that step out.
 
 **A streak can span days.** A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The **How long should a player step away?** chart shows what a break does to a streak.
 
@@ -187,7 +187,7 @@ Each of these could reasonably have gone the other way.
 
 **The break is at the latest.** Lichess doesn't record when a game ends, so every break is the shortest it could have been.
 
-**Accuracy is a sample.** The sample covers `Still counting: how many` graded games out of the 8.1 billion. The engine looks 12 moves deep.
+**Accuracy is a sample.** The sample covers about 2.15 million graded games out of the 8.1 billion. The engine looks 12 moves deep.
 
 **This is Lichess only.** Nothing here describes Chess.com players. The Chess.com ranges on the rating tabs are conversions.
 
