@@ -8,7 +8,7 @@ This page says exactly how every number on the [Findings tab](/performance-after
 
 ## Download the Numbers
 
-Every number behind every chart on the Findings tab, in one spreadsheet with a row for each number.
+Every number behind every chart on the Findings tab, in one spreadsheet.
 
 [Download the spreadsheet](/performance-after-wins-or-losses/performance-after-wins-or-losses-numbers.csv){: .rd-btn download="performance-after-wins-or-losses-numbers.csv"}
 
