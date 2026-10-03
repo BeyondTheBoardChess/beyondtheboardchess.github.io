@@ -123,8 +123,8 @@ body.rd-studies-wide .rd-side { min-width: 230px; }
 .markdown-body a.rd-back { display: inline-flex; align-items: center; padding: 7px 16px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; transition: color .15s, border-color .15s; }
 .markdown-body a.rd-back:hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
 .rd-tabs { display: inline-flex; flex-shrink: 0; gap: 2px; padding: 3px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); }
-.markdown-body a.rd-tab { padding: 6px 16px; border-radius: 999px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; }
-.markdown-body a.rd-tab:hover { color: #FFFFFF; }
+.markdown-body a.rd-tab { padding: 5px 15px; border: 1px solid transparent; border-radius: 999px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; transition: color .15s, border-color .15s; }
+.markdown-body a.rd-tab:not(.rd-tab-current):hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
 .markdown-body a.rd-tab.rd-tab-current { color: #FFFFFF; background: #FF3DA6; }
 
 /* The front page's links: each platform's own logo in its own colour. */
