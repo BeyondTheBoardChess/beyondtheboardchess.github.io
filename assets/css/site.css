@@ -149,6 +149,17 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 
 
 
+/* The welcome under Studies (DA-494): a short brand bar under the heading, the first line as
+   a larger opening line in white, the rest quieter and kept to an easy reading width, then
+   room before the study tiles. Only the look is set here; the words stay Rainy's, from the
+   pencil. */
+.markdown-body .rd-welcome { margin-bottom: 34px; }
+.markdown-body .rd-welcome h1 { position: relative; margin-bottom: 26px; }
+.markdown-body .rd-welcome h1::after { content: ""; position: absolute; left: 0; bottom: -12px; width: 56px; height: 4px; border-radius: 4px; background: var(--rd-gradient); }
+.markdown-body .rd-welcome p { max-width: 64ch; margin-bottom: 12px; color: var(--rd-ink-muted); font-size: 1.02rem; line-height: 1.65; }
+.markdown-body .rd-welcome h1 + p { margin-bottom: 16px; color: #FFFFFF; font-family: var(--rd-display); font-size: 1.3rem; font-weight: 500; line-height: 1.4; }
+.markdown-body .rd-welcome p:last-child { margin-bottom: 0; }
+
 /* A study on the Studies page is one tile that links through (DA-492): its picture of the
    question (DA-469) sits on the right in a dark well, and the question reads first on the
    left with an arrow (DA-493). A thin brand gradient runs down the tile's edge so it stands apart from the
@@ -165,9 +176,11 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 /* A study that isn't finished says so above its question (DA-454), in the gold its own page's
    notice wears (DA-453). */
 .markdown-body a.rd-study .rd-building { display: inline-block; padding: 3px 10px; border: 1px solid #FFC24B; border-radius: 999px; background: rgba(255, 194, 75, .10); color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
-.rd-study-go { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--rd-line); color: var(--rd-ink-muted); transition: transform .18s, color .18s, border-color .18s, background .18s; }
-.rd-study-go svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
-.markdown-body a.rd-study:hover .rd-study-go, .markdown-body a.rd-study:focus-visible .rd-study-go { transform: translateX(4px); color: #FFFFFF; border-color: #FF3DA6; background: #FF3DA6; }
+/* The way in is a brand-gradient pill with a dark arrow (DA-494); pointing at the tile
+   stretches the pill forward and the arrow rides to its tip. */
+.rd-study-go { display: inline-flex; align-items: center; justify-content: flex-end; width: 56px; height: 34px; padding: 0 14px; box-sizing: border-box; border-radius: 999px; background: var(--rd-gradient); color: var(--rd-void); box-shadow: 0 6px 18px -8px rgba(255, 61, 166, .7); transition: width .22s ease, box-shadow .22s ease; }
+.rd-study-go svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.markdown-body a.rd-study:hover .rd-study-go, .markdown-body a.rd-study:focus-visible .rd-study-go { width: 84px; box-shadow: 0 8px 26px -6px rgba(255, 61, 166, .85); }
 @media (max-width: 700px) {
   .markdown-body a.rd-study.rd-study-has-picture { grid-template-columns: 1fr; }
   .rd-study-art { border-left: 0; border-top: 1px solid var(--rd-line); padding: 18px; }
