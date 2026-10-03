@@ -161,7 +161,9 @@
 {%- endcomment -%}
 {%- assign items = section | split: '<h3 ' -%}
 {%- if page.tab == "method" and items.size > 1 %}
-          <section class="rd-card rd-items"><h2 {{ items[0] }}
+{%- assign part_id = items[0] | split: '"' -%}
+{%- capture part_icon -%}>{% include method-icon.html part=part_id[1] %}{%- endcapture %}
+          <section class="rd-card rd-items"><h2 {{ items[0] | replace_first: '>', part_icon }}
             <div class="rd-item-grid">
 {%- for item in items offset: 1 %}
               <div class="rd-item"><h3 {{ item }}</div>

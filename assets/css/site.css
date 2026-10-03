@@ -225,6 +225,8 @@ a.rd-pencil svg { width: 20px; height: 20px; }
    small labels over their text, and the answer's first word (Yes, No, Barely, Only the size, Not
    measured) is a pill. */
 .markdown-body .rd-items > h2 { margin-bottom: 18px; }
+/* Each part's heading opens with a small line icon (DA-504) so the five parts tell apart at a scroll. */
+.rd-part-icon { width: 1.05em; height: 1.05em; margin-right: .45em; vertical-align: -.15em; color: var(--rd-cyan); }
 .rd-item-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
 .rd-items:has(#definitions, #checks, #limits) .rd-item-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
 .markdown-body .rd-item { padding: 18px 20px; border: 1px solid var(--rd-line); border-radius: 12px; background: var(--rd-well); scroll-margin-top: 24px; }
