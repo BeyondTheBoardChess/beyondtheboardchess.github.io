@@ -42,10 +42,6 @@ How far a player's win rate right after a winning streak rises above Expected. H
 
 The win rate the two players' ratings predict for a game. I measured it from the games themselves by counting how often a player wins at every rating gap across all the games in the study.
 
-### Against an opponent within 100 points
-
-Both players' ratings as Lichess recorded them on that game are no more than 100 points apart.
-
 ### Speed
 
 Lichess sorts a game by its clock. Lichess calls a game bullet from 30 seconds up to 3 minutes, blitz from 3 minutes up to 8 and rapid from 8 minutes up to 25. A player's streaks are counted under the speed that player played most. The Summary tab counts every speed, including classical and ultraBullet. Those two time controls do not have a tab of their own.
@@ -128,7 +124,7 @@ Each of these could reasonably have gone the other way.
 
 ### A tab with too few games is dropped
 
-- **Why:** A win rate needs at least 1,600 games right after a streak. The **How long should a player step away?** chart needs 1,600 streaks ended or carried on at each wait. 1,600 is the fewest games that can tell a 55% chance from a 50% one (a power calculation).
+- **Why:** A win rate needs at least 1,600 games right after a streak. The **How long should a player rest before playing their next game?** chart needs 1,600 streaks ended or carried on at each wait. 1,600 is the fewest games that can tell a 55% chance from a 50% one (a power calculation).
 - **The other choice:** Draw every tab and mark the thin ones.
 - **Does the answer change?** **No.** Only the tabs too thin to read are left off, with no note.
 
@@ -249,7 +245,7 @@ After losing, a player's rating drops faster than Lichess's pairing makes up for
 
 ### A streak can span days
 
-A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The **How long should a player step away?** chart shows what a break does to a streak.
+A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The **How long should a player rest before playing their next game?** chart shows what a break does to a streak.
 
 ### An account isn't always one person
 
