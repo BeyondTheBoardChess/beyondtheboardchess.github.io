@@ -15,6 +15,10 @@ links:
     icon: chessdotcom
     colour: "#81B64C"
     url: https://www.chess.com/blog/BeyondTheBoardChess
+  - title: Lichess Blog
+    icon: lichess
+    colour: "#FFFFFF"
+    url: https://lichess.org/@/BeyondTheBoardChess/blog
   - title: Reddit
     icon: reddit
     colour: "#FF4500"
