@@ -146,11 +146,11 @@ Each of these could reasonably have gone the other way.
 
 ## Steps
 
-### 1. The games
+### 1. Gather every game
 
 Every game Lichess published from January 2013 to August 2026. That's 8,130,696,420 games in 164 monthly files. [The Lichess Data](https://beyondtheboardchess.github.io/how-the-data-is-checked.html) lists every file by name with its fingerprint and Lichess's own count of its games.
 
-### 2. What was left out
+### 2. Leave out the games that can't count
 
 - Correspondence games. One move can take days, so the game has no clear place in a player's order.
 - Games with no result recorded.
@@ -158,11 +158,11 @@ Every game Lichess published from January 2013 to August 2026. That's 8,130,696,
 - Arena and Swiss games.
 - Players with fewer than 10 games.
 
-### 3. One timeline per player
+### 3. Put each player's games in order
 
 Every game becomes 2 rows, 1 for each player. Each player's games from all 164 months are joined into one timeline in the order the games started, so no streak is cut off at the end of a month. Names that differ only in capital letters are treated as one player.
 
-### 4. Streaks and the game after each one
+### 4. Find every streak and the game after it
 
 Draws are taken out of each timeline and every streak is counted at every length. For each streak I kept the game right after it. That game's record holds:
 
@@ -171,23 +171,23 @@ Draws are taken out of each timeline and every streak is counted at every length
 - the break before it
 - its year
 
-### 5. Expected
+### 5. Put each day's games in a random order
 
 Each player's games from each day are put in a random order and step 4 runs again on the new order. For the **How often do streaks happen?** chart the games are put in a random order 20 separate times and the real order is compared with the average of the 20. For the game right after a streak they are put in a random order once.
 
-### 6. What the ratings predict
+### 6. Work out what the ratings predict
 
 The win rate at every rating gap, measured across all the games and checked against the real results gap by gap before any chart uses it.
 
-### 7. The tabs
+### 7. Split everything by speed and rating group
 
 Every number is split by speed, by rating group, and by both together. Each tab draws its own slice.
 
-### 8. Accuracy
+### 8. Grade a sample of games for accuracy
 
 About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19 looking 12 moves deep. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
-### 9. The numbers
+### 9. Add up the numbers
 
 Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 6,438 rows.
 
