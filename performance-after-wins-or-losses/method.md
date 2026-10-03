@@ -60,7 +60,7 @@ The time between the end of one game and the start of the player's next. Lichess
 
 ### Move accuracy
 
-Lichess's own accuracy figure, the stats a player sees on a game's analysis page. The figure comes from a chess engine grading every move. I used Stockfish 19 looking 12 moves deep.
+Lichess's own accuracy figure, the stats a player sees on a game's analysis page. The figure comes from the chess engine Stockfish 19 grading every move. Before grading a move, Stockfish 19 looks about six moves ahead for each player.
 
 ## Judgement Calls
 
@@ -185,7 +185,7 @@ Every number is split by speed, by rating group, and by both together. Each tab 
 
 ### 8. Grade a sample of games for accuracy
 
-About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19 looking 12 moves deep. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
+About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19, which looks about six moves ahead for each player. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
 ### 9. Add up the numbers
 
@@ -269,7 +269,7 @@ Lichess doesn't record when a game ends, so every break is the shortest it could
 
 ### Accuracy is a sample
 
-The sample covers about 2.15 million graded games out of the 8.1 billion. The engine looks 12 moves deep.
+The sample covers about 2.15 million graded games out of the 8.1 billion. Stockfish 19 grades every move of those games, looking about six moves ahead for each player.
 
 ### This is Lichess only
 
