@@ -151,11 +151,11 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 
 /* The welcome under Studies reads as the heading's quiet subtext (DA-497, after DA-494 to
    DA-496): every line the same size and colour and the full width of the column, close
-   under the heading, then a plain line in the brand's blue (DA-498, Rainy's pick), unlike
+   under the heading, then a plain line in the logo's own blue (DA-498, DA-499, Rainy's pick), unlike
    the page's grey rules, so the welcome never looks like one more study.
    Only the look is set here; the words stay Rainy's, from the pencil. */
 .markdown-body .rd-welcome { position: relative; margin-bottom: 0; padding-bottom: 30px; }
-.markdown-body .rd-welcome::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 2px; background: var(--rd-cyan); }
+.markdown-body .rd-welcome::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 2px; background: #005AB1; }
 .markdown-body .rd-welcome h1 { margin-bottom: 10px; }
 .markdown-body .rd-welcome p { margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
 .markdown-body .rd-welcome p:last-child { margin-bottom: 0; }
@@ -163,7 +163,7 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 
 /* A study on the Studies page is one tile that links through (DA-492): its picture of the
    question (DA-469) sits on the right in a dark well, and the question reads first on the
-   left with an arrow (DA-493). A thin brand gradient runs down the tile's edge so it stands apart from the
+   left (DA-493); the whole tile is the link, so it carries no arrow (DA-499). A thin brand gradient runs down the tile's edge so it stands apart from the
    plain panels, and pointing at it lifts it and lights the edge a soft pink (kept by Rainy, DA-495). On a phone the question
    sits above the picture. */
 .markdown-body a.rd-study { position: relative; display: grid; grid-template-columns: 1fr; margin: 0 0 18px; overflow: hidden; border: 1px solid var(--rd-line); border-radius: 16px; background: linear-gradient(135deg, #16223A 0%, var(--rd-surface) 60%); color: var(--rd-ink); text-decoration: none; transition: transform .18s, border-color .18s, box-shadow .18s; }
@@ -177,11 +177,6 @@ body.rd-nav-hidden .rd-nav-toggle span { display: none; }
 /* A study that isn't finished says so above its question (DA-454), in the gold its own page's
    notice wears (DA-453). */
 .markdown-body a.rd-study .rd-building { display: inline-block; padding: 3px 10px; border: 1px solid #FFC24B; border-radius: 999px; background: rgba(255, 194, 75, .10); color: #FFC24B; font-family: var(--rd-display); font-weight: 600; font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; }
-/* The way in is a plain arrow in the quiet text colour (DA-495); pointing at the tile turns
-   it white and slides it forward a little. */
-.rd-study-go { display: inline-flex; color: var(--rd-ink-muted); transition: transform .18s, color .18s; }
-.rd-study-go svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.markdown-body a.rd-study:hover .rd-study-go, .markdown-body a.rd-study:focus-visible .rd-study-go { transform: translateX(5px); color: #FFFFFF; }
 @media (max-width: 700px) {
   .markdown-body a.rd-study.rd-study-has-picture { grid-template-columns: 1fr; }
   .rd-study-art { border-left: 0; border-top: 1px solid var(--rd-line); padding: 18px; }

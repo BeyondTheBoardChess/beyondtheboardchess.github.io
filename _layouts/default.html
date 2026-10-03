@@ -22,7 +22,7 @@
   _data/nav.yml, newest first. Each panel reads: the Under Construction note if
   the study isn't finished, its question, then the picture of its question if it names one
   (DA-469), all inside the link, so clicking the picture opens the study. Since DA-492 each
-  study is a tile: the question and an arrow on the left, its picture on the right (DA-493),
+  study is a tile: the question on the left, its picture on the right (DA-493),
   the question above the picture on a phone.
 
   A study page carries `study:` (its key in _data/nav.yml) and `tab:` (findings or method) in
@@ -157,7 +157,7 @@
 {%- endfor %}
 {%- if on_front -%}
 {%- for s in site.data.nav.studies %}
-          <a class="rd-study{% if s.picture %} rd-study-has-picture{% endif %}" href="{{ s.url | relative_url }}"><span class="rd-study-body">{% if s.under_construction %}<span class="rd-building">{{ site.data.words.under_construction | escape }}</span>{% endif %}<h2>{{ s.title | escape }}</h2><span class="rd-study-go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>{% if s.picture %}<span class="rd-study-art"><img class="rd-study-picture" src="{{ s.picture | relative_url }}" alt="{{ s.picture_alt | escape }}"></span>{% endif %}</a>
+          <a class="rd-study{% if s.picture %} rd-study-has-picture{% endif %}" href="{{ s.url | relative_url }}"><span class="rd-study-body">{% if s.under_construction %}<span class="rd-building">{{ site.data.words.under_construction | escape }}</span>{% endif %}<h2>{{ s.title | escape }}</h2></span>{% if s.picture %}<span class="rd-study-art"><img class="rd-study-picture" src="{{ s.picture | relative_url }}" alt="{{ s.picture_alt | escape }}"></span>{% endif %}</a>
 {%- else %}
           <section class="rd-card"><h2>{{ site.data.words.no_studies_title | escape }}</h2><p>{{ site.data.words.no_studies_text | escape }}</p></section>
 {%- endfor -%}
