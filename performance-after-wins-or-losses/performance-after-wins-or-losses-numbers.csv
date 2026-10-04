@@ -1,4 +1,14 @@
 ﻿Chart,Speed,Rating,Streak,What the number is,Number,Games behind the number
+How accurate is a player during a streak?,Summary,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.09,179884
+How accurate is a player during a streak?,Summary,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.42,179897
+How accurate is a player during a streak?,Summary,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.57,179918
+How accurate is a player during a streak?,Summary,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.71,179880
+How accurate is a player during a streak?,Summary,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.95,179455
+How accurate is a player during a streak?,Summary,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.21,179853
+How accurate is a player during a streak?,Summary,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.8,179845
+How accurate is a player during a streak?,Summary,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.6,179844
+How accurate is a player during a streak?,Summary,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.37,175808
+How accurate is a player during a streak?,Summary,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.97,173058
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game, after a break of under a minute (%)",50.89,2406463027
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 loss,"After 1 Loss: win rate in the next game, after a break of under a minute (%)",50.12,2232696952
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game, after a break of under an hour (%)",49.22,551975436
@@ -59,6 +69,26 @@ What is the optimal time to wait between games during a streak?,Summary,All rati
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",39.2,2133157
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",58.11,2742704
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",39.29,3790926
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 1 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",50.34,3619556963
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 2 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",51.46,1819991617
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 3 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",52.21,935425300
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 4 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",53.11,487782456
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 5 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",54.19,258735747
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 6 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",55.52,139998009
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 7 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",57.11,77607005
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 8 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",59.04,44238533
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 9 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",61.29,26061568
+How likely is a streak to continue into the next game?,Summary,All ratings,Winning streak of 10 games or more,"Winning Streak: chance the streak continues into the next game, draws left out (%)",71.56,55494809
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 1 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",50.28,3624422612
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 2 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",51.35,1820992316
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 3 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",52.22,933918390
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 4 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",53.17,486850392
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 5 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",54.26,258301313
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 6 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",55.6,139785221
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 7 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",57.22,77467665
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 8 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",59.19,44152652
+How likely is a streak to continue into the next game?,Summary,All ratings,Game 9 of a losing streak,"Losing Streak: chance the streak continues into the next game, draws left out (%)",61.49,25996815
+How likely is a streak to continue into the next game?,Summary,All ratings,Losing streak of 10 games or more,"Losing Streak: chance the streak continues into the next game, draws left out (%)",71.09,53486281
 How much better or worse than usual does a player play during a streak?,Summary,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.11,179853
 How much better or worse than usual does a player play during a streak?,Summary,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,179845
 How much better or worse than usual does a player play during a streak?,Summary,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.3,179844
