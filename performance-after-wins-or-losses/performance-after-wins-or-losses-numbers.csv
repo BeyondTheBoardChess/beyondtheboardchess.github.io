@@ -89,255 +89,204 @@ How accurate is a player during a streak?,Summary,2400 and up,Game 2 of a losing
 How accurate is a player during a streak?,Summary,2400 and up,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.71,26485
 How accurate is a player during a streak?,Summary,2400 and up,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.41,18013
 How accurate is a player during a streak?,Summary,2400 and up,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.85,24517
-How accurate is a player during a streak?,Bullet,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.97,60692
-How accurate is a player during a streak?,Bullet,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.45,60511
-How accurate is a player during a streak?,Bullet,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.6,60388
-How accurate is a player during a streak?,Bullet,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.63,60440
-How accurate is a player during a streak?,Bullet,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.31,75360
-How accurate is a player during a streak?,Bullet,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.49,60420
-How accurate is a player during a streak?,Bullet,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.07,61477
-How accurate is a player during a streak?,Bullet,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.82,61789
-How accurate is a player during a streak?,Bullet,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.73,61737
-How accurate is a player during a streak?,Bullet,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.16,86025
-How accurate is a player during a streak?,Bullet,1000-1199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",72.55,9529
-How accurate is a player during a streak?,Bullet,1000-1199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",72.88,9341
-How accurate is a player during a streak?,Bullet,1000-1199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",72.77,9335
-How accurate is a player during a streak?,Bullet,1000-1199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",72.67,9452
-How accurate is a player during a streak?,Bullet,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.24,9143
-How accurate is a player during a streak?,Bullet,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.36,9302
-How accurate is a player during a streak?,Bullet,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.5,9416
-How accurate is a player during a streak?,Bullet,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.2,9440
-How accurate is a player during a streak?,Bullet,1000-1199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.34,13047
-How accurate is a player during a streak?,Bullet,1200-1399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.29,8177
-How accurate is a player during a streak?,Bullet,1200-1399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.73,8188
-How accurate is a player during a streak?,Bullet,1200-1399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.62,8061
-How accurate is a player during a streak?,Bullet,1200-1399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.61,8010
-How accurate is a player during a streak?,Bullet,1200-1399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.45,8810
-How accurate is a player during a streak?,Bullet,1200-1399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.54,8286
-How accurate is a player during a streak?,Bullet,1200-1399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.45,8376
-How accurate is a player during a streak?,Bullet,1200-1399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.28,8456
-How accurate is a player during a streak?,Bullet,1200-1399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.1,8522
-How accurate is a player during a streak?,Bullet,1200-1399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.68,11509
-How accurate is a player during a streak?,Bullet,1400-1599,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.67,7000
-How accurate is a player during a streak?,Bullet,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.59,6997
-How accurate is a player during a streak?,Bullet,1400-1599,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.47,7000
-How accurate is a player during a streak?,Bullet,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.13,6999
-How accurate is a player during a streak?,Bullet,1400-1599,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.34,9062
-How accurate is a player during a streak?,Bullet,1400-1599,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.27,6999
-How accurate is a player during a streak?,Bullet,1400-1599,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.85,7814
-How accurate is a player during a streak?,Bullet,1400-1599,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.48,7934
-How accurate is a player during a streak?,Bullet,1400-1599,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.76,7795
-How accurate is a player during a streak?,Bullet,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.72,7000
-How accurate is a player during a streak?,Bullet,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.04,6998
-How accurate is a player during a streak?,Bullet,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.6,7000
-How accurate is a player during a streak?,Bullet,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.17,6999
-How accurate is a player during a streak?,Bullet,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.14,8110
-How accurate is a player during a streak?,Bullet,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.27,7000
-How accurate is a player during a streak?,Bullet,1600-1799,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.05,7000
-How accurate is a player during a streak?,Bullet,1600-1799,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.05,6998
-How accurate is a player during a streak?,Bullet,1600-1799,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.01,6997
-How accurate is a player during a streak?,Bullet,1600-1799,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.49,9647
-How accurate is a player during a streak?,Bullet,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.29,6998
-How accurate is a player during a streak?,Bullet,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.62,6996
-How accurate is a player during a streak?,Bullet,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.55,6999
-How accurate is a player during a streak?,Bullet,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.81,7000
-How accurate is a player during a streak?,Bullet,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.05,8423
-How accurate is a player during a streak?,Bullet,1800-1999,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.79,6999
-How accurate is a player during a streak?,Bullet,1800-1999,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.54,6999
-How accurate is a player during a streak?,Bullet,1800-1999,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.94,6998
-How accurate is a player during a streak?,Bullet,1800-1999,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.92,6998
-How accurate is a player during a streak?,Bullet,1800-1999,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.36,8781
-How accurate is a player during a streak?,Bullet,2000-2199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.67,6993
-How accurate is a player during a streak?,Bullet,2000-2199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.02,6996
-How accurate is a player during a streak?,Bullet,2000-2199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.27,6997
-How accurate is a player during a streak?,Bullet,2000-2199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.21,6992
-How accurate is a player during a streak?,Bullet,2000-2199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.24,6996
-How accurate is a player during a streak?,Bullet,2000-2199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.45,6994
-How accurate is a player during a streak?,Bullet,2000-2199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.51,6993
-How accurate is a player during a streak?,Bullet,2000-2199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.55,6995
-How accurate is a player during a streak?,Bullet,2000-2199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.29,8736
-How accurate is a player during a streak?,Bullet,2200-2399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.37,6998
-How accurate is a player during a streak?,Bullet,2200-2399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.47,6997
-How accurate is a player during a streak?,Bullet,2200-2399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.57,6998
-How accurate is a player during a streak?,Bullet,2200-2399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.64,6995
-How accurate is a player during a streak?,Bullet,2200-2399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.73,7718
-How accurate is a player during a streak?,Bullet,2200-2399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.6,6999
-How accurate is a player during a streak?,Bullet,2200-2399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.3,7000
-How accurate is a player during a streak?,Bullet,2200-2399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.94,6996
-How accurate is a player during a streak?,Bullet,2200-2399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.73,6996
-How accurate is a player during a streak?,Bullet,2200-2399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.99,9182
-How accurate is a player during a streak?,Bullet,2400 and up,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.16,6998
-How accurate is a player during a streak?,Bullet,2400 and up,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.29,6998
-How accurate is a player during a streak?,Bullet,2400 and up,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.6,6998
-How accurate is a player during a streak?,Bullet,2400 and up,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.73,6996
-How accurate is a player during a streak?,Bullet,2400 and up,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.18,6999
-How accurate is a player during a streak?,Bullet,2400 and up,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.71,6993
-How accurate is a player during a streak?,Bullet,2400 and up,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.86,6998
-How accurate is a player during a streak?,Bullet,2400 and up,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.64,6997
-How accurate is a player during a streak?,Bullet,2400 and up,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.39,8892
-How accurate is a player during a streak?,Blitz,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79,58173
-How accurate is a player during a streak?,Blitz,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.21,58169
-How accurate is a player during a streak?,Blitz,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.33,58077
-How accurate is a player during a streak?,Blitz,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.55,58219
-How accurate is a player during a streak?,Blitz,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.34,61981
-How accurate is a player during a streak?,Blitz,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.34,58552
-How accurate is a player during a streak?,Blitz,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.01,58672
-How accurate is a player during a streak?,Blitz,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.82,58752
-How accurate is a player during a streak?,Blitz,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.54,59637
-How accurate is a player during a streak?,Blitz,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.36,90421
-How accurate is a player during a streak?,Blitz,1000-1199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.77,8206
-How accurate is a player during a streak?,Blitz,1000-1199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.49,8196
-How accurate is a player during a streak?,Blitz,1000-1199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.92,8097
-How accurate is a player during a streak?,Blitz,1000-1199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.23,8252
-How accurate is a player during a streak?,Blitz,1000-1199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.94,9158
-How accurate is a player during a streak?,Blitz,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",63.49,8575
-How accurate is a player during a streak?,Blitz,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",63.02,8702
-How accurate is a player during a streak?,Blitz,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",63.07,8784
-How accurate is a player during a streak?,Blitz,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.76,8937
-How accurate is a player during a streak?,Blitz,1200-1399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.03,6998
-How accurate is a player during a streak?,Blitz,1200-1399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.3,6998
-How accurate is a player during a streak?,Blitz,1200-1399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.26,6998
-How accurate is a player during a streak?,Blitz,1200-1399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.26,6999
-How accurate is a player during a streak?,Blitz,1200-1399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.09,9957
-How accurate is a player during a streak?,Blitz,1200-1399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.81,6997
-How accurate is a player during a streak?,Blitz,1200-1399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.71,6999
-How accurate is a player during a streak?,Blitz,1200-1399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.62,6998
-How accurate is a player during a streak?,Blitz,1200-1399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.41,7744
-How accurate is a player during a streak?,Blitz,1200-1399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.54,10005
-How accurate is a player during a streak?,Blitz,1400-1599,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.37,6999
-How accurate is a player during a streak?,Blitz,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.06,6999
-How accurate is a player during a streak?,Blitz,1400-1599,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.38,6999
-How accurate is a player during a streak?,Blitz,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.38,6997
-How accurate is a player during a streak?,Blitz,1400-1599,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.71,6970
-How accurate is a player during a streak?,Blitz,1400-1599,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.05,7000
-How accurate is a player during a streak?,Blitz,1400-1599,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.87,6997
-How accurate is a player during a streak?,Blitz,1400-1599,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.81,6998
-How accurate is a player during a streak?,Blitz,1400-1599,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.95,6995
-How accurate is a player during a streak?,Blitz,1400-1599,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.83,9295
-How accurate is a player during a streak?,Blitz,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.76,6994
-How accurate is a player during a streak?,Blitz,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.41,6995
-How accurate is a player during a streak?,Blitz,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.18,6997
-How accurate is a player during a streak?,Blitz,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.25,6995
-How accurate is a player during a streak?,Blitz,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.33,6959
-How accurate is a player during a streak?,Blitz,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.92,6998
-How accurate is a player during a streak?,Blitz,1600-1799,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.96,6997
-How accurate is a player during a streak?,Blitz,1600-1799,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.72,6998
-How accurate is a player during a streak?,Blitz,1600-1799,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.86,6995
-How accurate is a player during a streak?,Blitz,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.6,6995
-How accurate is a player during a streak?,Blitz,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.7,6995
-How accurate is a player during a streak?,Blitz,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.77,6997
-How accurate is a player during a streak?,Blitz,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.99,6994
-How accurate is a player during a streak?,Blitz,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.92,6986
-How accurate is a player during a streak?,Blitz,1800-1999,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.77,6997
-How accurate is a player during a streak?,Blitz,1800-1999,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.35,6996
-How accurate is a player during a streak?,Blitz,1800-1999,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.24,6995
-How accurate is a player during a streak?,Blitz,1800-1999,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.97,6991
-How accurate is a player during a streak?,Blitz,2000-2199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.51,6993
-How accurate is a player during a streak?,Blitz,2000-2199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84,6992
-How accurate is a player during a streak?,Blitz,2000-2199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.83,6995
-How accurate is a player during a streak?,Blitz,2000-2199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.92,6994
-How accurate is a player during a streak?,Blitz,2000-2199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.76,6983
-How accurate is a player during a streak?,Blitz,2000-2199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.17,6996
-How accurate is a player during a streak?,Blitz,2000-2199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.49,6992
-How accurate is a player during a streak?,Blitz,2000-2199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.38,6989
-How accurate is a player during a streak?,Blitz,2000-2199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.19,6987
-How accurate is a player during a streak?,Blitz,2000-2199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.24,6937
-How accurate is a player during a streak?,Blitz,2200-2399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.4,6995
-How accurate is a player during a streak?,Blitz,2200-2399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.58,6999
-How accurate is a player during a streak?,Blitz,2200-2399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.65,6994
-How accurate is a player during a streak?,Blitz,2200-2399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.61,6992
-How accurate is a player during a streak?,Blitz,2200-2399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",86.96,6987
-How accurate is a player during a streak?,Blitz,2200-2399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.79,6997
-How accurate is a player during a streak?,Blitz,2200-2399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.54,6997
-How accurate is a player during a streak?,Blitz,2200-2399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.49,6994
-How accurate is a player during a streak?,Blitz,2200-2399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.38,6994
-How accurate is a player during a streak?,Blitz,2200-2399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.52,8312
-How accurate is a player during a streak?,Blitz,2400 and up,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",86.78,6995
-How accurate is a player during a streak?,Blitz,2400 and up,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.21,6995
-How accurate is a player during a streak?,Blitz,2400 and up,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.16,7000
-How accurate is a player during a streak?,Blitz,2400 and up,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.27,6998
-How accurate is a player during a streak?,Blitz,2400 and up,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.9,6992
-How accurate is a player during a streak?,Blitz,2400 and up,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.48,6996
-How accurate is a player during a streak?,Blitz,2400 and up,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.2,6993
-How accurate is a player during a streak?,Blitz,2400 and up,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.18,6998
-How accurate is a player during a streak?,Blitz,2400 and up,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.98,6997
-How accurate is a player during a streak?,Rapid,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.39,61311
-How accurate is a player during a streak?,Rapid,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.78,59616
-How accurate is a player during a streak?,Rapid,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.05,60314
-How accurate is a player during a streak?,Rapid,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.47,61439
-How accurate is a player during a streak?,Rapid,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.02,92544
-How accurate is a player during a streak?,Rapid,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.95,62226
-How accurate is a player during a streak?,Rapid,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.32,62755
-How accurate is a player during a streak?,Rapid,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.22,64421
-How accurate is a player during a streak?,Rapid,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.87,56354
-How accurate is a player during a streak?,Rapid,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.31,70386
-How accurate is a player during a streak?,Rapid,1000-1199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.38,9026
-How accurate is a player during a streak?,Rapid,1000-1199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.67,8872
-How accurate is a player during a streak?,Rapid,1000-1199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.07,8846
-How accurate is a player during a streak?,Rapid,1000-1199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.44,8839
-How accurate is a player during a streak?,Rapid,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",61.97,8828
-How accurate is a player during a streak?,Rapid,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",61.43,9041
-How accurate is a player during a streak?,Rapid,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",61.67,8982
-How accurate is a player during a streak?,Rapid,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",61.71,9356
-How accurate is a player during a streak?,Rapid,1000-1199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.16,11870
-How accurate is a player during a streak?,Rapid,1200-1399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.59,6992
-How accurate is a player during a streak?,Rapid,1200-1399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.6,6997
-How accurate is a player during a streak?,Rapid,1200-1399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.79,6997
-How accurate is a player during a streak?,Rapid,1200-1399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.01,6999
-How accurate is a player during a streak?,Rapid,1200-1399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.25,7841
-How accurate is a player during a streak?,Rapid,1200-1399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.52,7967
-How accurate is a player during a streak?,Rapid,1200-1399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.93,7973
-How accurate is a player during a streak?,Rapid,1200-1399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.93,8012
-How accurate is a player during a streak?,Rapid,1200-1399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.2,10690
-How accurate is a player during a streak?,Rapid,1400-1599,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.44,6997
-How accurate is a player during a streak?,Rapid,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.16,6995
-How accurate is a player during a streak?,Rapid,1400-1599,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.38,6998
-How accurate is a player during a streak?,Rapid,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.36,6999
-How accurate is a player during a streak?,Rapid,1400-1599,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.69,6999
-How accurate is a player during a streak?,Rapid,1400-1599,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.16,6994
-How accurate is a player during a streak?,Rapid,1400-1599,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.69,6994
-How accurate is a player during a streak?,Rapid,1400-1599,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.68,6997
-How accurate is a player during a streak?,Rapid,1400-1599,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.55,6995
-How accurate is a player during a streak?,Rapid,1400-1599,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.38,9422
-How accurate is a player during a streak?,Rapid,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.73,6993
-How accurate is a player during a streak?,Rapid,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81,6997
-How accurate is a player during a streak?,Rapid,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.11,6993
-How accurate is a player during a streak?,Rapid,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.64,6991
-How accurate is a player during a streak?,Rapid,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.61,7694
-How accurate is a player during a streak?,Rapid,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.96,6998
-How accurate is a player during a streak?,Rapid,1600-1799,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.58,6993
-How accurate is a player during a streak?,Rapid,1600-1799,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.44,6998
-How accurate is a player during a streak?,Rapid,1600-1799,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.54,6994
-How accurate is a player during a streak?,Rapid,1600-1799,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.67,9477
-How accurate is a player during a streak?,Rapid,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.93,6995
-How accurate is a player during a streak?,Rapid,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.03,6996
-How accurate is a player during a streak?,Rapid,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.26,6996
-How accurate is a player during a streak?,Rapid,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.69,6998
-How accurate is a player during a streak?,Rapid,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",86.77,6998
-How accurate is a player during a streak?,Rapid,1800-1999,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.39,6996
-How accurate is a player during a streak?,Rapid,1800-1999,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.88,7000
-How accurate is a player during a streak?,Rapid,1800-1999,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73,6996
-How accurate is a player during a streak?,Rapid,1800-1999,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.96,6996
-How accurate is a player during a streak?,Rapid,1800-1999,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.45,8742
-How accurate is a player during a streak?,Rapid,2000-2199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.94,6996
-How accurate is a player during a streak?,Rapid,2000-2199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.36,6995
-How accurate is a player during a streak?,Rapid,2000-2199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.5,6996
-How accurate is a player during a streak?,Rapid,2000-2199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.84,6997
-How accurate is a player during a streak?,Rapid,2000-2199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",89.48,6998
-How accurate is a player during a streak?,Rapid,2000-2199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.8,6993
-How accurate is a player during a streak?,Rapid,2000-2199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.64,6996
-How accurate is a player during a streak?,Rapid,2000-2199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.39,6994
-How accurate is a player during a streak?,Rapid,2000-2199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.3,6993
-How accurate is a player during a streak?,Rapid,2200-2399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.25,6994
-How accurate is a player during a streak?,Rapid,2200-2399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.54,6994
-How accurate is a player during a streak?,Rapid,2200-2399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.65,6997
-How accurate is a player during a streak?,Rapid,2200-2399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",88.39,6997
-How accurate is a player during a streak?,Rapid,2200-2399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",91.4,6995
-How accurate is a player during a streak?,Rapid,2200-2399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.99,6987
-How accurate is a player during a streak?,Rapid,2200-2399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.9,6991
-How accurate is a player during a streak?,Rapid,2200-2399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.65,6994
-How accurate is a player during a streak?,Rapid,2200-2399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.59,6986
-How accurate is a player during a streak?,Rapid,2400 and up,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",89.05,7774
+How accurate is a player during a streak?,Bullet,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.23,61130
+How accurate is a player during a streak?,Bullet,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.79,60727
+How accurate is a player during a streak?,Bullet,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.8,60208
+How accurate is a player during a streak?,Bullet,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.92,59937
+How accurate is a player during a streak?,Bullet,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.78,70284
+How accurate is a player during a streak?,Bullet,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.24,61336
+How accurate is a player during a streak?,Bullet,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.83,62541
+How accurate is a player during a streak?,Bullet,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.57,63226
+How accurate is a player during a streak?,Bullet,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.52,62426
+How accurate is a player during a streak?,Bullet,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.04,85369
+How accurate is a player during a streak?,Bullet,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.86,8460
+How accurate is a player during a streak?,Bullet,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.05,8543
+How accurate is a player during a streak?,Bullet,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.33,8713
+How accurate is a player during a streak?,Bullet,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",64.02,8777
+How accurate is a player during a streak?,Bullet,1200-1399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.43,7635
+How accurate is a player during a streak?,Bullet,1200-1399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.32,7745
+How accurate is a player during a streak?,Bullet,1200-1399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.21,7747
+How accurate is a player during a streak?,Bullet,1200-1399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.92,7879
+How accurate is a player during a streak?,Bullet,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.63,6549
+How accurate is a player during a streak?,Bullet,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.32,6606
+How accurate is a player during a streak?,Bullet,1400-1599,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.87,6729
+How accurate is a player during a streak?,Bullet,1400-1599,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.64,7291
+How accurate is a player during a streak?,Bullet,1400-1599,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.3,7441
+How accurate is a player during a streak?,Bullet,1400-1599,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.55,7246
+How accurate is a player during a streak?,Bullet,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.05,6693
+How accurate is a player during a streak?,Bullet,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.66,6831
+How accurate is a player during a streak?,Bullet,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.79,6766
+How accurate is a player during a streak?,Bullet,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.5,6821
+How accurate is a player during a streak?,Bullet,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.31,7009
+How accurate is a player during a streak?,Bullet,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.1,6773
+How accurate is a player during a streak?,Bullet,1600-1799,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.79,6843
+How accurate is a player during a streak?,Bullet,1600-1799,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.72,6813
+How accurate is a player during a streak?,Bullet,1600-1799,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.86,6858
+How accurate is a player during a streak?,Bullet,1600-1799,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.68,9494
+How accurate is a player during a streak?,Bullet,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.74,7021
+How accurate is a player during a streak?,Bullet,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.15,7044
+How accurate is a player during a streak?,Bullet,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.04,6948
+How accurate is a player during a streak?,Bullet,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.24,6902
+How accurate is a player during a streak?,Bullet,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.89,7332
+How accurate is a player during a streak?,Bullet,1800-1999,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.71,7062
+How accurate is a player during a streak?,Bullet,1800-1999,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.27,7055
+How accurate is a player during a streak?,Bullet,1800-1999,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.7,7070
+How accurate is a player during a streak?,Bullet,1800-1999,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.73,7096
+How accurate is a player during a streak?,Bullet,1800-1999,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.79,9155
+How accurate is a player during a streak?,Bullet,2000-2199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.23,7370
+How accurate is a player during a streak?,Bullet,2000-2199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.57,7407
+How accurate is a player during a streak?,Bullet,2000-2199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.67,7203
+How accurate is a player during a streak?,Bullet,2000-2199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.83,7181
+How accurate is a player during a streak?,Bullet,2000-2199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.42,7996
+How accurate is a player during a streak?,Bullet,2000-2199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.98,7286
+How accurate is a player during a streak?,Bullet,2000-2199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.23,7459
+How accurate is a player during a streak?,Bullet,2000-2199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.19,7451
+How accurate is a player during a streak?,Bullet,2000-2199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.4,7484
+How accurate is a player during a streak?,Bullet,2000-2199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.63,9158
+How accurate is a player during a streak?,Bullet,2200-2399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.05,7679
+How accurate is a player during a streak?,Bullet,2200-2399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.25,7830
+How accurate is a player during a streak?,Bullet,2200-2399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.22,7685
+How accurate is a player during a streak?,Bullet,2200-2399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.38,7515
+How accurate is a player during a streak?,Bullet,2200-2399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.92,7713
+How accurate is a player during a streak?,Bullet,2200-2399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.43,7781
+How accurate is a player during a streak?,Bullet,2200-2399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.03,7821
+How accurate is a player during a streak?,Bullet,2200-2399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.67,7771
+How accurate is a player during a streak?,Bullet,2200-2399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.52,7833
+How accurate is a player during a streak?,Bullet,2200-2399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",71.54,9944
+How accurate is a player during a streak?,Bullet,2400 and up,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.88,8544
+How accurate is a player during a streak?,Bullet,2400 and up,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.03,8130
+How accurate is a player during a streak?,Bullet,2400 and up,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.28,8203
+How accurate is a player during a streak?,Bullet,2400 and up,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.47,8091
+How accurate is a player during a streak?,Bullet,2400 and up,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.28,10791
+How accurate is a player during a streak?,Bullet,2400 and up,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.97,8588
+How accurate is a player during a streak?,Bullet,2400 and up,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.41,8790
+How accurate is a player during a streak?,Bullet,2400 and up,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.52,9199
+How accurate is a player during a streak?,Bullet,2400 and up,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.44,8248
+How accurate is a player during a streak?,Bullet,2400 and up,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.82,11697
+How accurate is a player during a streak?,Blitz,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.34,66625
+How accurate is a player during a streak?,Blitz,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.53,65725
+How accurate is a player during a streak?,Blitz,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.75,65689
+How accurate is a player during a streak?,Blitz,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.93,65194
+How accurate is a player during a streak?,Blitz,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.9,67387
+How accurate is a player during a streak?,Blitz,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.55,67038
+How accurate is a player during a streak?,Blitz,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.19,67461
+How accurate is a player during a streak?,Blitz,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.03,67629
+How accurate is a player during a streak?,Blitz,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.77,66365
+How accurate is a player during a streak?,Blitz,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",66.7,89279
+How accurate is a player during a streak?,Blitz,1000-1199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.24,9534
+How accurate is a player during a streak?,Blitz,1000-1199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.04,9510
+How accurate is a player during a streak?,Blitz,1000-1199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.23,9355
+How accurate is a player during a streak?,Blitz,1000-1199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.69,9397
+How accurate is a player during a streak?,Blitz,1000-1199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.6,13240
+How accurate is a player during a streak?,Blitz,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",63.72,9816
+How accurate is a player during a streak?,Blitz,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",63,10015
+How accurate is a player during a streak?,Blitz,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.99,10017
+How accurate is a player during a streak?,Blitz,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.83,10227
+How accurate is a player during a streak?,Blitz,1200-1399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.3,8112
+How accurate is a player during a streak?,Blitz,1200-1399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.66,8012
+How accurate is a player during a streak?,Blitz,1200-1399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.62,7987
+How accurate is a player during a streak?,Blitz,1200-1399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",76.61,8108
+How accurate is a player during a streak?,Blitz,1200-1399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.8,10027
+How accurate is a player during a streak?,Blitz,1200-1399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.85,8148
+How accurate is a player during a streak?,Blitz,1200-1399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.77,8263
+How accurate is a player during a streak?,Blitz,1200-1399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.69,8318
+How accurate is a player during a streak?,Blitz,1200-1399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.53,8786
+How accurate is a player during a streak?,Blitz,1200-1399,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.81,10955
+How accurate is a player during a streak?,Blitz,1400-1599,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.69,7838
+How accurate is a player during a streak?,Blitz,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.38,7866
+How accurate is a player during a streak?,Blitz,1400-1599,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.7,7789
+How accurate is a player during a streak?,Blitz,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",78.7,7781
+How accurate is a player during a streak?,Blitz,1400-1599,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.13,7585
+How accurate is a player during a streak?,Blitz,1400-1599,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.28,7762
+How accurate is a player during a streak?,Blitz,1400-1599,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.92,8061
+How accurate is a player during a streak?,Blitz,1400-1599,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.87,7915
+How accurate is a player during a streak?,Blitz,1400-1599,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.03,7902
+How accurate is a player during a streak?,Blitz,1400-1599,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.13,10731
+How accurate is a player during a streak?,Blitz,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.92,7863
+How accurate is a player during a streak?,Blitz,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.49,7780
+How accurate is a player during a streak?,Blitz,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.58,7747
+How accurate is a player during a streak?,Blitz,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.55,7519
+How accurate is a player during a streak?,Blitz,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.69,7294
+How accurate is a player during a streak?,Blitz,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.99,7848
+How accurate is a player during a streak?,Blitz,1600-1799,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.09,7740
+How accurate is a player during a streak?,Blitz,1600-1799,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",69.93,7756
+How accurate is a player during a streak?,Blitz,1600-1799,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.01,7811
+How accurate is a player during a streak?,Blitz,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.82,7811
+How accurate is a player during a streak?,Blitz,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.93,7758
+How accurate is a player during a streak?,Blitz,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.05,7777
+How accurate is a player during a streak?,Blitz,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82.28,7660
+How accurate is a player during a streak?,Blitz,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.32,7297
+How accurate is a player during a streak?,Blitz,1800-1999,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.8,7803
+How accurate is a player during a streak?,Blitz,1800-1999,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.48,7835
+How accurate is a player during a streak?,Blitz,1800-1999,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.36,7753
+How accurate is a player during a streak?,Blitz,1800-1999,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",72.09,7752
+How accurate is a player during a streak?,Blitz,2000-2199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.83,7900
+How accurate is a player during a streak?,Blitz,2000-2199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.28,7738
+How accurate is a player during a streak?,Blitz,2000-2199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.2,7931
+How accurate is a player during a streak?,Blitz,2000-2199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.2,7699
+How accurate is a player during a streak?,Blitz,2000-2199,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",86.16,7153
+How accurate is a player during a streak?,Blitz,2000-2199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",75.29,7969
+How accurate is a player during a streak?,Blitz,2000-2199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.74,7818
+How accurate is a player during a streak?,Blitz,2000-2199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.69,7764
+How accurate is a player during a streak?,Blitz,2000-2199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",74.37,7786
+How accurate is a player during a streak?,Blitz,2000-2199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",73.46,7961
+How accurate is a player during a streak?,Blitz,2200-2399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.75,7965
+How accurate is a player during a streak?,Blitz,2200-2399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.89,7740
+How accurate is a player during a streak?,Blitz,2200-2399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.98,7824
+How accurate is a player during a streak?,Blitz,2200-2399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",85.94,7766
+How accurate is a player during a streak?,Blitz,2200-2399,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.42,6713
+How accurate is a player during a streak?,Blitz,2200-2399,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",77.05,7953
+How accurate is a player during a streak?,Blitz,2200-2399,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.88,7974
+How accurate is a player during a streak?,Blitz,2200-2399,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.81,8050
+How accurate is a player during a streak?,Blitz,2200-2399,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",76.75,7961
+How accurate is a player during a streak?,Blitz,2400 and up,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.24,8397
+How accurate is a player during a streak?,Blitz,2400 and up,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.55,8081
+How accurate is a player during a streak?,Blitz,2400 and up,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.66,8091
+How accurate is a player during a streak?,Blitz,2400 and up,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",87.87,8112
+How accurate is a player during a streak?,Blitz,2400 and up,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",88.71,6954
+How accurate is a player during a streak?,Blitz,2400 and up,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.86,8535
+How accurate is a player during a streak?,Blitz,2400 and up,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.69,8527
+How accurate is a player during a streak?,Blitz,2400 and up,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.94,8840
+How accurate is a player during a streak?,Blitz,2400 and up,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",78.79,6916
+How accurate is a player during a streak?,Rapid,All ratings,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.26,53574
+How accurate is a player during a streak?,Rapid,All ratings,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.56,52948
+How accurate is a player during a streak?,Rapid,All ratings,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.79,53686
+How accurate is a player during a streak?,Rapid,All ratings,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.18,54997
+How accurate is a player during a streak?,Rapid,All ratings,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.64,85566
+How accurate is a player during a streak?,Rapid,All ratings,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",68.28,53870
+How accurate is a player during a streak?,Rapid,All ratings,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.85,54103
+How accurate is a player during a streak?,Rapid,All ratings,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.69,55172
+How accurate is a player during a streak?,Rapid,All ratings,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",67.26,49566
+How accurate is a player during a streak?,Rapid,All ratings,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",65.09,64034
+How accurate is a player during a streak?,Rapid,1000-1199,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",73.97,8453
+How accurate is a player during a streak?,Rapid,1000-1199,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.24,8439
+How accurate is a player during a streak?,Rapid,1000-1199,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",74.62,8477
+How accurate is a player during a streak?,Rapid,1000-1199,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",75.12,8501
+How accurate is a player during a streak?,Rapid,1000-1199,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.27,8197
+How accurate is a player during a streak?,Rapid,1000-1199,Game 2 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.17,8415
+How accurate is a player during a streak?,Rapid,1000-1199,Game 3 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.39,8339
+How accurate is a player during a streak?,Rapid,1000-1199,Game 5 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.18,8474
+How accurate is a player during a streak?,Rapid,1000-1199,Game 10 of a losing streak,"Losing Streak: move accuracy, in points out of 100",62.63,12553
+How accurate is a player during a streak?,Rapid,1200-1399,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.62,6574
+How accurate is a player during a streak?,Rapid,1200-1399,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.23,6622
+How accurate is a player during a streak?,Rapid,1200-1399,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.56,6669
+How accurate is a player during a streak?,Rapid,1200-1399,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",77.55,6619
+How accurate is a player during a streak?,Rapid,1400-1599,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.17,6507
+How accurate is a player during a streak?,Rapid,1400-1599,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.82,6601
+How accurate is a player during a streak?,Rapid,1400-1599,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",80.04,6611
+How accurate is a player during a streak?,Rapid,1400-1599,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",79.73,6551
+How accurate is a player during a streak?,Rapid,1400-1599,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.44,7049
+How accurate is a player during a streak?,Rapid,1600-1799,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.44,6480
+How accurate is a player during a streak?,Rapid,1600-1799,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.59,6449
+How accurate is a player during a streak?,Rapid,1600-1799,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",81.52,6510
+How accurate is a player during a streak?,Rapid,1600-1799,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",82,6591
+How accurate is a player during a streak?,Rapid,1600-1799,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.9,7787
+How accurate is a player during a streak?,Rapid,1600-1799,Game 1 of a losing streak,"Losing Streak: move accuracy, in points out of 100",70.94,6397
+How accurate is a player during a streak?,Rapid,1800-1999,Game 1 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.49,6327
+How accurate is a player during a streak?,Rapid,1800-1999,Game 2 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.49,6349
+How accurate is a player during a streak?,Rapid,1800-1999,Game 3 of a winning streak,"Winning Streak: move accuracy, in points out of 100",83.67,6372
+How accurate is a player during a streak?,Rapid,1800-1999,Game 5 of a winning streak,"Winning Streak: move accuracy, in points out of 100",84.21,6449
+How accurate is a player during a streak?,Rapid,1800-1999,Game 10 of a winning streak,"Winning Streak: move accuracy, in points out of 100",86.82,6969
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game, after a break of under a minute (%)",50.89,2406463027
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 loss,"After 1 Loss: win rate in the next game, after a break of under a minute (%)",50.12,2232696952
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game, after a break of under an hour (%)",49.22,551975436
@@ -620,255 +569,204 @@ How much better or worse than usual does a player play during a streak?,Summary,
 How much better or worse than usual does a player play during a streak?,Summary,2400 and up,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.23,23496
 How much better or worse than usual does a player play during a streak?,Summary,2400 and up,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.42,24614
 How much better or worse than usual does a player play during a streak?,Summary,2400 and up,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.76,26404
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.21,60420
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.15,61477
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.35,61789
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.34,61737
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.98,86025
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.3,60692
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.13,60511
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.21,60388
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.11,60440
-How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.67,75360
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.01,9143
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.84,9302
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.7,9416
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.98,9440
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-2.68,13047
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.07,9529
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.37,9341
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.26,9335
-How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.12,9452
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.15,8286
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.06,8376
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,8456
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,8522
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.37,11509
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.3,8177
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.15,8188
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.02,8061
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.03,8010
-How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.58,8810
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.36,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.05,7814
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.38,7934
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,7795
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.32,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.6,6997
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.44,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.09,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.11,9062
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.16,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.02,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.03,6998
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.02,6997
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.15,9647
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.69,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.37,6998
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.18,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.27,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.6,8110
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.07,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.18,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.76,6998
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.74,6998
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.9,8781
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.06,6998
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.26,6996
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.19,6999
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.44,7000
-How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.68,8423
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.29,6996
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.45,6994
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.4,6993
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.33,6995
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.27,8736
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.31,6993
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.05,6996
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.29,6997
-How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.25,6992
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.35,6999
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.07,7000
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.3,6996
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.46,6996
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.83,9182
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.1,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.02,6997
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.1,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.18,6995
-How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.43,7718
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.36,6999
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.17,6993
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.03,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.17,6997
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.88,8892
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.21,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.04,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.26,6998
-How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.48,6996
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.03,58552
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.2,58672
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.27,58752
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.32,59637
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.31,90421
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.03,58173
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.12,58169
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.17,58077
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.24,58219
-How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.11,61981
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.15,8575
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.26,8702
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,8784
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.39,8937
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.04,8206
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.33,8196
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.06,8097
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.27,8252
-How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.69,9158
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.12,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.04,6999
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.04,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.2,7744
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.32,10005
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.29,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.04,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.14,6999
-How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.43,9957
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.12,7000
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.27,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.29,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.19,9295
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.44,6999
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.1,6999
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.42,6999
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.37,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.57,6970
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.19,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.39,6998
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.19,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.06,6994
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.59,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.38,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.44,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.53,6959
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.2,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,6996
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.29,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.55,6991
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.22,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.12,6995
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.05,6997
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.14,6994
-How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.05,6986
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.53,6996
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.14,6992
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,6989
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.35,6987
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.91,6937
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.15,6993
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.33,6992
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.13,6995
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.23,6994
-How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.02,6983
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.02,6997
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.28,6997
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.28,6994
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.39,6994
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.82,8312
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.07,6995
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.12,6999
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,6994
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.17,6992
-How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.6,6987
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.06,6996
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.24,6993
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.24,6998
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.43,6997
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.18,6995
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.25,6995
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,7000
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.34,6998
-How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.07,6992
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.24,62226
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,62755
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.14,64421
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0,56354
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.94,70386
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.13,61311
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.13,59616
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.31,60314
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.54,61439
-How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.65,92544
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.11,8828
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.37,9041
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,8982
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.01,9356
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",1.01,11870
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.08,9026
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.15,8872
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.5,8846
-How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.79,8839
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.35,7841
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.29,7967
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.15,7973
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.29,8012
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",1.16,10690
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.22,6992
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,6997
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.34,6997
-How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.49,6999
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.05,6994
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.46,6994
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.45,6997
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.48,6995
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.98,9422
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.47,6997
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.19,6995
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.42,6998
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.36,6999
-How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.27,6999
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.47,6998
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.13,6993
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0,6998
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.17,6994
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.7,9477
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.36,6993
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.1,6997
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.01,6993
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.49,6991
-How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.27,7694
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.18,6996
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.29,7000
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,6996
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.11,6996
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.23,8742
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.12,6995
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.07,6996
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.12,6996
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.53,6998
-How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.29,6998
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.15,6993
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.01,6996
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.2,6994
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,6993
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.19,6996
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.21,6995
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.36,6996
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.63,6997
-How much better or worse than usual does a player play during a streak?,Rapid,2000-2199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.99,6998
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.09,6987
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.01,6991
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,6994
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.2,6986
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.14,6994
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.09,6994
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.18,6997
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.94,6997
-How much better or worse than usual does a player play during a streak?,Rapid,2200-2399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.82,6995
-How much better or worse than usual does a player play during a streak?,Rapid,2400 and up,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.18,7774
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.23,61336
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,62541
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.36,63226
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.33,62426
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.96,85369
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.29,61130
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,60727
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.19,60208
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.17,59937
+How much better or worse than usual does a player play during a streak?,Bullet,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.93,70284
+How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.08,8460
+How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.86,8543
+How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.57,8713
+How much better or worse than usual does a player play during a streak?,Bullet,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.85,8777
+How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.28,7635
+How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.17,7745
+How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.07,7747
+How much better or worse than usual does a player play during a streak?,Bullet,1200-1399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.19,7879
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.22,6729
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.02,7291
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.34,7441
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,7246
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.61,6549
+How much better or worse than usual does a player play during a streak?,Bullet,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.31,6606
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.22,6773
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,6843
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,6813
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.01,6858
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.05,9494
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.57,6693
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.04,6831
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.19,6766
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,6821
+How much better or worse than usual does a player play during a streak?,Bullet,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.75,7009
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.23,7062
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,7055
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.77,7070
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.75,7096
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.47,9155
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,7021
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.3,7044
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.21,6948
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.42,6902
+How much better or worse than usual does a player play during a streak?,Bullet,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.15,7332
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.32,7286
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.42,7459
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.45,7451
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.23,7484
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.92,9158
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.32,7370
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.02,7407
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.13,7203
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.3,7181
+How much better or worse than usual does a player play during a streak?,Bullet,2000-2199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.93,7996
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.42,7781
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.04,7821
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.31,7771
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.46,7833
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.36,9944
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.04,7679
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.24,7830
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,7685
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.37,7515
+How much better or worse than usual does a player play during a streak?,Bullet,2200-2399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.93,7713
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.49,8588
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.07,8790
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.04,9199
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.05,8248
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-1.59,11697
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.23,8544
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.09,8130
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.16,8203
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.37,8091
+How much better or worse than usual does a player play during a streak?,Bullet,2400 and up,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.2,10791
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.02,67038
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,67461
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.28,67629
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.3,66365
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,89279
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.04,66625
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.11,65725
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.22,65689
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.27,65194
+How much better or worse than usual does a player play during a streak?,Blitz,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.27,67387
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.31,9816
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.34,10015
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.3,10017
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.38,10227
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.21,9534
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.03,9510
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.14,9355
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.52,9397
+How much better or worse than usual does a player play during a streak?,Blitz,1000-1199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.28,13240
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.05,8148
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.01,8263
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.08,8318
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,8786
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.6,10955
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.27,8112
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.09,8012
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.01,7987
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.01,8108
+How much better or worse than usual does a player play during a streak?,Blitz,1200-1399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.01,10027
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.01,7762
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.31,8061
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.35,7915
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.11,7902
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.52,10731
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.41,7838
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.1,7866
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.4,7789
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.38,7781
+How much better or worse than usual does a player play during a streak?,Blitz,1400-1599,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.71,7585
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.22,7848
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.12,7740
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.25,7756
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,7811
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.25,7863
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.3,7780
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.41,7747
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.39,7519
+How much better or worse than usual does a player play during a streak?,Blitz,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.53,7294
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.03,7803
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.27,7835
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.38,7753
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.63,7752
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.21,7811
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,7758
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.01,7777
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,7660
+How much better or worse than usual does a player play during a streak?,Blitz,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.11,7297
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.38,7969
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.11,7818
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.15,7764
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.41,7786
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.99,7961
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,7900
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.33,7738
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.23,7931
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,7699
+How much better or worse than usual does a player play during a streak?,Blitz,2000-2199,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.07,7153
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.01,7953
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.16,7974
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,8050
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.24,7961
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.16,7965
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.04,7740
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.06,7824
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.02,7766
+How much better or worse than usual does a player play during a streak?,Blitz,2200-2399,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.53,6713
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.29,8535
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.46,8527
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.21,8840
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.37,6916
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.11,8397
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.2,8081
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.32,8091
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.56,8112
+How much better or worse than usual does a player play during a streak?,Blitz,2400 and up,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",1.47,6954
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.13,53870
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.06,54103
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.09,55172
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.04,49566
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",1.64,64034
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.15,53574
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.02,52948
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.14,53686
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.3,54997
+How much better or worse than usual does a player play during a streak?,Rapid,All ratings,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.19,85566
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.12,8197
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 2 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",-0.15,8415
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 3 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.13,8339
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 5 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.04,8474
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 10 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",1.57,12553
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.32,8453
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.07,8439
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.22,8477
+How much better or worse than usual does a player play during a streak?,Rapid,1000-1199,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.62,8501
+How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.15,6574
+How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.3,6622
+How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0,6669
+How much better or worse than usual does a player play during a streak?,Rapid,1200-1399,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.06,6619
+How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.5,6507
+How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.11,6601
+How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.27,6611
+How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.08,6551
+How much better or worse than usual does a player play during a streak?,Rapid,1400-1599,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",3.1,7049
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 1 of a losing streak,"Tilt: change in move accuracy, in points out of 100, against the same players' other losses at the same rating",0.09,6397
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.09,6480
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.06,6449
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.01,6510
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.42,6591
+How much better or worse than usual does a player play during a streak?,Rapid,1600-1799,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.99,7787
+How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 1 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.18,6327
+How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 2 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.21,6349
+How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 3 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",-0.07,6372
+How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 5 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",0.45,6449
+How much better or worse than usual does a player play during a streak?,Rapid,1800-1999,Game 10 of a winning streak,"Hot Streak: change in move accuracy, in points out of 100, against the same players' other wins at the same rating",2.84,6969
 How has the win rate after a streak changed?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game in 2013, a draw counting as half a win (%)",51.92,1379850
 How has the win rate after a streak changed?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game in 2014, a draw counting as half a win (%)",51.42,4461391
 How has the win rate after a streak changed?,Summary,All ratings,After 1 win,"After 1 Win: win rate in the next game in 2015, a draw counting as half a win (%)",51.33,10273268
