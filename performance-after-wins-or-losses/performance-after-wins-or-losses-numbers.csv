@@ -398,6 +398,102 @@ What is the optimal time to wait between games during a streak?,Summary,All rati
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",39.2,2133157
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",58.11,2742704
 What is the optimal time to wait between games during a streak?,Summary,All ratings,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",39.29,3790926
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",53.67,10379237
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",40.13,13390542
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",50.58,3007321
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",43.23,3588691
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",50.23,4756319
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",43.89,8214905
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",60.37,489236
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",27.43,1356070
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",54.03,129017
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",32.9,270785
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",53.37,203416
+What is the optimal time to wait between games during a streak?,Summary,1000-1199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",33.76,677929
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",53.7,19624806
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",43.03,22147100
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",50.77,5767459
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",45.21,6238580
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",50.53,8182858
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",46.03,12287066
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",60.73,943360
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",31.95,1702373
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",54.65,251931
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",37.32,368392
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",54.24,368480
+What is the optimal time to wait between games during a streak?,Summary,1200-1399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",38.49,770524
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",53.64,28799739
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",45.14,30324392
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",50.94,8085333
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",46.34,8375755
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",50.73,10258353
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",47.38,14076309
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",61.42,1415348
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",36.25,1858682
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",56.22,370950
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",40.75,425237
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",55.7,497905
+What is the optimal time to wait between games during a streak?,Summary,1400-1599,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",42.72,716826
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",53.7,34266922
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",46.74,33491286
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",51.17,8861729
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",47.2,8703356
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",51.12,9944999
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",48.21,12494783
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",62.74,1768270
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",38.81,1743584
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",57.8,439935
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",42.83,395910
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",57.51,532578
+What is the optimal time to wait between games during a streak?,Summary,1600-1799,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",45,557704
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",54.91,33365051
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",47.95,26761577
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",52.19,7540681
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",48.06,6556841
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",51.99,7361338
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",48.99,8187267
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",64.74,1998106
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",40.2,1243647
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",59.9,431639
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",44.21,274124
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",59.22,465124
+What is the optimal time to wait between games during a streak?,Summary,1800-1999,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",46.56,331843
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",58.35,23134321
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",48.34,13917683
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",54.58,4814970
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",48.69,3438162
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",54.06,4062996
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",49.7,3743480
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",68.58,1931111
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",39.65,637860
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",63.44,366471
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",44.91,140726
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",62.44,342020
+What is the optimal time to wait between games during a streak?,Summary,2000-2199,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",47.21,145861
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",63.11,10855157
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",48.16,4875580
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",57.47,2111632
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",49.11,1193223
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",56.6,1603199
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",50.39,1190725
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",73.56,1358701
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",38.54,234810
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",67.22,219509
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",45.13,49373
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",65.81,182601
+What is the optimal time to wait between games during a streak?,Summary,2200-2399,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",46.94,47512
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under a minute (%)",67.38,4366794
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under a minute (%)",46.5,1573703
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game, after a break of under an hour (%)",60.41,796348
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game, after a break of under an hour (%)",49.81,345974
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game, after a break of an hour or more (%)",59.71,575104
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game, after a break of an hour or more (%)",51.48,329545
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under a minute (%)",78.31,768725
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under a minute (%)",35.62,90961
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 wins,"After 10 Wins: win rate in the next game, after a break of under an hour (%)",70.65,107609
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 losses,"After 10 Losses: win rate in the next game, after a break of under an hour (%)",45.9,16326
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 wins,"After 10 Wins: win rate in the next game, after a break of an hour or more (%)",68.3,84678
+What is the optimal time to wait between games during a streak?,Summary,2400 and up,After 10 losses,"After 10 Losses: win rate in the next game, after a break of an hour or more (%)",48.14,15049
 How likely is a streak to continue into the next game?,Summary,All ratings,Game 1 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",50.34,3619556963
 How likely is a streak to continue into the next game?,Summary,All ratings,Game 2 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",51.46,1819991617
 How likely is a streak to continue into the next game?,Summary,All ratings,Game 3 of a winning streak,"Winning Streak: chance the streak continues into the next game, draws left out (%)",52.21,935425300
@@ -1053,3 +1149,432 @@ How has the win rate after a streak changed?,Summary,All ratings,After 10 or mor
 How has the win rate after a streak changed?,Summary,All ratings,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",34.34,4455461
 How has the win rate after a streak changed?,Summary,All ratings,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",34.25,4443481
 How has the win rate after a streak changed?,Summary,All ratings,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",34.11,2907772
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",53.47,5626
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",52.46,16585
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",50.16,101083
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",50.73,359376
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",51.07,767066
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",52.15,1243818
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",52.24,2495736
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",52.03,2437549
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",52.44,3168737
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",52.14,2737158
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",52.31,2941413
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",52.56,2045539
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",16.87,4882
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",21.65,16424
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",23.31,46765
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",25.18,114351
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",34.37,305765
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",38.9,681610
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",41.29,1226774
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",40.5,1878379
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",42.67,3298129
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",43.83,3052582
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",44.46,3744103
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",45.39,3132920
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",45.75,3252126
+How has the win rate after a streak changed?,Summary,1000-1199,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",45.81,2214453
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",68.76,3031
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",67.62,13269
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",64.28,40200
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",63.57,84151
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",63.2,153174
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",62.85,305218
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",61.27,275770
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",61.96,380816
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",61.98,317824
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",63.22,359804
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",62.82,254394
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2013, a draw counting as half a win (%)",12.97,13905
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",14.05,34592
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",15.02,88125
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",15.83,191386
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",20.61,222357
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",22.62,332683
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",24.54,455657
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",22.33,825553
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",24.3,1091971
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",26.44,823341
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",28.31,875600
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",29.68,619938
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",30.19,608041
+How has the win rate after a streak changed?,Summary,1000-1199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",29.84,420762
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",51.18,6080
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",55.26,24378
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",55.67,55479
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",55.33,141706
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",52.35,427895
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",52.02,966101
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",52,1779028
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",52.66,2912600
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",52.57,4782885
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",52.26,4595416
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",52.45,5250996
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",52.06,4700173
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",52.14,4737749
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",52.23,3098379
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",30.43,27550
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",31.64,78267
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",32.01,160551
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",32.41,405822
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",40.13,699347
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",43.77,1220674
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",45.23,2057549
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",44.34,3380371
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",45.7,5209554
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",46.23,4975022
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",46.69,5466789
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",47.17,4892348
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",47.36,4872924
+How has the win rate after a streak changed?,Summary,1200-1399,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",47.29,3171554
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",75.38,7680
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",70.1,14597
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",70.33,34680
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",67.42,67206
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",65.74,128452
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",63.72,216707
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",64.57,398191
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",63.59,628392
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",62.4,553112
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",62.47,643536
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",60.87,521893
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",62.08,551437
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",62.07,362566
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2013, a draw counting as half a win (%)",21.34,20568
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",21.59,59309
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",21.87,121801
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",21.8,313147
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",24.87,280049
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",26.04,340891
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",27.71,461978
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",26.01,877462
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",29.45,1012986
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",31.9,835747
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",33.41,823132
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",35.85,635503
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",35.8,618230
+How has the win rate after a streak changed?,Summary,1200-1399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",35.16,413697
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",56.33,30723
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",58.22,92744
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",58.35,188129
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",57.72,465873
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",54.41,923345
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",52.81,1635656
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",52.43,2690454
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",52.93,4461734
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",52.76,6482982
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",52.35,6372433
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",52.41,6785434
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",52.01,6241663
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",51.94,6109407
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",51.98,3884463
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",39.34,44791
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",38.38,126485
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",37.77,262064
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",37.79,681743
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",42.97,1076215
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",45.74,1732484
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",46.7,2783431
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",46.4,4608672
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",47.2,6455193
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",47.41,6431723
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",47.74,6696560
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",47.98,6256273
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",48.07,6103335
+How has the win rate after a streak changed?,Summary,1400-1599,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",48.06,3877537
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2013, a draw counting as half a win (%)",69.89,7264
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",74.67,33752
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",73.24,66853
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",73.58,160467
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",70.87,203850
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",68.8,270924
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",66.26,381524
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",67.33,701468
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",65.83,943201
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",64.35,838756
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",64.12,879969
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",62.32,724081
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",62.72,709701
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",62.97,455194
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2013, a draw counting as half a win (%)",28.04,15242
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",26.69,51962
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",26.72,115157
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",25.97,320021
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",27.61,320899
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",29.46,364177
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",30.46,504455
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",29.48,871304
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",33.61,937999
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",35.36,854457
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",36.56,817394
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",38.33,691632
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",38.48,661300
+How has the win rate after a streak changed?,Summary,1400-1599,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",38.63,418835
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",61.35,53201
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",61.01,153604
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",60.99,315075
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",60.46,789428
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",56.54,1225293
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",54.17,1919102
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",53.15,3014310
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",53.31,5084708
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",52.96,6897631
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",52.61,6914217
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",52.43,7142840
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",51.97,6667955
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",51.94,6445536
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",51.88,4035175
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",41.95,38794
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",41.45,125044
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",40.31,283952
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",40.46,716373
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",44.01,1140730
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",46.19,1834090
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",46.91,2938494
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",47.15,4946496
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",47.9,6561015
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",48.01,6672328
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",48.24,6866029
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",48.34,6551974
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",48.39,6354764
+How has the win rate after a streak changed?,Summary,1600-1799,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",48.36,3988395
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2013, a draw counting as half a win (%)",71.1,19333
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",74.3,65887
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",75.19,143524
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",76.08,368085
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",75.06,397639
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",72.68,438487
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",70.5,560227
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",70.85,973581
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",67.16,1090775
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",66.34,1009487
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",65.47,986165
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",63.77,817442
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",63.45,774410
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",63.79,488447
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2013, a draw counting as half a win (%)",29.59,11241
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",30.16,37173
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",28.71,98821
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",28.26,258390
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",29.38,294885
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",29.86,374185
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",31.01,518205
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",31.83,793617
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",35.55,821759
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",37,787813
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",38.42,744454
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",39.45,670405
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",39.68,643482
+How has the win rate after a streak changed?,Summary,1600-1799,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",40.52,396358
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",67.7,34552
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",64.75,108492
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",63.9,263985
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",63.52,688301
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",58.91,1002490
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",55.99,1549802
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",54.53,2421253
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",54.25,4337196
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",53.55,5623435
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",53.08,5709024
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",52.86,5838543
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",52.38,5567195
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",52.33,5416987
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",52.31,3380534
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",43.37,13915
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",42.51,59930
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",42.14,163886
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",42.24,435206
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",44.5,753787
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",46.21,1296906
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",46.83,2160692
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",47.49,3902606
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",48.33,5048981
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",48.38,5231069
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",48.41,5399891
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",48.46,5288579
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",48.53,5166363
+How has the win rate after a streak changed?,Summary,1800-1999,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",48.47,3234761
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2013, a draw counting as half a win (%)",77.28,26278
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",77,70589
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",77.5,168868
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",77.57,427711
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",76.34,422894
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",75.29,486823
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",73.62,606925
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",72.76,1015541
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",69.28,1046578
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",67.49,939531
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",67.15,914055
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",65,752720
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",65.25,736191
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",65.03,453606
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2013, a draw counting as half a win (%)",28.22,3846
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",29.62,16525
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",30.12,46860
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",30.33,123679
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",29.48,188656
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",29.76,270073
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",31.01,396775
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",33.12,581241
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",36.44,586386
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",37.98,573690
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",37.71,587760
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",39.2,545792
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",39.96,517925
+How has the win rate after a streak changed?,Summary,1800-1999,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",39.82,328505
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",73.23,12471
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",68.2,41712
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",67.05,122359
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",66.12,343028
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",61.99,531874
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",58.94,876949
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",57.17,1445386
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",55.93,2676458
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",54.84,3347837
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",54.38,3375917
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",54.14,3464634
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",53.56,3366209
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",53.4,3307161
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",53.48,2067987
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2013, a draw counting as half a win (%)",42.13,3386
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",42.49,16875
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",42.09,59751
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",42.84,178013
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",44.19,311135
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",45.59,587269
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",46.38,1046883
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",47.56,2088772
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",48.63,2685435
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",48.65,2781092
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",48.62,2904876
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",48.6,2919651
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",48.6,2900408
+How has the win rate after a streak changed?,Summary,2000-2199,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",48.59,1799597
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2013, a draw counting as half a win (%)",83.38,19950
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",81.46,45019
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",79.85,112438
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",79.86,302424
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",78.48,318816
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",76.92,375966
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",75.26,498971
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",74.54,812815
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",71.33,786498
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",70.39,724932
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",69.95,701467
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",68.41,597697
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",68.33,580197
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",69.72,381280
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2014, a draw counting as half a win (%)",26.63,6127
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",29.33,18338
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",30.08,50533
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",29.17,82078
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",28.64,143901
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",29.63,229081
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",31.71,332427
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",35.72,315015
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",37.41,307077
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",37.79,313684
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",37.99,314356
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",38.48,307538
+How has the win rate after a streak changed?,Summary,2000-2199,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",39.68,184841
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2013, a draw counting as half a win (%)",78.65,1684
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",73.75,9930
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",70.33,42794
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",69.03,119717
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",66.06,194315
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",63.47,365201
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",61.8,658762
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",58.68,1166924
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",56.85,1408612
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",56.36,1424299
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",56.18,1496627
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",55.49,1514568
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",55.43,1526235
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",55.47,959224
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2014, a draw counting as half a win (%)",42.34,2481
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",42.69,14040
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",43.32,43878
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",45.16,74015
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",45.6,158115
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",46.3,306085
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",47.55,711106
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",48.73,925070
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",48.56,982892
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",48.56,1057235
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",48.48,1125162
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",48.49,1145443
+How has the win rate after a streak changed?,Summary,2200-2399,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",48.57,715571
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2013, a draw counting as half a win (%)",88.54,5466
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",85.26,20850
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",81.89,53759
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",82.28,143962
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",79.77,167321
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",77.42,228454
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",75.92,335659
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",75.36,470227
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",73.27,441889
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",73.22,418138
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",72.74,422007
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",71.38,371008
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",71.16,370680
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",71.26,235361
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2015, a draw counting as half a win (%)",27.75,4513
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2016, a draw counting as half a win (%)",30.32,11572
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2017, a draw counting as half a win (%)",30.58,18241
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",29.11,38944
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",30.13,70117
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",32.05,118642
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",34.15,119600
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",35.28,122546
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",35.04,134458
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",36.33,135874
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",36.37,138500
+How has the win rate after a streak changed?,Summary,2200-2399,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",37.66,82976
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2014, a draw counting as half a win (%)",77.63,2752
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2015, a draw counting as half a win (%)",75.2,11330
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2016, a draw counting as half a win (%)",73.2,34479
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2017, a draw counting as half a win (%)",72.97,53329
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2018, a draw counting as half a win (%)",71.05,126412
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2019, a draw counting as half a win (%)",68.97,246592
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2020, a draw counting as half a win (%)",63.04,456427
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2021, a draw counting as half a win (%)",60.99,554657
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2022, a draw counting as half a win (%)",59.98,586125
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2023, a draw counting as half a win (%)",59.75,658604
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2024, a draw counting as half a win (%)",59.14,707966
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2025, a draw counting as half a win (%)",58.98,746555
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 wins,"After 5 Wins: win rate in the next game in 2026, a draw counting as half a win (%)",58.81,456505
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2015, a draw counting as half a win (%)",41.95,2297
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2016, a draw counting as half a win (%)",43.87,7816
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2017, a draw counting as half a win (%)",44.76,11891
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2018, a draw counting as half a win (%)",45.06,29696
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2019, a draw counting as half a win (%)",45.58,65996
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2020, a draw counting as half a win (%)",47.18,198252
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2021, a draw counting as half a win (%)",48.04,261561
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2022, a draw counting as half a win (%)",47.93,300566
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2023, a draw counting as half a win (%)",47.45,352432
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2024, a draw counting as half a win (%)",47.55,393342
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2025, a draw counting as half a win (%)",47.48,428476
+How has the win rate after a streak changed?,Summary,2400 and up,After 5 losses,"After 5 Losses: win rate in the next game in 2026, a draw counting as half a win (%)",47.54,262497
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2014, a draw counting as half a win (%)",89.24,9512
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2015, a draw counting as half a win (%)",86.75,28247
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2016, a draw counting as half a win (%)",85.02,67294
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2017, a draw counting as half a win (%)",85.05,102813
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2018, a draw counting as half a win (%)",81.95,175220
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2019, a draw counting as half a win (%)",80.18,266116
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2020, a draw counting as half a win (%)",78.57,311392
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2021, a draw counting as half a win (%)",76.72,292009
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2022, a draw counting as half a win (%)",75.94,269598
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2023, a draw counting as half a win (%)",76.48,301749
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2024, a draw counting as half a win (%)",77.12,332388
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2025, a draw counting as half a win (%)",77.23,333823
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more wins,"After 10+ Wins: win rate in the next game in 2026, a draw counting as half a win (%)",77.19,199107
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2018, a draw counting as half a win (%)",27.66,8275
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2019, a draw counting as half a win (%)",29.07,17107
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2020, a draw counting as half a win (%)",30.2,40144
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2021, a draw counting as half a win (%)",33.89,40699
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2022, a draw counting as half a win (%)",33.47,48080
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2023, a draw counting as half a win (%)",32.65,60060
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2024, a draw counting as half a win (%)",32.43,66107
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2025, a draw counting as half a win (%)",30.75,76232
+How has the win rate after a streak changed?,Summary,2400 and up,After 10 or more losses,"After 10+ Losses: win rate in the next game in 2026, a draw counting as half a win (%)",33.71,41800
