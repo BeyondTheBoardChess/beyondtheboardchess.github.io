@@ -78,7 +78,7 @@ Each of these could reasonably have gone the other way.
 
 - **Why:** Some days a player loses more whatever the order. The ratings can't see that, so a day with more losses than usual would be counted as tilt.
 - **The other choice:** Expected from the ratings alone.
-- **Does the answer change?** **Yes.** After 10 or more losses, players won 30.8% of their next games. The ratings alone predicted 40.7%, a gap of 9.9%. The day's games put in a random order predicted 32.3%, a gap of 1.6%. So using the ratings alone as Expected would have made the gap after the streak 8.3% larger than the random order showed. The **How much of a losing streak is tilt?** chart shows both steps side by side.
+- **Does the answer change?** **Yes.** After 10 or more losses, players won 30.8% of their next games. The ratings alone predicted 40.7%, a gap of 9.9%. The day's games put in a random order predicted 32.3%, a gap of 1.6%. So using the ratings alone as Expected would have made the gap after the streak 8.3% larger than the random order showed.
 
 ### Tournament games are left out
 
@@ -124,7 +124,7 @@ Each of these could reasonably have gone the other way.
 
 ### A tab with too few games is dropped
 
-- **Why:** A win rate needs at least 1,600 games right after a streak. The **How long should a player rest before playing their next game?** chart needs 1,600 streaks ended or carried on at each wait. 1,600 is the fewest games that can tell a 55% chance from a 50% one (a power calculation).
+- **Why:** A win rate needs at least 1,600 games right after a streak. The **What is the optimal time to wait between games during a streak?** chart needs 1,600 streaks ended or carried on at each wait. 1,600 is the fewest games that can tell a 55% chance from a 50% one (a power calculation).
 - **The other choice:** Draw every tab and mark the thin ones.
 - **Does the answer change?** **No.** Only the tabs too thin to read are left off, with no note.
 
@@ -169,7 +169,7 @@ Draws are taken out of each timeline and every streak is counted at every length
 
 ### 5. Put each day's games in a random order
 
-Each player's games from each day are put in a random order and step 4 runs again on the new order. For the **How often do streaks happen?** chart the games are put in a random order 20 separate times and the real order is compared with the average of the 20. For the game right after a streak they are put in a random order once.
+Each player's games from each day are put in a random order and step 4 runs again on the new order. To check that streaks run longer than chance, the games are put in a random order 20 separate times and the real order is compared with the average of the 20. For the game right after a streak they are put in a random order once.
 
 ### 6. Work out what the ratings predict
 
@@ -185,7 +185,7 @@ About 2.15 million graded games are drawn at random from the places in a streak 
 
 ### 9. Add up the numbers
 
-Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 6,438 rows.
+Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 644 rows.
 
 ## Checks
 
@@ -241,11 +241,11 @@ A day is the shortest stretch Expected uses. Putting the games in a random order
 
 ### After a loss, the next opponent is relatively stronger
 
-After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is rated higher relative to the player. On 3 recent test months, the games in the order they were really played had more losing streaks of 10 or more than once each day's games were put in a random order, and the ratings alone made about 67% or more of that difference. That share wasn't counted for all 13 years. The **How much of a losing streak is tilt?** chart separates that step out.
+After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is rated higher relative to the player. On 3 recent test months, the games in the order they were really played had more losing streaks of 10 or more than once each day's games were put in a random order, and the ratings alone made about 67% or more of that difference. That share wasn't counted for all 13 years.
 
 ### A streak can span days
 
-A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The **How long should a player rest before playing their next game?** chart shows what a break does to a streak.
+A losing streak of 10 might be 4 losses one night and 6 the next, so a long streak isn't always one bad sitting. The **What is the optimal time to wait between games during a streak?** chart shows how the wait before the next game relates to how that game goes.
 
 ### An account isn't always one person
 
