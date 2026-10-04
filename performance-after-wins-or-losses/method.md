@@ -185,7 +185,7 @@ About 2.15 million graded games are drawn at random from the places in a streak 
 
 ### 9. Add up the numbers
 
-Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 644 rows.
+Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 908 rows.
 
 ## Checks
 
