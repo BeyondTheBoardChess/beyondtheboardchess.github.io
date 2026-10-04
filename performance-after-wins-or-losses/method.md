@@ -18,33 +18,52 @@ Every number behind every chart on the Findings tab, in one spreadsheet.
 
 Games one player lost in a row or won in a row in the order they played them. A draw doesn't end or add to a streak. Draws are taken out of a player's games before streaks are counted, so 7 losses, 2 draws and 3 more losses counts as a losing streak of 10. A game with no result recorded is taken out the same way. A streak doesn't stop at midnight or when a player takes a break. 4 losses one evening and 6 the next morning is a losing streak of 10.
 
+### Game of a streak
+
+A game's place in a streak, counting the wins or losses in a row up to and including that game. The 3rd game of a losing streak is a loss with exactly 2 losses straight before it, once draws are taken out. The **How accurate is a player during a streak?**, **How do games end during a streak?**, **How fast does a player move during a streak?** and **How much better or worse than usual does a player play during a streak?** charts each measure the game at its place in the streak.
+
 ### Right after a streak
 
-The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as 1/2, and a loss as 0.
+The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as 1/2, and a loss as 0. The **What is the optimal time to wait between games during a streak?**, **How likely is a streak to continue into the next game?** and **How has the win rate after a streak changed?** charts each measure this game.
 
 ### Win rate
 
-Wins out of games played, with a draw counting as 1/2 a win.
+Wins out of games played, with a draw counting as 1/2 a win. The **What is the optimal time to wait between games during a streak?** chart leaves draws out, so its win rate is wins out of the next games that were won or lost.
 
-### Expected
+### A streak continuing
 
-A player's win rate that calendar day once the day's games are put in a random order. Every game the player played that day keeps its result and only the order changes. A day runs midnight to midnight UTC, which is how Lichess records its games.
+The game right after a streak continues the streak when it has the same result: a win after a winning streak, or a loss after a losing streak. When that game was a draw it's left out, so the chance a streak continues is out of the next games that were won or lost. On the **How likely is a streak to continue into the next game?** chart, the last point holds every streak of 10 games or more.
+
+### How a game ended
+
+Lichess records how each game finished. The **How do games end during a streak?** chart sorts every game won or lost into these:
+
+- On time: a player's clock ran out.
+- Checkmate: the last move of the game mates. Lichess marks a mate in the moves with a #, so I read checkmate off the game's last move.
+- Resigned: Lichess recorded the game as finished normally with a winner, and the last move wasn't mate. That means a player resigned.
+- Other: anything else, such as a player leaving the game or Lichess ending a game for a rules breach. These games are counted but have no bar of their own.
+
+In a winning streak it's the opponent who ran out of time, was mated or resigned.
+
+### Seconds per move
+
+How long a player spent on each move, read from the clock. Lichess records a player's clock after every move. The time a move took is the clock before it minus the clock after it, plus any seconds the time control adds back after each move. A player's first move is never timed, because Lichess doesn't start the clocks until both players have moved. The move a player was thinking about when the game ended on time or by resignation was never played, so it isn't counted. Each point on the **How fast does a player move during a streak?** chart is the total seconds over the total moves of every game at that place in the streak.
+
+### Random order
+
+Each player's games from one calendar day put in a random order. Every game the player played that day keeps its result and only the order changes. A day runs midnight to midnight UTC, which is how Lichess records its games. No chart on the [Findings tab](/performance-after-wins-or-losses/) draws the random order. The Judgement Calls below and the check that streaks run longer than chance are measured against the random order.
 
 ### Tilt
 
-How far a player's win rate right after a losing streak falls below Expected. Tilt is a name for a gap in the numbers.
+The losing streak's line on the **How much better or worse than usual does a player play during a streak?** chart. Tilt is how much a player's move accuracy changes at each game of a losing streak, compared with the same players' other losses at the same rating. Tilt is a name for a gap in the numbers.
 
 ### Hot Streak
 
-How far a player's win rate right after a winning streak rises above Expected. Hot Streak is also a name for a gap in the numbers.
-
-### Facing stronger opponents
-
-The win rate the two players' ratings predict for a game. I measured it from the games themselves by counting how often a player wins at every rating gap across all the games in the study.
+The winning streak's line on the **How much better or worse than usual does a player play during a streak?** chart. Hot Streak is how much a player's move accuracy changes at each game of a winning streak, compared with the same players' other wins at the same rating. Hot Streak is also a name for a gap in the numbers.
 
 ### Speed
 
-Lichess sorts a game by its clock. Lichess calls a game bullet from 30 seconds up to 3 minutes, blitz from 3 minutes up to 8 and rapid from 8 minutes up to 25. A player's streaks are counted under the speed that player played most. The Summary tab counts every speed, including classical and ultraBullet. Those two time controls do not have a tab of their own.
+Lichess sorts a game by its clock. Lichess calls a game bullet from 30 seconds up to 3 minutes, blitz from 3 minutes up to 8 and rapid from 8 minutes up to 25. On a speed tab, every game a chart measures is a game of that speed. A streak still runs through all of a player's games, whatever the speed of each game. The Summary tab counts every speed, including classical and ultraBullet. Those two time controls do not have a tab of their own.
 
 ### Rating group
 
@@ -68,21 +87,15 @@ Each of these could reasonably have gone the other way.
 - **The other choice:** A draw ends the streak.
 - **Does the answer change?** **Barely.** For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks when a draw didn't end a streak, and 1,121 streaks when a draw ended a streak.
 
-### Expected puts the games in a random order within 1 calendar day
+### The random order stays within 1 calendar day
 
 - **Why:** People get better at chess. Over a long stretch a player's wins bunch up toward the end because they improved. Putting the games from that whole stretch in a random order would count the improvement as streaks. A player's strength doesn't change measurably within a day.
 - **The other choice:** Put the games in a random order over a shorter or a longer stretch.
 - **Does the answer change?** **Yes.** For every 1,000 losing streaks of 10 or more found once a player's games were put in a random order, the games in the order they were really played had 1,058 streaks when the random order stayed within 1 sitting (games less than 1 hour apart), 1,107 streaks when the random order stayed within 1 day, and 1,431 streaks when the random order ran across all 13 years. A day is the shortest stretch the games mark clearly. The sitting figure is lower still, so the day's figures are an upper bound.
 
-### Expected comes from the day's games put in a random order
-
-- **Why:** Some days a player loses more whatever the order. The ratings can't see that, so a day with more losses than usual would be counted as tilt.
-- **The other choice:** Expected from the ratings alone.
-- **Does the answer change?** **Yes.** After 10 or more losses, players won 30.8% of their next games. The ratings alone predicted 40.7%, a gap of 9.9%. The day's games put in a random order predicted 32.3%, a gap of 1.6%. So using the ratings alone as Expected would have made the gap after the streak 8.3% larger than the random order showed.
-
 ### Tournament games are left out
 
-- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Across all 13 years, 11.0% of the games players played were tournament games.
+- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Across all 13 years, 11.0% of the games players played were tournament games. Two charts count every game, tournament games included: **What is the optimal time to wait between games during a streak?** and **How likely is a streak to continue into the next game?**
 - **The other choice:** Keep tournament games in.
 - **Does the answer change?** **Only the size.** For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks with tournament games in, and 1,125 streaks with tournament games out.
 
@@ -98,10 +111,10 @@ Each of these could reasonably have gone the other way.
 - **The other choice:** A higher bar of 50 games.
 - **Does the answer change?** **No.** I tested this on about 1 in every 340 players, picked at random from all 13 years. Raising the bar to 50 games took out 40% of those players but only 5.2% of their long losing streaks. The main figure didn't move.
 
-### A player's streaks are counted under the speed they played most
+### A speed tab measures games of that speed
 
-- **Why:** The charts compare the real order with a random order inside the same speed. If a streak took the speed of its own games, putting the games in a random order could move the streak from one speed to another. Then the two numbers being compared would stop describing the same players.
-- **The other choice:** Each streak takes the speed of its own games.
+- **Why:** The speed tabs compare bullet, blitz and rapid games, so each tab is measured by the games played at that speed. On the **How accurate is a player during a streak?**, **How do games end during a streak?**, **How fast does a player move during a streak?** and **How much better or worse than usual does a player play during a streak?** charts, the game measured is the streak game itself. On the **What is the optimal time to wait between games during a streak?**, **How likely is a streak to continue into the next game?** and **How has the win rate after a streak changed?** charts, the game measured is the next game after the streak.
+- **The other choice:** Put each player under the speed that player played most, and count all of that player's games on that tab.
 - **Does the answer change?** **Not measured.**
 
 ### An abandoned game counts as the result Lichess recorded
@@ -151,7 +164,7 @@ Every game Lichess published from January 2013 to August 2026. That's 8,130,696,
 - Correspondence games. One move can take days, so the game has no clear place in a player's order.
 - Games with no result recorded.
 - Games with no rating recorded.
-- Arena and Swiss games.
+- Arena and Swiss games, except on the **What is the optimal time to wait between games during a streak?** and **How likely is a streak to continue into the next game?** charts.
 - Players with fewer than 10 games.
 
 ### 3. Put each player's games in order
@@ -160,32 +173,41 @@ Every game becomes 2 rows, 1 for each player. Each player's games from all 164 m
 
 ### 4. Find every streak and the game after it
 
-Draws are taken out of each timeline and every streak is counted at every length. For each streak I kept the game right after it. That game's record holds:
+Draws are taken out of each timeline and every streak is counted at every length. Every game won or lost gets its place in the streak it belongs to. For each streak I kept the game right after it. That game's record holds:
 
 - its score
 - both players' ratings on that game
 - the break before it
 - its year
 
-### 5. Put each day's games in a random order
+### 5. Read each game's moves for how the game ended and its clock
 
-Each player's games from each day are put in a random order and step 4 runs again on the new order. To check that streaks run longer than chance, the games are put in a random order 20 separate times and the real order is compared with the average of the 20. For the game right after a streak they are put in a random order once.
+Each game's moves are read once. That one read gives 2 things:
 
-### 6. Work out what the ratings predict
+- whether the last move was checkmate
+- each player's clock after every move the player made, turned into seconds per move
 
-The win rate at every rating gap, measured across all the games and checked against the real results gap by gap before any chart uses it.
+A game is read for its clock only when every move carries a clock time. The oldest games have no clock at all, so the **How fast does a player move during a streak?** chart leaves those months out.
 
-### 7. Split everything by speed and rating group
+### 6. Put each day's games in a random order
 
-Every number is split by speed, by rating group, and by both together. Each tab draws its own slice.
+Each player's games from each day are put in a random order and step 4 runs again on the new order. To check that streaks run longer than chance, the games are put in a random order 20 separate times and the real order is compared with the average of the 20.
 
-### 8. Grade a sample of games for accuracy
+### 7. Work out what the ratings predict
+
+The win rate at every rating gap, measured across all the games and checked against the real results gap by gap. The ratings' prediction measures how much stronger the next opponent is after a losing streak.
+
+### 8. Split everything by speed and rating group
+
+Every number is split by speed, by rating group, and by both together. A speed tab takes the speed of the game being measured, and a rating tab takes the player's average rating. Each tab draws its own slice.
+
+### 9. Grade a sample of games for accuracy
 
 About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19, which looks about six moves ahead for each player. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
-### 9. Add up the numbers
+### 10. Add up the numbers
 
-Each chart's numbers are added up from steps 4 to 8. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 908 rows.
+Each chart's numbers are added up from steps 4 to 9. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has `Still counting: the download's final number of rows` rows.
 
 ## Checks
 
@@ -208,6 +230,14 @@ At each step the games going in are counted against the games coming out.
 ### The tests catch real mistakes
 
 I broke the counting on purpose 7 times, once at each step. A test caught every one. (mutation checks)
+
+### Checkmate is read only from the last move
+
+I read checkmate from 2,602,000 games across the January 2016 file and the August 2026 file. 646,784 of those games read as checkmate. Every one of the 646,784 games was one Lichess recorded as finished normally with a winner. None of the 852,620 games lost on time read as checkmate, and no draw did.
+
+### A clock is read only when every move has one
+
+On 400,000 games across the January 2016, April 2017, January 2020 and August 2026 files, every game with a clock had one on every move. The January 2016 file had no clock at all.
 
 ### The real order against chance
 
@@ -235,13 +265,25 @@ There's no outside figure to compare these numbers with, for Lichess or any othe
 
 Tilt and Hot Streak are names for a gap in the numbers. Draws come in streaks too. For every 1,000 streaks of 6 or more draws found once each day's games were put in a random order, the games in the order they were really played had about 1,340 streaks. A streak of draws is hard to explain by frustration. So part of what makes streaks run long has nothing to do with how a player feels.
 
-### A shorter stretch gives smaller gaps
+### A shorter stretch finds fewer extra streaks
 
-A day is the shortest stretch Expected uses. Putting the games in a random order within a sitting gives smaller gaps still, so every figure here is an upper bound.
+A day is the shortest stretch the random order uses. Putting the games in a random order within a sitting finds fewer extra streaks still, so every streak count in the Judgement Calls is an upper bound.
 
 ### After a loss, the next opponent is relatively stronger
 
-After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is rated higher relative to the player. On 3 recent test months, the games in the order they were really played had more losing streaks of 10 or more than once each day's games were put in a random order, and the ratings alone made about 67% or more of that difference. That share wasn't counted for all 13 years.
+After losing, a player's rating drops faster than Lichess's pairing makes up for. So the next opponent is rated higher relative to the player. After losing streaks of 10 games or more, the two players' ratings predicted the player would win the next game 40.7% of the time. So part of the lower win rate after a losing streak on the charts comes from who the player faces next. On 3 recent test months, the games in the order they were really played had more losing streaks of 10 or more than once each day's games were put in a random order, and the ratings alone made about 67% or more of that difference. That share wasn't counted for all 13 years.
+
+### Seconds per move mixes speeds on Summary
+
+On the Summary tab, the **How fast does a player move during a streak?** chart puts bullet, blitz and rapid moves together. A rapid move takes far longer than a bullet move, so the Summary lines also move with how many games of each speed sit at each place in a streak. Each speed tab measures one speed only.
+
+### The oldest games have no clock
+
+Lichess's files carry no clock before `Still counting: the first month with a clock on every game`. The **How fast does a player move during a streak?** chart leaves out the `Still counting: share of streak games with no clock` of streak games that have no clock.
+
+### Some games end another way
+
+Some streak games end without a clock running out, a checkmate or a resignation, such as when a player leaves the game. Those games are `Still counting: share of streak games that ended another way` of streak games. They have no bar on the **How do games end during a streak?** chart, so its 3 bars don't add up to 100%.
 
 ### A streak can span days
 
