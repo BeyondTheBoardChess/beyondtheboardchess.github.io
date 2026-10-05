@@ -233,6 +233,13 @@ a.rd-pencil svg { width: 20px; height: 20px; }
 .rd-part-chevron { flex: none; width: 22px; height: 22px; color: var(--rd-ink-muted); transition: transform .2s ease; }
 .rd-items[open] .rd-part-chevron { transform: rotate(180deg); }
 .rd-items > summary:hover .rd-part-chevron { color: #FFFFFF; }
+/* DA-562: Expand all / Collapse all, right-aligned above the first part, the same quiet button as
+   the Findings tab's Expand all charts. */
+.rd-expand-row { display: flex; justify-content: flex-end; margin: 0 0 12px; }
+.rd-expand { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 10px; background: var(--rd-well); border: 1px solid var(--rd-line); color: var(--rd-ink-muted); font: inherit; font-size: .86rem; cursor: pointer; }
+.rd-expand:hover { border-color: var(--rd-ink-muted); color: var(--rd-ink); }
+.rd-expand:focus-visible { outline: 2px solid #FF3DA6; outline-offset: 2px; }
+.rd-expand-icon { width: 16px; height: 16px; }
 /* Each part's heading opens with a small line icon (DA-504) so the five parts tell apart at a scroll. */
 .rd-part-icon { width: 1.05em; height: 1.05em; margin-right: .45em; vertical-align: -.15em; color: #FF8C42; }
 /* Each part's icon has its own colour (Rainy, 2026-10-03: "The icons don't all have to be that blue",

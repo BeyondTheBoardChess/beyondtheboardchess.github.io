@@ -174,6 +174,14 @@
 {%- endcomment -%}
 {%- assign items = section | split: '<h3 ' -%}
 {%- if page.tab == "method" and items.size > 1 %}
+{%- comment -%}
+  One button above the first part opens every part, then closes them all (DA-562), as on the
+  Findings tab. Rainy, 2026-10-05: "Approved, add it to the Method page too".
+{%- endcomment -%}
+{%- unless expand_all_drawn %}
+          <div class="rd-expand-row"><button type="button" class="rd-expand" aria-expanded="false" data-open="{{ site.data.words.expand_all | escape }}" data-close="{{ site.data.words.collapse_all | escape }}"><svg class="rd-expand-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m7 10 5 5 5-5"/></svg><span>{{ site.data.words.expand_all | escape }}</span></button></div>
+{%- assign expand_all_drawn = true -%}
+{%- endunless %}
 {%- assign part_id = items[0] | split: '"' -%}{%- assign part_id = part_id[1] -%}
 {%- capture part_icon -%}>{% include method-icon.html part=part_id %}{%- endcapture -%}
 {%- assign part_head = items[0] | split: '</h2>' %}
@@ -329,6 +337,28 @@
         }
         openTarget();
         window.addEventListener("hashchange", openTarget);
+      })();
+      // Expand all / Collapse all on a Method page (DA-562). The label follows the parts, so a
+      // part closed by hand turns the button back to Expand all.
+      (function () {
+        var button = document.querySelector(".rd-expand");
+        if (!button) return;
+        var parts = document.querySelectorAll("details.rd-items");
+        var label = button.querySelector("span"), arrow = button.querySelector("path");
+        function allOpen() { return Array.prototype.every.call(parts, function (p) { return p.open; }); }
+        function show() {
+          var open = allOpen();
+          label.textContent = open ? button.dataset.close : button.dataset.open;
+          arrow.setAttribute("d", open ? "m7 15 5-5 5 5" : "m7 10 5 5 5-5");
+          button.setAttribute("aria-expanded", open ? "true" : "false");
+        }
+        button.addEventListener("click", function () {
+          var open = !allOpen();
+          parts.forEach(function (p) { p.open = open; });
+          show();
+        });
+        parts.forEach(function (p) { p.addEventListener("toggle", show); });
+        show();
       })();
       // Light up the sidebar link for the section being read.
       (function () {

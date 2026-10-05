@@ -5,6 +5,8 @@ method_tab: Method
 menu: Collapse
 hide_menu: Collapse the menu
 show_menu: Expand
+expand_all: Expand all
+collapse_all: Collapse all
 widen_studies: Show each study's full question
 narrow_studies: Shorten the questions
 no_studies_title: No Studies Yet
