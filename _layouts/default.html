@@ -435,6 +435,25 @@
           var button = event.target.closest && event.target.closest(".rd-chart-rail-toggle");
           if (button) set(!document.body.classList.contains("rd-rail-hidden"));
         });
+        // The two Collapse buttons stay level as the page scrolls (Rainy, 2026-10-05: "the two
+        // collapse buttons go to different spots on the page. They're not lined up anymore."):
+        // the list on the right follows the side menu's button down the page and stops where it
+        // stops.
+        var left = document.querySelector(".rd-nav-toggle");
+        function level() {
+          if (!left) return;
+          var top = Math.max(0, Math.round(left.getBoundingClientRect().top));
+          document.querySelectorAll(".rd-chart-rail").forEach(function (rail) {
+            rail.style.top = top + "px";
+            rail.style.maxHeight = "calc(100vh - " + (top + 24) + "px)";
+          });
+        }
+        window.addEventListener("scroll", level, { passive: true });
+        window.addEventListener("resize", level);
+        window.addEventListener("load", level);
+        // The Findings tab draws its list a moment after the page loads.
+        new MutationObserver(level).observe(document.body, { childList: true });
+        level();
       })();
       // Light up the sidebar link for the section being read.
       (function () {
