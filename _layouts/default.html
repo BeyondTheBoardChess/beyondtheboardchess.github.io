@@ -360,6 +360,51 @@
         parts.forEach(function (p) { p.addEventListener("toggle", show); });
         show();
       })();
+      // The Method page's part titles, to jump to (DA-563), drawn like the Findings tab's chart
+      // titles: right of the page on a wide window, under the Studies list otherwise. Rainy,
+      // 2026-10-05, approving the Findings tab's list: "yes".
+      (function () {
+        if (!document.querySelector(".rd-tab-method")) return;
+        var studyList = document.getElementById("rd-study-list");
+        var parts = Array.prototype.filter.call(
+          document.querySelectorAll(".rd-main > .rd-card"), function (p) { return p.querySelector("h2[id]"); });
+        if (!studyList || !parts.length) return;
+        var menu = document.createElement("div");
+        menu.className = "rd-sections rd-chart-menu";
+        var rail = document.createElement("nav");
+        rail.className = "rd-chart-rail";
+        rail.setAttribute("aria-label", {{ site.data.words.sections_heading | jsonify }});
+        var heading = document.createElement("p");
+        heading.className = "rd-chart-rail-heading";
+        heading.textContent = {{ site.data.words.sections_heading | jsonify }};
+        rail.appendChild(heading);
+        var pairs = parts.map(function (part) {
+          return [menu, rail].map(function (list) {
+            var link = document.createElement("a");
+            link.href = "#" + part.querySelector("h2[id]").id;
+            link.textContent = part.querySelector("h2").textContent.trim();
+            link.addEventListener("click", function (event) {
+              event.preventDefault();
+              if (part.tagName === "DETAILS") part.open = true;
+              part.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+            list.appendChild(link);
+            return link;
+          });
+        });
+        studyList.parentNode.insertBefore(menu, studyList.nextSibling);
+        document.body.appendChild(rail);
+        function update() {
+          var line = Math.min(100, window.innerHeight * 0.3), current = -1;
+          parts.forEach(function (part, at) { if (part.getBoundingClientRect().top <= line) current = at; });
+          pairs.forEach(function (pair, at) {
+            pair.forEach(function (link) { link.classList.toggle("rd-here", at === current); });
+          });
+        }
+        window.addEventListener("scroll", update, { passive: true });
+        window.addEventListener("resize", update);
+        update();
+      })();
       // Light up the sidebar link for the section being read.
       (function () {
         var links = document.querySelectorAll(".rd-jump a");
