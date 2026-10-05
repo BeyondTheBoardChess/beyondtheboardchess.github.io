@@ -89,6 +89,17 @@ body {
    here), one step further in than the studies so it reads as the open study's list. */
 .rd-chart-menu { margin-left: 28px; }
 .markdown-body .rd-chart-menu a { line-height: 1.35; }
+/* Rainy, the same night: "maybe in the dead space on the left or the right, where it could be easily
+   viewed". On a window wide enough to have empty space right of the page, the chart titles sit
+   there instead and stay in view while the page scrolls; the side menu's copy steps aside. */
+.rd-chart-rail { display: none; }
+@media (min-width: 1640px) {
+  .rd-chart-menu { display: none; }
+  .rd-chart-rail { display: flex; flex-direction: column; position: fixed; top: 96px; left: calc(50% + 594px); width: calc(50% - 630px); max-width: 280px; max-height: calc(100vh - 140px); overflow-y: auto; padding-left: 14px; border-left: 1px solid var(--rd-line); font-family: var(--rd-font); }
+  .rd-chart-rail .rd-chart-rail-heading { margin: 0 0 8px; padding: 0 10px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
+  .rd-chart-rail a { padding: 6px 10px; border-radius: 8px; color: #8A94AC; font-size: .88rem; line-height: 1.35; text-decoration: none; }
+  .rd-chart-rail a:hover, .rd-chart-rail a.rd-here { color: var(--rd-cyan); }
+}
 /* Every study under Studies (DA-472). A long question wraps onto a second line, the way the
    sections under The Lichess Data do, until the arrow at the end of the Studies row widens the
    sidebar so each question fits on one line, the page narrowing beside it (DA-473). Past about
