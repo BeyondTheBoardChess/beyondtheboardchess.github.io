@@ -98,7 +98,14 @@ body {
 @media (min-width: 1560px) {
   .rd-chart-menu { display: none; }
   .rd-chart-rail { display: flex; flex-direction: column; position: fixed; top: 96px; left: calc(50% + 594px); width: calc(50% - 614px); max-width: 280px; max-height: calc(100vh - 140px); overflow-y: auto; padding-left: 14px; border-left: 1px solid var(--rd-line); font-family: var(--rd-font); }
-  .rd-chart-rail .rd-chart-rail-heading { margin: 0 0 8px; padding: 0 10px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
+  .rd-chart-rail .rd-chart-rail-heading { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; padding: 2px 10px; border: 0; background: none; cursor: pointer; text-align: left; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
+  .rd-chart-rail .rd-chart-rail-heading:hover { color: #FFFFFF; }
+  .rd-chart-rail .rd-chart-rail-heading:focus-visible { outline: 2px solid #FF3DA6; outline-offset: 2px; border-radius: 6px; }
+  /* DA-569: a click on the heading folds the list away to the heading alone, its arrow turned. */
+  .rd-chart-rail-chevron { width: 14px; height: 14px; transition: transform .2s ease; }
+  body.rd-rail-hidden .rd-chart-rail a { display: none; }
+  body.rd-rail-hidden .rd-chart-rail-chevron { transform: rotate(-90deg); }
+  body.rd-rail-hidden .rd-chart-rail { border-left-color: transparent; }
   .rd-chart-rail a { padding: 6px 10px; border-radius: 8px; color: #8A94AC; font-size: .84rem; line-height: 1.35; text-decoration: none; }
   .rd-chart-rail a:hover, .rd-chart-rail a.rd-here { color: var(--rd-cyan); }
   /* DA-567: on the Findings tab each entry is the chart's own icon and a short name. */

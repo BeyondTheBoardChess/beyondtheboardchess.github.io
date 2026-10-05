@@ -374,9 +374,12 @@
         var rail = document.createElement("nav");
         rail.className = "rd-chart-rail";
         rail.setAttribute("aria-label", {{ site.data.words.sections_heading | jsonify }});
-        var heading = document.createElement("p");
+        var heading = document.createElement("button");
+        heading.type = "button";
         heading.className = "rd-chart-rail-heading";
-        heading.textContent = {{ site.data.words.sections_heading | jsonify }};
+        heading.setAttribute("aria-expanded", "true");
+        heading.innerHTML = '<svg class="rd-chart-rail-chevron" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+        heading.insertBefore(document.createTextNode({{ site.data.words.sections_heading | jsonify }}), heading.firstChild);
         rail.appendChild(heading);
         var pairs = parts.map(function (part) {
           return [menu, rail].map(function (list) {
@@ -404,6 +407,25 @@
         window.addEventListener("scroll", update, { passive: true });
         window.addEventListener("resize", update);
         update();
+      })();
+      // The list on the right folds away to its heading and back on a click of the heading, on the
+      // Findings tab and a Method page alike, and the page remembers (DA-569). Rainy, 2026-10-05:
+      // "There should probably be a way to hide that if people want to."
+      (function () {
+        var saved = null;
+        try { saved = localStorage.getItem("rd-rail-hidden"); } catch (e) {}
+        function set(hidden) {
+          document.body.classList.toggle("rd-rail-hidden", hidden);
+          document.querySelectorAll(".rd-chart-rail-heading").forEach(function (b) {
+            b.setAttribute("aria-expanded", hidden ? "false" : "true");
+          });
+          try { localStorage.setItem("rd-rail-hidden", hidden ? "1" : "0"); } catch (e) {}
+        }
+        if (saved === "1") document.body.classList.add("rd-rail-hidden");
+        document.addEventListener("click", function (event) {
+          var button = event.target.closest && event.target.closest(".rd-chart-rail-heading");
+          if (button) set(!document.body.classList.contains("rd-rail-hidden"));
+        });
       })();
       // Light up the sidebar link for the section being read.
       (function () {
