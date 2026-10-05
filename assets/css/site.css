@@ -85,6 +85,10 @@ body {
 .markdown-body .rd-sections a { padding: 5px 10px; font-size: .88rem; color: #8A94AC; border-radius: 8px; }
 .markdown-body .rd-sections a:hover { color: var(--rd-cyan); }
 .markdown-body .rd-sections a.rd-here { color: var(--rd-cyan); }
+/* DA-563: a study page's own list under the Studies list (the Findings tab draws its chart titles
+   here), one step further in than the studies so it reads as the open study's list. */
+.rd-chart-menu { margin-left: 28px; }
+.markdown-body .rd-chart-menu a { line-height: 1.35; }
 /* Every study under Studies (DA-472). A long question wraps onto a second line, the way the
    sections under The Lichess Data do, until the arrow at the end of the Studies row widens the
    sidebar so each question fits on one line, the page narrowing beside it (DA-473). Past about
