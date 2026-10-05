@@ -101,6 +101,9 @@ body {
   .rd-chart-rail .rd-chart-rail-heading { margin: 0 0 8px; padding: 0 10px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
   .rd-chart-rail a { padding: 6px 10px; border-radius: 8px; color: #8A94AC; font-size: .84rem; line-height: 1.35; text-decoration: none; }
   .rd-chart-rail a:hover, .rd-chart-rail a.rd-here { color: var(--rd-cyan); }
+  /* DA-567: on the Findings tab each entry is the chart's own icon and a short name. */
+  .rd-chart-rail a:has(.rd-chart-rail-icon) { display: flex; align-items: center; gap: 8px; }
+  .rd-chart-rail-icon { flex: none; width: 16px; height: 16px; }
 }
 /* Every study under Studies (DA-472). A long question wraps onto a second line, the way the
    sections under The Lichess Data do, until the arrow at the end of the Studies row widens the
