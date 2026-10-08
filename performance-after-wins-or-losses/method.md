@@ -67,7 +67,7 @@ Lichess sorts a game by its clock. Lichess calls a game bullet from 30 seconds u
 
 ### Rating group
 
-A player's average rating across all their games in the study, in groups of 200 points from 1000 up, then 2200 and up. The Chess.com range under each Lichess range is a conversion, read from the [ChessGoals rating comparison table](https://chessgoals.com/rating-comparison/).
+A player's average rating across all their games in the study, in groups of 200 points from 1000 up, then 2400 and up. The Chess.com range under each Lichess range is a conversion, read from the [ChessGoals rating comparison table](https://chessgoals.com/rating-comparison/).
 
 ### The break
 
@@ -151,7 +151,7 @@ Each of these could reasonably have gone the other way.
 
 - **Why:** Grading every game in the study would take years of computer time.
 - **The other choice:** Grade every game.
-- **Does the answer change?** **Not measured.** I graded about 2.15 million games drawn at random. The sample holds 7,000 at each place in a streak for every speed and rating group on the tabs. A place that can't reach 7,000 games is graded whole and dropped from its tab if the place is still too thin.
+- **Does the answer change?** **Not measured.** I graded about 2.76 million games drawn at random. The sample holds 7,000 at each place in a streak for every speed and rating group on the tabs. A place that can't reach 7,000 games is graded whole and dropped from its tab if the place is still too thin.
 
 ## Steps
 
@@ -203,11 +203,11 @@ Every number is split by speed, by rating group, and by both together. A speed t
 
 ### 9. Grade a sample of games for accuracy
 
-About 2.15 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19, which looks about six moves ahead for each player. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
+About 2.76 million graded games are drawn at random from the places in a streak the chart shows. Those are games 1, 2, 3, 5 and 10. The rest come from the same players' games outside a long streak. Each is graded move by move with Stockfish 19, which looks about six moves ahead for each player. Lichess's own accuracy formula turns the grades into an accuracy figure. My copy of that formula gives the same answers as Lichess's own 13 test examples.
 
 ### 10. Add up the numbers
 
-Each chart's numbers are added up from steps 4 to 9. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has `Still counting: the download's final number of rows` rows.
+Each chart's numbers are added up from steps 4 to 9. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 16,517 rows.
 
 ## Checks
 
@@ -279,11 +279,11 @@ On the Summary tab, the **How fast does a player move during a streak?** chart p
 
 ### The oldest games have no clock
 
-Lichess's files carry no clock before `Still counting: the first month with a clock on every game`. The **How fast does a player move during a streak?** chart leaves out the `Still counting: share of streak games with no clock` of streak games that have no clock.
+Lichess's files carry no clock before March 2017. The **How fast does a player move during a streak?** chart leaves out the 2.0% of streak games that have no clock.
 
 ### Some games end another way
 
-Some streak games end without a clock running out, a checkmate or a resignation, such as when a player leaves the game. Those games are `Still counting: share of streak games that ended another way` of streak games. They have no bar on the **How do games end during a streak?** chart, so its 3 bars don't add up to 100%.
+Some streak games end without a clock running out, a checkmate or a resignation, such as when a player leaves the game. Those games are 0.004% of streak games. They have no bar on the **How do games end during a streak?** chart, so its 3 bars don't add up to 100%.
 
 ### A streak can span days
 
@@ -307,7 +307,7 @@ Lichess doesn't record when a game ends, so every break is the shortest it could
 
 ### Accuracy is a sample
 
-The sample covers about 2.15 million graded games out of the 8.1 billion. Stockfish 19 grades every move of those games, looking about six moves ahead for each player.
+The sample covers about 2.76 million graded games out of the 8.1 billion. Stockfish 19 grades every move of those games, looking about six moves ahead for each player.
 
 ### This is Lichess only
 
