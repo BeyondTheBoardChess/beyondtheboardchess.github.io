@@ -232,6 +232,15 @@
         } catch (e) {}
         pencil.hidden = !on;
       })();
+      // DA-585: the faint dots on a wide screen's sides drift at a third of the scroll speed. Left
+      // still for anyone whose computer asks for less motion.
+      (function () {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        var root = document.documentElement, queued = false;
+        function move() { queued = false; root.style.setProperty("--rd-dots-y", (-window.scrollY / 3).toFixed(1) + "px"); }
+        window.addEventListener("scroll", function () { if (!queued) { queued = true; requestAnimationFrame(move); } }, { passive: true });
+        move();
+      })();
       // The menu can be hidden on a computer, and the choice is remembered on this browser.
       (function () {
         var button = document.querySelector(".rd-nav-toggle");
