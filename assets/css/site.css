@@ -107,8 +107,6 @@ body {
    Method page draws the same two lists from its part headings. */
 .rd-chart-rail { display: none; }
 .rd-tab-method > .rd-card, .rd-data-page > .rd-card { scroll-margin-top: 20px; }
-/* DA-586: The Lichess Data page's own list sits under its name, one step in, on a narrower window. */
-.rd-data-menu { margin-left: 14px; }
 @media (min-width: 1560px) {
   .rd-chart-menu { display: none; }
   .rd-chart-rail { display: flex; flex-direction: column; position: fixed; top: 96px; left: calc(50% + 594px); width: calc(50% - 614px); max-width: 280px; max-height: calc(100vh - 140px); overflow-y: auto; padding-left: 14px; border-left: 1px solid var(--rd-line); font-family: var(--rd-font); }

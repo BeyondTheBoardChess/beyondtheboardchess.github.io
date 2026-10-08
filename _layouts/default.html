@@ -372,20 +372,16 @@
         show();
       })();
       // The Method page's part titles, to jump to (DA-563), drawn like the Findings tab's chart
-      // titles: right of the page on a wide window, under the Studies list otherwise. Rainy,
-      // 2026-10-05, approving the Findings tab's list: "yes".
-      // DA-586: The Lichess Data page lists its parts the same way, under its own name on a narrower
-      // window, and each entry on the right carries its part's icon in the icon's own colour, as
-      // the Findings tab's do. Rainy, 2026-10-08: "I feel like that should be the typical standard."
+      // titles right of the page. Rainy, 2026-10-05, approving the Findings tab's list: "yes".
+      // DA-586: The Lichess Data page lists its parts the same way, and each entry carries its
+      // part's icon in the icon's own colour, as the Findings tab's do. Rainy, 2026-10-08: "I feel
+      // like that should be the typical standard." The side menu never repeats them, at any width:
+      // "The Studies one should only be the pages" (DA-587).
       (function () {
-        var dataPage = document.querySelector(".rd-data-page");
-        if (!document.querySelector(".rd-tab-method") && !dataPage) return;
-        var anchor = dataPage ? document.querySelector(".rd-data-link") : document.getElementById("rd-study-list");
+        if (!document.querySelector(".rd-tab-method, .rd-data-page")) return;
         var parts = Array.prototype.filter.call(
           document.querySelectorAll(".rd-main > .rd-card"), function (p) { return p.querySelector("h2[id]"); });
-        if (!anchor || !parts.length) return;
-        var menu = document.createElement("div");
-        menu.className = "rd-sections rd-chart-menu" + (dataPage ? " rd-data-menu" : "");
+        if (!parts.length) return;
         var rail = document.createElement("nav");
         rail.className = "rd-chart-rail";
         rail.setAttribute("aria-label", {{ site.data.words.sections_heading | jsonify }});
@@ -403,35 +399,30 @@
         heading.className = "rd-chart-rail-heading";
         heading.textContent = {{ site.data.words.sections_heading | jsonify }};
         rail.appendChild(heading);
-        var pairs = parts.map(function (part) {
-          return [menu, rail].map(function (list) {
-            var link = document.createElement("a");
-            link.href = "#" + part.querySelector("h2[id]").id;
-            link.textContent = part.querySelector("h2").textContent.trim();
-            link.addEventListener("click", function (event) {
-              event.preventDefault();
-              if (part.tagName === "DETAILS") part.open = true;
-              part.scrollIntoView({ behavior: "smooth", block: "start" });
-            });
-            var icon = list === rail && part.querySelector("h2 svg");
-            if (icon) {
-              var copy = icon.cloneNode(true);
-              copy.setAttribute("class", "rd-chart-rail-icon");
-              copy.style.color = getComputedStyle(icon).color;
-              link.insertBefore(copy, link.firstChild);
-            }
-            list.appendChild(link);
-            return link;
+        var links = parts.map(function (part) {
+          var link = document.createElement("a");
+          link.href = "#" + part.querySelector("h2[id]").id;
+          link.textContent = part.querySelector("h2").textContent.trim();
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            if (part.tagName === "DETAILS") part.open = true;
+            part.scrollIntoView({ behavior: "smooth", block: "start" });
           });
+          var icon = part.querySelector("h2 svg");
+          if (icon) {
+            var copy = icon.cloneNode(true);
+            copy.setAttribute("class", "rd-chart-rail-icon");
+            copy.style.color = getComputedStyle(icon).color;
+            link.insertBefore(copy, link.firstChild);
+          }
+          rail.appendChild(link);
+          return link;
         });
-        anchor.parentNode.insertBefore(menu, anchor.nextSibling);
         document.body.appendChild(rail);
         function update() {
           var line = Math.min(100, window.innerHeight * 0.3), current = -1;
           parts.forEach(function (part, at) { if (part.getBoundingClientRect().top <= line) current = at; });
-          pairs.forEach(function (pair, at) {
-            pair.forEach(function (link) { link.classList.toggle("rd-here", at === current); });
-          });
+          links.forEach(function (link, at) { link.classList.toggle("rd-here", at === current); });
         }
         window.addEventListener("scroll", update, { passive: true });
         window.addEventListener("resize", update);
