@@ -24,7 +24,7 @@ A game's place in a streak, counting the wins or losses in a row up to and inclu
 
 ### Right after a streak
 
-The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as 1/2, and a loss as 0. The **What is the optimal time to wait between games during a streak?**, **How likely is a streak to continue into the next game?** and **How has the win rate after a streak changed?** charts each measure this game.
+The next game the player played once the streak reached that length. Only that one game counts. A win counts as 1, a draw as 1/2, and a loss as 0. The **What is the optimal time to wait between games during a streak?**, **How likely is a winning streak to continue into the next game?**, **How likely is a losing streak to continue into the next game?** and **How has the win rate after a streak changed?** charts each measure this game.
 
 ### Win rate
 
@@ -32,7 +32,7 @@ Wins out of games played, with a draw counting as 1/2 a win. The **What is the o
 
 ### A streak continuing
 
-The game right after a streak continues the streak when it has the same result: a win after a winning streak, or a loss after a losing streak. When that game was a draw it's left out, so the chance a streak continues is out of the next games that were won or lost. On the **How likely is a streak to continue into the next game?** chart, the last point holds every streak of 10 games or more.
+The game right after a streak continues the streak when it has the same result: a win after a winning streak, or a loss after a losing streak. When that game was a draw it's left out, so the chance a streak continues is out of the next games that were won or lost. On the **How likely is a winning streak to continue into the next game?** and **How likely is a losing streak to continue into the next game?** charts, the last point holds every streak of 10 games or more.
 
 ### How a game ended
 
@@ -95,7 +95,7 @@ Each of these could reasonably have gone the other way.
 
 ### Tournament games are left out
 
-- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Across all 13 years, 11.0% of the games players played were tournament games. Two charts count every game, tournament games included: **What is the optimal time to wait between games during a streak?** and **How likely is a streak to continue into the next game?**
+- **Why:** Arena and Swiss games aren't paired by rating. The next game is set by the tournament rather than chosen by the player. Across all 13 years, 11.0% of the games players played were tournament games. Three charts count every game, tournament games included: **What is the optimal time to wait between games during a streak?**, **How likely is a winning streak to continue into the next game?** and **How likely is a losing streak to continue into the next game?**
 - **The other choice:** Keep tournament games in.
 - **Does the answer change?** **Only the size.** For every 1,000 losing streaks of 10 or more found once each day's games were put in a random order, the games in the order they were really played had 1,107 streaks with tournament games in, and 1,125 streaks with tournament games out.
 
@@ -113,7 +113,7 @@ Each of these could reasonably have gone the other way.
 
 ### A speed tab measures games of that speed
 
-- **Why:** The speed tabs compare bullet, blitz and rapid games, so each tab is measured by the games played at that speed. On the **How accurate is a player during a streak?**, **How do games end during a streak?**, **How fast does a player move during a streak?** and **How much better or worse than usual does a player play during a streak?** charts, the game measured is the streak game itself. On the **What is the optimal time to wait between games during a streak?**, **How likely is a streak to continue into the next game?** and **How has the win rate after a streak changed?** charts, the game measured is the next game after the streak.
+- **Why:** The speed tabs compare bullet, blitz and rapid games, so each tab is measured by the games played at that speed. On the **How accurate is a player during a streak?**, **How do games end during a streak?**, **How fast does a player move during a streak?** and **How much better or worse than usual does a player play during a streak?** charts, the game measured is the streak game itself. On the **What is the optimal time to wait between games during a streak?**, **How likely is a winning streak to continue into the next game?**, **How likely is a losing streak to continue into the next game?** and **How has the win rate after a streak changed?** charts, the game measured is the next game after the streak.
 - **The other choice:** Put each player under the speed that player played most, and count all of that player's games on that tab.
 - **Does the answer change?** **Not measured.**
 
@@ -164,7 +164,7 @@ Every game Lichess published from January 2013 to August 2026. That's 8,130,696,
 - Correspondence games. One move can take days, so the game has no clear place in a player's order.
 - Games with no result recorded.
 - Games with no rating recorded.
-- Arena and Swiss games, except on the **What is the optimal time to wait between games during a streak?** and **How likely is a streak to continue into the next game?** charts.
+- Arena and Swiss games, except on the **What is the optimal time to wait between games during a streak?**, **How likely is a winning streak to continue into the next game?** and **How likely is a losing streak to continue into the next game?** charts.
 - Players with fewer than 10 games.
 
 ### 3. Put each player's games in order
@@ -207,7 +207,7 @@ About 2.76 million graded games are drawn at random from the places in a streak 
 
 ### 10. Add up the numbers
 
-Each chart's numbers are added up from steps 4 to 9. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 16,517 rows.
+Each chart's numbers are added up from steps 4 to 9. Every number goes in the spreadsheet download with its chart, its tab and the count of games behind it. The download has 14,579 rows.
 
 ## Checks
 
