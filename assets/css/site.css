@@ -33,7 +33,7 @@ body {
 @media (min-width: 1200px) {
   html::after {
     content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-    background: radial-gradient(rgba(255, 61, 166, .30) 1.1px, transparent 1.7px) 0 0 / 28px 28px;
+    background: radial-gradient(rgba(255, 61, 166, .17) 1px, transparent 1.6px) 0 0 / 28px 28px;
     -webkit-mask: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .5) 16%, transparent 28%, transparent 72%, rgba(0, 0, 0, .5) 84%, #000 100%);
     mask: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .5) 16%, transparent 28%, transparent 72%, rgba(0, 0, 0, .5) 84%, #000 100%);
   }
