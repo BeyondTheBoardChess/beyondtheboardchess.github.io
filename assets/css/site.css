@@ -4,9 +4,6 @@
 
 :root {
   --rd-void: #070C16;
-  /* DA-584: the page sits on a deep shade of the logo's blue, so panels read darker than the page
-     and charts, on --rd-void, darkest. */
-  --rd-page: #0D2547;
   --rd-surface: #111A2B;
   --rd-well: #0A1120;
   --rd-line: #253148;
@@ -21,7 +18,7 @@
 /* The glow is painted on the whole page, not the body: the body starts below the container's
    top margin, so a glow painted there began with a hard edge across the top of the logo. */
 html {
-  background: var(--rd-page) radial-gradient(1200px 380px at 50% -120px, rgba(230, 2, 109, .18), rgba(0, 90, 177, .10) 55%, transparent 75%) no-repeat;
+  background: var(--rd-void) radial-gradient(1200px 380px at 50% -120px, rgba(230, 2, 109, .18), rgba(0, 90, 177, .10) 55%, transparent 75%) no-repeat;
   scroll-behavior: smooth;
 }
 
@@ -87,7 +84,7 @@ body {
 .rd-sections { display: flex; flex-direction: column; margin: 6px 0 10px; padding-left: 14px; border-left: 1px solid var(--rd-line); margin-left: 14px; }
 .markdown-body .rd-sections a { padding: 5px 10px; font-size: .88rem; color: #8A94AC; border-radius: 8px; }
 .markdown-body .rd-sections a:hover { color: var(--rd-cyan); }
-.markdown-body .rd-sections a.rd-here { color: #FF3DA6; }
+.markdown-body .rd-sections a.rd-here { color: var(--rd-cyan); }
 /* DA-563: a study page's own list under the Studies list (the Findings tab draws its chart titles
    here), one step further in than the studies so it reads as the open study's list. */
 .rd-chart-menu { margin-left: 28px; }
@@ -114,8 +111,7 @@ body {
   body.rd-rail-hidden .rd-chart-rail-heading,
   body.rd-rail-hidden .rd-chart-rail a { display: none; }
   .rd-chart-rail a { padding: 6px 10px; border-radius: 8px; color: #8A94AC; font-size: .84rem; line-height: 1.35; text-decoration: none; }
-  .rd-chart-rail a:hover { color: var(--rd-cyan); }
-  .rd-chart-rail a.rd-here { color: #FF3DA6; }
+  .rd-chart-rail a:hover, .rd-chart-rail a.rd-here { color: var(--rd-cyan); }
   /* DA-567: on the Findings tab each entry is the chart's own icon and a short name. */
   .rd-chart-rail a:has(.rd-chart-rail-icon) { display: flex; align-items: center; gap: 8px; }
   .rd-chart-rail-icon { flex: none; width: 16px; height: 16px; }
