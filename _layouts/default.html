@@ -120,21 +120,18 @@
           <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
 {%- endif %}
           <hr class="rd-nav-rule">
+{%- comment -%}
+  The side menu lists pages only; a page's own parts are listed right of the page (DA-586).
+  Rainy, 2026-10-08: "The hover should correlate to pages, and on the right should be the chapters."
+{%- endcomment -%}
 {%- if data_page.url == page.url %}
-          <a class="rd-page rd-current" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title | escape }}</a>
-          <div class="rd-sections rd-jump">
-{%- for section in sections offset: 1 -%}
-{%- assign section_id = section | split: '"' -%}
-{%- assign section_title = section | split: '</h2>' | first | split: '>' | last %}
-            <a href="#{{ section_id[1] }}">{{ section_title }}</a>
-{%- endfor %}
-          </div>
+          <a class="rd-page rd-current rd-data-link" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title | escape }}</a>
 {%- else %}
           <a class="rd-page" href="{{ data_page.url | relative_url }}">{{ data_page.title | escape }}</a>
 {%- endif %}
         </nav>
         </aside>
-        <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}">
+        <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}{% if data_page.url == page.url %} rd-data-page{% endif %}">
 {%- if study %}
           <div class="rd-study-top">
           <a class="rd-back" href="{{ "/" | relative_url }}#{{ study.key }}">{{ site.data.words.all_studies | escape }}</a>
@@ -198,6 +195,11 @@
 {%- if page.tab == "method" and section contains 'id="download-the-numbers"' -%}
 {%- capture excel_icon -%}>{% include icons/excel.svg %}{%- endcapture -%}
 {%- assign plain_section = section | replace_first: '>', excel_icon -%}
+{%- elsif data_page.url == page.url -%}
+{%- comment -%} The Lichess Data page's numbered parts each open on an icon (DA-586). {%- endcomment -%}
+{%- assign part_number = section | split: '"' -%}{%- assign part_number = part_number[1] | split: '-' | first -%}
+{%- capture data_icon -%}>{% include data-icon.html part=part_number %}{%- endcapture -%}
+{%- assign plain_section = section | replace_first: '>', data_icon -%}
 {%- endif %}
           <section class="rd-card"><h2 {{ plain_section }}</section>
 {%- endif -%}
@@ -372,14 +374,18 @@
       // The Method page's part titles, to jump to (DA-563), drawn like the Findings tab's chart
       // titles: right of the page on a wide window, under the Studies list otherwise. Rainy,
       // 2026-10-05, approving the Findings tab's list: "yes".
+      // DA-586: The Lichess Data page lists its parts the same way, under its own name on a narrower
+      // window, and each entry on the right carries its part's icon in the icon's own colour, as
+      // the Findings tab's do. Rainy, 2026-10-08: "I feel like that should be the typical standard."
       (function () {
-        if (!document.querySelector(".rd-tab-method")) return;
-        var studyList = document.getElementById("rd-study-list");
+        var dataPage = document.querySelector(".rd-data-page");
+        if (!document.querySelector(".rd-tab-method") && !dataPage) return;
+        var anchor = dataPage ? document.querySelector(".rd-data-link") : document.getElementById("rd-study-list");
         var parts = Array.prototype.filter.call(
           document.querySelectorAll(".rd-main > .rd-card"), function (p) { return p.querySelector("h2[id]"); });
-        if (!studyList || !parts.length) return;
+        if (!anchor || !parts.length) return;
         var menu = document.createElement("div");
-        menu.className = "rd-sections rd-chart-menu";
+        menu.className = "rd-sections rd-chart-menu" + (dataPage ? " rd-data-menu" : "");
         var rail = document.createElement("nav");
         rail.className = "rd-chart-rail";
         rail.setAttribute("aria-label", {{ site.data.words.sections_heading | jsonify }});
@@ -407,11 +413,18 @@
               if (part.tagName === "DETAILS") part.open = true;
               part.scrollIntoView({ behavior: "smooth", block: "start" });
             });
+            var icon = list === rail && part.querySelector("h2 svg");
+            if (icon) {
+              var copy = icon.cloneNode(true);
+              copy.setAttribute("class", "rd-chart-rail-icon");
+              copy.style.color = getComputedStyle(icon).color;
+              link.insertBefore(copy, link.firstChild);
+            }
             list.appendChild(link);
             return link;
           });
         });
-        studyList.parentNode.insertBefore(menu, studyList.nextSibling);
+        anchor.parentNode.insertBefore(menu, anchor.nextSibling);
         document.body.appendChild(rail);
         function update() {
           var line = Math.min(100, window.innerHeight * 0.3), current = -1;
@@ -464,18 +477,15 @@
         new MutationObserver(level).observe(document.body, { childList: true });
         level();
       })();
-      // Light up the sidebar link for the section being read.
+      // Room below The Lichess Data page's last part, so that clicking any entry in its list, the
+      // last one included, scrolls that part's heading to the top of the window (DA-468). The
+      // list itself lights the part being read (DA-586).
       (function () {
-        var links = document.querySelectorAll(".rd-jump a");
-        if (!links.length) return;
-        var byId = {};
-        links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
-        var headings = Array.prototype.filter.call(
-          document.querySelectorAll(".rd-main h2[id]"), function (h) { return byId[h.id]; });
+        var main = document.querySelector(".rd-data-page");
+        if (!main) return;
+        var headings = main.querySelectorAll(".rd-main > .rd-card > h2[id]");
         if (!headings.length) return;
-        // Room below the last section, so that clicking any link, the last one
-        // included, scrolls its heading to the top of the window (DA-468).
-        var main = document.querySelector(".rd-main"), last = headings[headings.length - 1];
+        var last = headings[headings.length - 1];
         function makeRoom() {
           var room = parseFloat(main.style.paddingBottom) || 0;
           var page = document.documentElement.scrollHeight - room;
@@ -483,22 +493,10 @@
             (parseFloat(getComputedStyle(last).scrollMarginTop) || 0);
           main.style.paddingBottom = Math.max(0, Math.ceil(top + window.innerHeight - page)) + "px";
         }
-        // A section is being read once its heading reaches the top of the
-        // window, where a clicked link puts it; a short section above must not
-        // light the one below it.
-        function update() {
-          var line = Math.min(100, window.innerHeight * 0.3), current = null;
-          headings.forEach(function (h) {
-            if (h.getBoundingClientRect().top <= line) current = h.id;
-          });
-          links.forEach(function (a) { a.classList.toggle("rd-here", a === byId[current]); });
-        }
         makeRoom();
-        if ("ResizeObserver" in window) new ResizeObserver(function () { makeRoom(); update(); }).observe(main);
-        window.addEventListener("load", function () { makeRoom(); update(); });
-        window.addEventListener("resize", function () { makeRoom(); update(); });
-        window.addEventListener("scroll", update, { passive: true });
-        update();
+        if ("ResizeObserver" in window) new ResizeObserver(makeRoom).observe(main);
+        window.addEventListener("load", makeRoom);
+        window.addEventListener("resize", makeRoom);
       })();
     </script>
   </body>
