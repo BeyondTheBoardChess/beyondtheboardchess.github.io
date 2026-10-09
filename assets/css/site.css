@@ -136,9 +136,7 @@ body {
 /* Since DA-501 the way back is a quiet rounded button in the switch's own outline, so the row
    reads as one set of controls, and the logo's blue line (DA-499) runs under the row: the
    study starts below it, with its title. */
-.rd-study-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 22px; padding-bottom: 16px; border-bottom: 2px solid #005AB1; }
-.markdown-body a.rd-back { display: inline-flex; align-items: center; padding: 7px 16px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; transition: color .15s, border-color .15s; }
-.markdown-body a.rd-back:hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
+.rd-study-top { display: flex; align-items: center; justify-content: flex-end; gap: 12px; margin-bottom: 22px; padding-bottom: 16px; border-bottom: 2px solid #005AB1; }
 .rd-tabs { display: inline-flex; flex-shrink: 0; gap: 2px; padding: 3px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); }
 .markdown-body a.rd-tab { padding: 5px 15px; border: 1px solid transparent; border-radius: 999px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; transition: color .15s, border-color .15s; }
 .markdown-body a.rd-tab:not(.rd-tab-current):hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
@@ -177,11 +175,6 @@ body {
 .markdown-body a.rd-study::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: linear-gradient(180deg, #FF3DA6, #B98CF5 52%, #4FD6EE); }
 .markdown-body a.rd-study.rd-study-has-picture { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
 .markdown-body a.rd-study:hover, .markdown-body a.rd-study:focus-visible { transform: translateY(-3px); border-color: rgba(255, 61, 166, .55); box-shadow: 0 14px 40px -18px rgba(255, 61, 166, .55); }
-/* "All Studies" on a study page lands on that study's own tile here (DA-502), the way The Lichess
-   Data page's section links land on a section: the tile sits near the top of the screen and wears
-   the soft pink edge of the hover, so the reader sees which study they came from. */
-.markdown-body a.rd-study { scroll-margin-top: 24px; }
-.markdown-body a.rd-study:target { outline: none; border-color: rgba(255, 61, 166, .55); box-shadow: 0 14px 40px -18px rgba(255, 61, 166, .55); }
 .rd-study-art { display: flex; align-items: center; justify-content: center; padding: 22px 26px; background: var(--rd-void) radial-gradient(420px 200px at 50% 50%, rgba(255, 61, 166, .10), transparent 70%); border-left: 1px solid var(--rd-line); }
 .markdown-body a.rd-study img.rd-study-picture { display: block; width: 100%; max-width: 440px; height: auto; background: transparent; }
 .rd-study-body { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; padding: 26px 30px; }

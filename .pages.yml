@@ -88,7 +88,6 @@ content:
     format: yaml
     fields:
       - { name: studies, label: "Menu: link to the Studies page", type: string }
-      - { name: all_studies, label: "Study page: link back to all studies", type: string }
       - { name: findings_tab, label: "Study page: Findings tab", type: string }
       - { name: method_tab, label: "Study page: Method tab", type: string }
       - { name: menu, label: "Menu button, while the menu is open", type: string }

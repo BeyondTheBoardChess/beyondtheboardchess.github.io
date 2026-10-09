@@ -118,7 +118,6 @@
         <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}{% if data_page.url == page.url %} rd-data-page{% endif %}">
 {%- if study %}
           <div class="rd-study-top">
-          <a class="rd-back" href="{{ "/" | relative_url }}#{{ study.key }}">{{ site.data.words.all_studies | escape }}</a>
           <div class="rd-tabs">
             <a class="rd-tab{% if page.tab == "findings" %} rd-tab-current{% endif %}" href="{{ study.url | relative_url }}"{% if page.tab == "findings" %} aria-current="page"{% endif %}>{{ site.data.words.findings_tab | escape }}</a>
             <a class="rd-tab{% if page.tab == "method" %} rd-tab-current{% endif %}" href="{{ study.method_url | relative_url }}"{% if page.tab == "method" %} aria-current="page"{% endif %}>{{ site.data.words.method_tab | escape }}</a>
