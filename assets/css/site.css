@@ -28,15 +28,27 @@ body {
   font-family: var(--rd-font);
 }
 
-/* DA-585: on a wide screen the empty sides carry a fine grid of faint pink dots, fading to nothing
-   well before the side menus and the charts, drifting at a third of the scroll so they read as
-   depth rather than a painting. Phones and narrow screens get none. */
+/* DA-585: on a wide screen the empty sides carry a fine grid of very faint dots, pink down the
+   left edge and cyan down the right (the logo's two sides), fading to nothing well before the side
+   menus and the charts and drifting at a third of the scroll. Over them a soft light moves down the
+   left edge and up the right as the page scrolls, brightening only the dots it passes. Phones and
+   narrow screens get none. Made fainter and given the light on 2026-10-08. */
 @media (min-width: 1200px) {
-  html::after {
+  html::after, html::before {
     content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
-    background: radial-gradient(rgba(255, 61, 166, .17) 1px, transparent 1.6px) 0 var(--rd-dots-y, 0px) / 28px 28px;
-    -webkit-mask: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .5) 16%, transparent 28%, transparent 72%, rgba(0, 0, 0, .5) 84%, #000 100%);
-    mask: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .5) 16%, transparent 28%, transparent 72%, rgba(0, 0, 0, .5) 84%, #000 100%);
+    background: linear-gradient(90deg, #FF3DA6 50%, #4FD6EE 50%);
+  }
+  html::after {
+    opacity: .09;
+    mask:
+      radial-gradient(circle, #000 1px, transparent 1.6px) 0 var(--rd-dots-y, 0px) / 28px 28px intersect,
+      linear-gradient(90deg, #000 0%, rgba(0, 0, 0, .45) 15%, transparent 26%, transparent 74%, rgba(0, 0, 0, .45) 85%, #000 100%);
+  }
+  html::before {
+    mask:
+      radial-gradient(circle, #000 1.1px, transparent 1.7px) 0 var(--rd-dots-y, 0px) / 28px 28px intersect,
+      radial-gradient(340px 320px at 0% var(--rd-scan, 20%), rgba(0, 0, 0, .42), transparent 70%) add,
+      radial-gradient(340px 320px at 100% calc(100% - var(--rd-scan, 20%)), rgba(0, 0, 0, .42), transparent 70%);
   }
 }
 

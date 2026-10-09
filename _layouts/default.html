@@ -234,14 +234,41 @@
         } catch (e) {}
         pencil.hidden = !on;
       })();
-      // DA-585: the faint dots on a wide screen's sides drift at a third of the scroll speed. Left
-      // still for anyone whose computer asks for less motion.
+      // DA-585: the faint dots on a wide screen's sides drift at a third of the scroll speed, and
+      // the light over them travels down the left edge and up the right from the top of the page
+      // to the bottom. Each chart panel rises into place the first time it scrolls into view. All
+      // of it is left still for anyone whose computer asks for less motion.
       (function () {
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
         var root = document.documentElement, queued = false;
-        function move() { queued = false; root.style.setProperty("--rd-dots-y", (-window.scrollY / 3).toFixed(1) + "px"); }
+        function move() {
+          queued = false;
+          var max = Math.max(1, root.scrollHeight - window.innerHeight);
+          root.style.setProperty("--rd-dots-y", (-window.scrollY / 3).toFixed(1) + "px");
+          root.style.setProperty("--rd-scan", (12 + 76 * window.scrollY / max).toFixed(1) + "%");
+        }
         window.addEventListener("scroll", function () { if (!queued) { queued = true; requestAnimationFrame(move); } }, { passive: true });
         move();
+        if (!("IntersectionObserver" in window) || !Element.prototype.animate) return;
+        var seen = 0;
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (!e.isIntersecting) return;
+            io.unobserve(e.target);
+            e.target.animate(
+              [{ opacity: 0, transform: "translateY(28px) scale(.985)", filter: "blur(4px)" },
+               { opacity: 1, transform: "none", filter: "none" }],
+              { duration: 700, easing: "cubic-bezier(.2,.7,.2,1)", delay: (seen++ % 3) * 80, fill: "backwards" });
+          });
+        }, { rootMargin: "0px 0px -6% 0px" });
+        // The findings page draws its charts a moment after load, inside its own container.
+        var tries = 0;
+        (function watch() {
+          var host = document.getElementById("findings"), sr = host && host.shadowRoot;
+          var panels = sr ? sr.querySelectorAll(".fp-chart") : [];
+          if (!panels.length) { if (host && ++tries < 50) setTimeout(watch, 100); return; }
+          panels.forEach(function (el) { io.observe(el); });
+        })();
       })();
       // The menu can be hidden on a computer, and the choice is remembered on this browser.
       (function () {
