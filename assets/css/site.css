@@ -112,7 +112,9 @@ body {
    Method page draws the same two lists from its part headings. */
 .rd-chart-rail { display: none; }
 .rd-tab-method > .rd-card, .rd-data-page > .rd-card { scroll-margin-top: 20px; }
-@media (min-width: 1560px) {
+/* DA-602: the site is drawn at four fifths on a computer screen, so the list fits from four fifths
+   of the 1560px it needed at full size; at 1560 the list vanished on windows it used to fit. */
+@media (min-width: 1248px) {
   .rd-chart-menu { display: none; }
   .rd-chart-rail { display: flex; flex-direction: column; position: fixed; top: 96px; left: calc(50% + 594px); width: calc(50% - 614px); max-width: 280px; max-height: calc(100vh - 140px); overflow-y: auto; padding-left: 14px; border-left: 1px solid var(--rd-line); font-family: var(--rd-font); }
   .rd-chart-rail .rd-chart-rail-heading { margin: 14px 0 8px; padding: 0 10px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .78rem; letter-spacing: .07em; text-transform: uppercase; }
