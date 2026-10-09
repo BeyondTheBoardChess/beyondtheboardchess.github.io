@@ -134,10 +134,9 @@ body {
 /* A study page: a row with the way back and, across from it, a small Findings / Method switch
    (DA-465), then the question as its title. The page you are on is filled pink. */
 /* Since DA-501 the way back is a quiet rounded button in the switch's own outline, so the row
-   reads as one set of controls, and a line runs under the row: the study starts below it, with
-   its title. Since DA-599 that line is the site's grey hairline, not the logo's blue (DA-499),
-   which stood out against every other divider. */
-.rd-study-top { display: flex; align-items: center; justify-content: flex-end; gap: 12px; margin-bottom: 22px; padding-bottom: 16px; border-bottom: 1px solid var(--rd-line); }
+   reads as one set of controls. No line runs under the row (DA-600): the header's line sits just
+   above it, and a second one stacked the two. */
+.rd-study-top { display: flex; align-items: center; justify-content: flex-end; gap: 12px; margin-bottom: 22px; }
 .rd-tabs { display: inline-flex; flex-shrink: 0; gap: 2px; padding: 3px; border: 1px solid var(--rd-line); border-radius: 999px; background: var(--rd-well); }
 .markdown-body a.rd-tab { padding: 5px 15px; border: 1px solid transparent; border-radius: 999px; color: var(--rd-ink-muted); font-family: var(--rd-display); font-weight: 600; font-size: .88rem; text-decoration: none; transition: color .15s, border-color .15s; }
 .markdown-body a.rd-tab:not(.rd-tab-current):hover { color: #FFFFFF; border-color: var(--rd-ink-muted); }
@@ -157,11 +156,10 @@ body {
 
 /* The welcome under Studies reads as the heading's quiet subtext (DA-497, after DA-494 to
    DA-496): every line the same size and colour and the full width of the column, close
-   under the heading, then a plain line in the logo's own blue (DA-498, DA-499, Rainy's pick), unlike
-   the page's grey rules, so the welcome never looks like one more study.
+   under the heading. The logo-blue line under it (DA-498, DA-499) was taken off in DA-600: it
+   did not fit the rest of the site.
    Only the look is set here; the words stay Rainy's, from the pencil. */
 .markdown-body .rd-welcome { position: relative; margin-bottom: 0; padding-bottom: 30px; }
-.markdown-body .rd-welcome::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; border-radius: 2px; background: #005AB1; }
 .markdown-body .rd-welcome h1 { margin-bottom: 10px; }
 .markdown-body .rd-welcome p { margin-bottom: 10px; color: var(--rd-ink-muted); font-size: 1rem; line-height: 1.6; }
 .markdown-body .rd-welcome p:last-child { margin-bottom: 0; }
