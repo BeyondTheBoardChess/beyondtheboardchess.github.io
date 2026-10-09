@@ -234,6 +234,26 @@
         } catch (e) {}
         pencil.hidden = !on;
       })();
+      (function () {
+        var root = document.documentElement;
+        // The lines stop short of the words: measure where the page's content starts and ends,
+        // the list of charts on the right included when it shows.
+        function edges() {
+          var left = Infinity, right = -Infinity;
+          document.querySelectorAll(".container-lg, .rd-chart-rail").forEach(function (el) {
+            var r = el.getBoundingClientRect();
+            if (!r.width) return;
+            left = Math.min(left, r.left); right = Math.max(right, r.right);
+          });
+          if (left === Infinity) return;
+          root.style.setProperty("--rd-free-l", Math.round(left) + "px");
+          root.style.setProperty("--rd-free-r", Math.round(right) + "px");
+        }
+        edges();
+        window.addEventListener("resize", edges);
+        window.addEventListener("load", edges);
+        document.addEventListener("click", function () { setTimeout(edges, 300); });
+      })();
       // DA-585: the faint chart lines on a wide screen's sides drift at a third of the scroll
       // speed, and each chart panel rises into place the first time it scrolls into view. Both are
       // left still for anyone whose computer asks for less motion.
