@@ -234,19 +234,13 @@
         } catch (e) {}
         pencil.hidden = !on;
       })();
-      // DA-585: the faint dots on a wide screen's sides drift at a third of the scroll speed, and
-      // the light over them travels down the left edge and up the right from the top of the page
-      // to the bottom. Each chart panel rises into place the first time it scrolls into view. All
-      // of it is left still for anyone whose computer asks for less motion.
+      // DA-585: the faint chart lines on a wide screen's sides drift at a third of the scroll
+      // speed, and each chart panel rises into place the first time it scrolls into view. Both are
+      // left still for anyone whose computer asks for less motion.
       (function () {
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
         var root = document.documentElement, queued = false;
-        function move() {
-          queued = false;
-          var max = Math.max(1, root.scrollHeight - window.innerHeight);
-          root.style.setProperty("--rd-dots-y", (-window.scrollY / 3).toFixed(1) + "px");
-          root.style.setProperty("--rd-scan", (12 + 76 * window.scrollY / max).toFixed(1) + "%");
-        }
+        function move() { queued = false; root.style.setProperty("--rd-lines-y", (-window.scrollY / 3).toFixed(1) + "px"); }
         window.addEventListener("scroll", function () { if (!queued) { queued = true; requestAnimationFrame(move); } }, { passive: true });
         move();
         if (!("IntersectionObserver" in window) || !Element.prototype.animate) return;
