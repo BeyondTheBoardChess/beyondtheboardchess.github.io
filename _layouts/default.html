@@ -411,9 +411,12 @@
         function level() {
           if (!left) return;
           var top = Math.max(24, Math.round(left.getBoundingClientRect().top));
+          // A computer screen draws the site at four fifths (DA-602), and a measured place on the
+          // screen is set back on the page in the page's own, smaller, pixels.
+          var zoom = parseFloat(getComputedStyle(document.documentElement).zoom) || 1;
           document.querySelectorAll(".rd-chart-rail").forEach(function (rail) {
-            rail.style.top = top + "px";
-            rail.style.maxHeight = "calc(100vh - " + (top + 24) + "px)";
+            rail.style.top = top / zoom + "px";
+            rail.style.maxHeight = (window.innerHeight - top - 24) / zoom + "px";
           });
         }
         window.addEventListener("scroll", level, { passive: true });
@@ -437,7 +440,8 @@
           var page = document.documentElement.scrollHeight - room;
           var top = last.getBoundingClientRect().top + window.scrollY -
             (parseFloat(getComputedStyle(last).scrollMarginTop) || 0);
-          main.style.paddingBottom = Math.max(0, Math.ceil(top + window.innerHeight - page)) + "px";
+          var zoom = parseFloat(getComputedStyle(document.documentElement).zoom) || 1;
+          main.style.paddingBottom = Math.max(0, Math.ceil((top + window.innerHeight - page) / zoom)) + "px";
         }
         makeRoom();
         if ("ResizeObserver" in window) new ResizeObserver(makeRoom).observe(main);

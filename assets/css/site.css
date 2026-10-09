@@ -22,6 +22,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* DA-602: on a computer screen the whole site is drawn at four fifths of its size, the way it
+   looked at 80% zoom, so an open chart and the words under it fit on one screen. Rainy,
+   2026-10-08: "at 100, you can't read the full page, and it takes up too much of the screen."
+   Phones keep their size. */
+@media (min-width: 1200px) {
+  html { zoom: .8; }
+}
+
 body {
   background: transparent;
   color: var(--rd-ink);
