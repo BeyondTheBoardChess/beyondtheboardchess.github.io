@@ -96,41 +96,25 @@
 {%- endfor %}
           </div>
         </div>
+{%- comment -%}
+  DA-590: the pages sit as two buttons in the top bar, and the page below takes the whole width.
+  Rainy, 2026-10-08, shown the study page without the left menu: "yes, put it live."
+{%- endcomment -%}
+        <nav class="rd-topnav" aria-label="Pages">
+          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
+          <a class="rd-page{% if data_page.url == page.url %} rd-current{% endif %}" href="{{ data_page.url | relative_url }}"{% if data_page.url == page.url %} aria-current="page"{% endif %}>{{ data_page.title | escape }}</a>
+        </nav>
+      </div>
+{%- comment -%}
+  The Findings tab's list of charts copies its Collapse button's icon and word from this button,
+  and looks for the study list to know it is on the site. Neither is shown any more; they stay,
+  hidden, until the Findings page is next rebuilt without them (DA-591).
+{%- endcomment -%}
+      <div class="rd-carrier" hidden>
+        <button class="rd-nav-toggle" type="button" tabindex="-1"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg><span>{{ site.data.words.menu | escape }}</span></button>
+        <div id="rd-study-list"></div>
       </div>
       <div class="rd-layout">
-        <aside class="rd-side">
-          <button class="rd-nav-toggle" type="button" aria-controls="rd-nav" aria-expanded="true" title="{{ site.data.words.hide_menu | escape }}" data-hide="{{ site.data.words.hide_menu | escape }}" data-show="{{ site.data.words.show_menu | escape }}">
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/></svg>
-            <span>{{ site.data.words.menu | escape }}</span>
-          </button>
-        <nav class="rd-nav" id="rd-nav" aria-label="Pages">
-{%- if site.data.nav.studies.size > 0 %}
-          <div class="rd-page-row">
-          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
-          <button class="rd-widen" type="button" aria-controls="rd-study-list" aria-expanded="false" title="{{ site.data.words.widen_studies | escape }}" aria-label="{{ site.data.words.widen_studies | escape }}" data-widen="{{ site.data.words.widen_studies | escape }}" data-narrow="{{ site.data.words.narrow_studies | escape }}">
-            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
-          </button>
-          </div>
-          <div class="rd-sections rd-study-list" id="rd-study-list">
-{%- for s in site.data.nav.studies %}
-            <a{% if study and study.key == s.key %} class="rd-here" aria-current="page"{% endif %} href="{{ s.url | relative_url }}" title="{{ s.title | escape }}">{{ s.title | escape }}</a>
-{%- endfor %}
-          </div>
-{%- else %}
-          <a class="rd-page{% if in_studies %} rd-current{% endif %}" href="{{ "/" | relative_url }}"{% if on_front %} aria-current="page"{% endif %}>{{ site.data.words.studies | escape }}</a>
-{%- endif %}
-          <hr class="rd-nav-rule">
-{%- comment -%}
-  The side menu lists pages only; a page's own parts are listed right of the page (DA-586).
-  Rainy, 2026-10-08: "The hover should correlate to pages, and on the right should be the chapters."
-{%- endcomment -%}
-{%- if data_page.url == page.url %}
-          <a class="rd-page rd-current rd-data-link" href="{{ data_page.url | relative_url }}" aria-current="page">{{ data_page.title | escape }}</a>
-{%- else %}
-          <a class="rd-page" href="{{ data_page.url | relative_url }}">{{ data_page.title | escape }}</a>
-{%- endif %}
-        </nav>
-        </aside>
         <main class="rd-main{% if page.tab %} rd-tab-{{ page.tab }}{% endif %}{% if data_page.url == page.url %} rd-data-page{% endif %}">
 {%- if study %}
           <div class="rd-study-top">
@@ -284,23 +268,6 @@
           panels.forEach(function (el) { io.observe(el); });
         })();
       })();
-      // The menu can be hidden on a computer, and the choice is remembered on this browser.
-      (function () {
-        var button = document.querySelector(".rd-nav-toggle");
-        if (!button) return;
-        function set(hidden) {
-          document.body.classList.toggle("rd-nav-hidden", hidden);
-          button.setAttribute("aria-expanded", hidden ? "false" : "true");
-          button.title = hidden ? button.dataset.show : button.dataset.hide;
-          button.setAttribute("aria-label", button.title);
-          try { localStorage.setItem("rd-nav-hidden", hidden ? "1" : "0"); } catch (e) {}
-          fitTitles();
-        }
-        var saved = null;
-        try { saved = localStorage.getItem("rd-nav-hidden"); } catch (e) {}
-        if (saved === "1") set(true);
-        button.addEventListener("click", function () { set(!document.body.classList.contains("rd-nav-hidden")); });
-      })();
       // A study's question stays on one line: its size comes down until it fits, and only a
       // screen too narrow for it at a readable size lets it wrap.
       function fitTitles() {
@@ -351,31 +318,6 @@
         link.href = URL.createObjectURL(new Blob([lines.join("\r\n") + "\r\n"], { type: "text/csv" }));
         link.hidden = false;
       });
-      // The arrow beside Studies widens the sidebar to every study's full question, and the
-      // choice is remembered on this browser (DA-473).
-      (function () {
-        var button = document.querySelector(".rd-widen");
-        if (!button) return;
-        function set(wide) {
-          document.body.classList.toggle("rd-studies-wide", wide);
-          button.setAttribute("aria-expanded", wide ? "true" : "false");
-          button.title = wide ? button.dataset.narrow : button.dataset.widen;
-          button.setAttribute("aria-label", button.title);
-          try { localStorage.setItem("rd-studies-wide", wide ? "1" : "0"); } catch (e) {}
-          fitTitles();
-        }
-        var saved = null;
-        try { saved = localStorage.getItem("rd-studies-wide"); } catch (e) {}
-        if (saved === "1") set(true);
-        button.addEventListener("click", function () { set(!document.body.classList.contains("rd-studies-wide")); });
-      })();
-      // The study being read is always in view in the sidebar's list, however far down it sits.
-      (function () {
-        var here = document.querySelector(".rd-study-list a.rd-here");
-        if (!here) return;
-        var list = here.parentNode;
-        if (here.offsetTop + here.offsetHeight > list.clientHeight) list.scrollTop = here.offsetTop - list.clientHeight / 2;
-      })();
       anchors.add(".rd-main section h2, .rd-main section h3, .rd-main details h2, .rd-main details h3");
       // A link to anything inside a closed Method part opens that part first (DA-504).
       (function () {
@@ -489,14 +431,12 @@
           var button = event.target.closest && event.target.closest(".rd-chart-rail-toggle");
           if (button) set(!document.body.classList.contains("rd-rail-hidden"));
         });
-        // The two Collapse buttons stay level as the page scrolls (Rainy, 2026-10-05: "the two
-        // collapse buttons go to different spots on the page. They're not lined up anymore."):
-        // the list on the right follows the side menu's button down the page and stops where it
-        // stops.
-        var left = document.querySelector(".rd-nav-toggle");
+        // The list's Collapse button sits level with the page's first row, and the list sticks near
+        // the top of the window once that row scrolls away (DA-569, DA-590).
+        var left = document.querySelector(".rd-main");
         function level() {
           if (!left) return;
-          var top = Math.max(0, Math.round(left.getBoundingClientRect().top));
+          var top = Math.max(24, Math.round(left.getBoundingClientRect().top));
           document.querySelectorAll(".rd-chart-rail").forEach(function (rail) {
             rail.style.top = top + "px";
             rail.style.maxHeight = "calc(100vh - " + (top + 24) + "px)";
