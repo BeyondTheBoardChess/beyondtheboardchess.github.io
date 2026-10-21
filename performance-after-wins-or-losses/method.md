@@ -283,7 +283,7 @@ Lichess's files carry no clock before March 2017. The **How fast does a player m
 
 ### Some games end another way
 
-Some streak games end without a clock running out, a checkmate or a resignation, such as when a player leaves the game. Those games are 0.004% of streak games. They have no bar on the **How do games end during a streak?** chart, so its 3 bars don't add up to 100%.
+Some streak games end without a clock running out, a checkmate or a resignation, such as when a player leaves the game. Those games are 0.004% of streak games. They aren't counted on the **How do games end during a streak?** chart, so the resigned, on time and checkmate shares don't add up to exactly 100%.
 
 ### A streak can span days
 
