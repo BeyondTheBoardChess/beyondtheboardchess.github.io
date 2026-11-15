@@ -1,0 +1,5 @@
+I went through every Lichess game since 2013 to see what happens to a player after a run of wins or losses.
+
+After a good or bad run, a player keeps winning or losing more than usual.
+
+Why does this happen and what affects it? The charts below show what affects it at every speed and rating.
